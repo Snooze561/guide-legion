@@ -1,0 +1,391 @@
+{
+  "status": "brouillon",
+  "icon": "spell_shadow_shadowwordpain",
+  "summary": "DPS distance qui accumule de la Démence pour entrer en Forme du Vide. Plus tu restes longtemps en Forme du Vide, plus tes dégâts grimpent.",
+  "sources": [
+    {
+      "label": "Guías WoW, guide PvE Prêtre Ombre 7.3.5 (février 2018)",
+      "url": "https://en.guiaswow.com/game-guide/shadow-priest-guide-pve-patch-7-3-5.html"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Hâte",
+        "weight": 80
+      },
+      {
+        "stat": "Critique",
+        "weight": 60
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 50
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 40
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Hâte",
+        "weight": 80
+      },
+      {
+        "stat": "Critique",
+        "weight": 60
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 50
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 40
+      }
+    ],
+    "tips": [
+      "La hâte augmente les dégâts en Forme du Vide : c'est ta statistique secondaire numéro un.",
+      "La même priorité s'applique en raid et en Mythique+."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "name": "Tour du destin",
+            "icon": "spell_shadow_mindtwisting",
+            "id": 123254
+          },
+          {
+            "name": "Forteresse de l'esprit",
+            "icon": "ability_mage_studentofthemind",
+            "id": 193195
+          },
+          {
+            "name": "Mot de l'ombre : Vide",
+            "icon": "spell_shadow_shadowwordpain",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "name": "Manie",
+            "icon": "spell_shadow_skull",
+            "id": 193173
+          },
+          {
+            "name": "Corps et esprit",
+            "icon": "spell_holy_symbolofhope",
+            "unsure": true
+          },
+          {
+            "name": "Masochisme",
+            "icon": "spell_holy_holyprotection",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "name": "Bombe mentale",
+            "icon": "spell_shadow_mindbomb",
+            "unsure": true
+          },
+          {
+            "name": "Voix psychique",
+            "icon": "ability_warrior_commandingshout",
+            "id": 196704
+          },
+          {
+            "name": "Esprit dominant",
+            "icon": "spell_priest_void-flay",
+            "id": 205367
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "name": "Démence persistante",
+            "icon": "spell_shadow_shadowfury",
+            "unsure": true
+          },
+          {
+            "name": "Faucheuse d'âmes",
+            "icon": "ability_warlock_soulswap",
+            "id": 199853
+          },
+          {
+            "name": "Rayon du Vide",
+            "icon": "spell_priest_voidsear",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "name": "Esprits de bon augure",
+            "icon": "ability_priest_auspiciousspirits",
+            "id": 155271
+          },
+          {
+            "name": "San'layn",
+            "icon": "achievement_boss_lanathel",
+            "id": 199855
+          },
+          {
+            "name": "Clairvoyance ténébreuse",
+            "icon": "spell_shadow_shadowfiend",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "name": "Infusion de puissance",
+            "icon": "spell_holy_powerinfusion",
+            "id": 10060
+          },
+          {
+            "name": "Misère",
+            "icon": "ability_rogue_envelopingshadows",
+            "id": 238558
+          },
+          {
+            "name": "Torve-esprit",
+            "icon": "spell_shadow_soulleech_3",
+            "id": 123040
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "name": "Héritage du Vide",
+            "icon": "spell_priest_voidform",
+            "unsure": true
+          },
+          {
+            "name": "Choc d'ombre",
+            "icon": "spell_shadow_shadowfury",
+            "unsure": true
+          },
+          {
+            "name": "Abandon à la folie",
+            "icon": "achievement_boss_generalvezax_01",
+            "unsure": true
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "note": "Faucheuse d'âmes en mono-cible. Abandon à la folie peut remplacer Héritage du Vide si tu as assez de hâte pour tenir la Forme du Vide."
+      },
+      "mm": {
+        "picks": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "note": "Bombe mentale et Esprits de bon augure brillent sur les packs. Démence persistante garde la hâte entre deux Formes du Vide."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Couronne du séraphin doré",
+        "id": 152156,
+        "source": "Aggramar",
+        "quality": "epic",
+        "icon": "inv_helm_cloth_raidpriestmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Médaillon d'âmes brisées",
+        "id": 147014,
+        "source": "Tombe de Sargeras",
+        "quality": "epic",
+        "icon": "inv_jewelry_necklace_46"
+      },
+      {
+        "slot": "Épaules",
+        "item": "Mantelet d'absolution totale",
+        "id": 147168,
+        "source": "Tombe de Sargeras",
+        "quality": "epic",
+        "icon": "inv_shoulder_cloth_raidpriest_r_01_gold",
+        "tier20": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Drapé du séraphin doré",
+        "id": 152154,
+        "source": "Haut-commandement antoréen",
+        "quality": "epic",
+        "icon": "inv_cape_cloth_raidpriestmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Robe d'absolution totale",
+        "id": 147167,
+        "source": "Tombe de Sargeras",
+        "quality": "epic",
+        "icon": "inv_robe_cloth_raidpriest_r_01_gold",
+        "tier20": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Crispins des tisseurs de flammes viridiens",
+        "id": 152085,
+        "source": "Butin d'Antorus",
+        "quality": "epic",
+        "icon": "inv_bracer_cloth_raidmagemythic_s_01"
+      },
+      {
+        "slot": "Mains",
+        "item": "Protège-mains du séraphin doré",
+        "id": 152155,
+        "source": "Kin'garoth",
+        "quality": "epic",
+        "icon": "inv_glove_cloth_raidpriestmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Cordelière cousue de querelles",
+        "id": 146999,
+        "source": "Tombe de Sargeras",
+        "quality": "epic",
+        "icon": "inv_belt_cloth_raidwarlockmythic_r_01"
+      },
+      {
+        "slot": "Jambes",
+        "item": "Jambières du séraphin doré",
+        "id": 152157,
+        "source": "Imonar le Chasseur d'âmes",
+        "quality": "epic",
+        "icon": "inv_pant_cloth_raidpriestmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Mules en soie de dame Dacidion",
+        "id": 151945,
+        "source": "Garde-portail Hasabel",
+        "quality": "epic",
+        "icon": "inv_boot_cloth_raidwarlockmythic_s_01"
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Bague de servitude en écailles",
+        "id": 147020,
+        "source": "Tombe de Sargeras",
+        "quality": "epic",
+        "icon": "inv_70_raid_ring5b"
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Anneau du tourmenteur zélé",
+        "id": 152284,
+        "source": "Le sabbat des Shivarra",
+        "quality": "epic",
+        "icon": "inv_70_quest_ring7a"
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Injecteur de catalyseur âcre",
+        "id": 151955,
+        "source": "Kin'garoth",
+        "quality": "epic",
+        "icon": "inv_7_0raid_trinket_01c"
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Vision d'Aman'Thul",
+        "id": 154172,
+        "source": "Légendaire, Argus l'Annihilateur",
+        "quality": "legendary",
+        "icon": "inv_antorus_turquoise"
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Le guide mélange tier 21 (séraphin doré) et 2 pièces du tier 20 (absolution totale) pour garder les deux bonus 2 pièces.",
+      "Le guide ne donne pas de classement des légendaires pour l'Ombre : à compléter."
+    ]
+  },
+  "artifact": {
+    "name": "Xal'atath, lame de l'Empire noir",
+    "id": 128827,
+    "icon": "inv_knife_1h_artifactcthun_d_01",
+    "ability": "Torrent du Vide",
+    "abilityId": 205065,
+    "relics": [
+      "Ombre",
+      "Sang",
+      "Ombre"
+    ],
+    "relicPicks": [
+      {
+        "type": "Ombre",
+        "item": "Fragment d'âme instable",
+        "id": 155852,
+        "source": "Argus l'Annihilateur"
+      },
+      null,
+      {
+        "type": "Ombre",
+        "item": "Essence d'âme inébranlable",
+        "id": 152054,
+        "source": "Eonar la lieuse-de-vie"
+      }
+    ],
+    "priority": [],
+    "crucible": []
+  }
+}

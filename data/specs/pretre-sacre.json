@@ -8,12 +8,24 @@
       "url": "https://en.guiaswow.com/game-guide/holy-priest-guide-pve-patch-7-3-5.html"
     },
     {
+      "label": "Guías WoW (FR), guide PvE Prêtre Sacré 7.3.5",
+      "url": "https://fr.guiaswow.com/guide-du-jeu/saint-pr%C3%AAtre-guide-pve-patch-7-3-5.html"
+    },
+    {
       "label": "Blizzard Watch, équiper son prêtre dans Antorus (novembre 2017)",
       "url": "https://blizzardwatch.com/2017/11/30/spiritual-guidance-gearing-priest-antorus/"
     },
     {
       "label": "Millenium, bijoux d'Antorus (patch 7.3.2)",
       "url": "https://www.millenium.org/guide/279807.html"
+    },
+    {
+      "label": "Wowhead, arme prodigieuse du Prêtre Sacré 7.3.5 (juin 2018)",
+      "url": "https://www.wowhead.com/guide/classes/priest/holy/artifact"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
     }
   ],
   "stats": {
@@ -87,7 +99,7 @@
             "icon": "ability_priest_wordsofmeaning"
           },
           {
-            "name": "Rénovation persistante",
+            "name": "Renouveau constant",
             "icon": "ability_paladin_blessedmending"
           }
         ]
@@ -101,7 +113,8 @@
           },
           {
             "name": "Corps et esprit",
-            "icon": "spell_holy_symbolofhope"
+            "icon": "spell_holy_symbolofhope",
+            "unsure": true
           },
           {
             "name": "Persévérance",
@@ -113,16 +126,16 @@
         "level": 45,
         "options": [
           {
-            "name": "Censure",
-            "icon": "spell_holy_penance"
+            "name": "Blâme",
+            "icon": "spell_holy_eyeforaneye"
           },
           {
             "name": "Vie après la mort",
-            "icon": "inv_enchant_essenceeternallarge"
+            "icon": "inv_enchant_essencemagiclarge"
           },
           {
-            "name": "Force brillante",
-            "icon": "ability_paladin_blindinglight"
+            "name": "Force rayonnante",
+            "icon": "ability_paladin_blindinglight2"
           }
         ]
       },
@@ -130,8 +143,8 @@
         "level": 60,
         "options": [
           {
-            "name": "Lumière du naaru",
-            "icon": "spell_holy_holyguidance"
+            "name": "Lumière des Naaru",
+            "icon": "inv_pet_naaru"
           },
           {
             "name": "Ange gardien",
@@ -156,7 +169,8 @@
           },
           {
             "name": "Piété",
-            "icon": "spell_holy_prayerofmendingtga"
+            "icon": "spell_holy_prayerofmendingtga",
+            "unsure": true
           }
         ]
       },
@@ -173,7 +187,8 @@
           },
           {
             "name": "Divinité",
-            "icon": "spell_holy_divinepurpose"
+            "icon": "spell_holy_divinepurpose",
+            "unsure": true
           }
         ]
       },
@@ -206,7 +221,7 @@
           2,
           1
         ],
-        "note": "Illumination pour le mana (Traînée de lumière si le mana suit). Persévérance sur les combats statiques. Apothéose si le raid a besoin d'un cooldown de soin de plus."
+        "note": "Illumination pour le mana (Traînée de lumière si le mana suit). Persévérance sur les combats statiques. Apothéose si le raid a besoin d'un temps de recharge de soin en plus."
       },
       "mm": {
         "picks": [
@@ -226,108 +241,132 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Gilded Seraph's Crown",
+        "item": "Couronne du séraphin doré",
+        "id": 152156,
         "source": "Aggramar",
         "quality": "epic",
+        "icon": "inv_helm_cloth_raidpriestmythic_s_01",
         "tier": true
       },
       {
         "slot": "Cou",
         "item": "Prydaz, chef-d'œuvre de Xavaric",
+        "id": 132444,
         "source": "Légendaire",
         "quality": "legendary",
-        "id": 132444
+        "icon": "inv_misc_necklace15"
       },
       {
         "slot": "Épaules",
-        "item": "Gilded Seraph's Amice",
+        "item": "Amict du séraphin doré",
+        "id": 152159,
         "source": "Le sabbat des Shivarra",
         "quality": "epic",
+        "icon": "inv_shoulder_cloth_raidpriestmythic_s_01",
         "tier": true
       },
       {
         "slot": "Dos",
-        "item": "X'anshi, Return of Archbishop Benedictus",
+        "item": "X'anshi, voile de l'archevêque Benedictus",
+        "id": 137109,
         "source": "Légendaire",
-        "quality": "legendary"
+        "quality": "legendary",
+        "icon": "inv_misc_cape_20"
       },
       {
         "slot": "Torse",
-        "item": "Gilded Seraph's Robe",
+        "item": "Robe du séraphin doré",
+        "id": 152158,
         "source": "Eonar la lieuse-de-vie",
         "quality": "epic",
+        "icon": "inv_robe_cloth_raidpriestmythic_s_01",
         "tier": true
       },
       {
         "slot": "Poignets",
-        "item": "À confirmer",
+        "item": "Manchettes trempées de sang",
+        "id": 151954,
         "source": "Varimathras",
-        "quality": "todo"
+        "quality": "epic",
+        "icon": "inv_bracer_cloth_raidwarlockmythic_s_01"
       },
       {
         "slot": "Mains",
-        "item": "Gilded Seraph's Handwraps",
+        "item": "Protège-mains du séraphin doré",
+        "id": 152155,
         "source": "Kin'garoth",
         "quality": "epic",
+        "icon": "inv_glove_cloth_raidpriestmythic_s_01",
         "tier": true
       },
       {
         "slot": "Taille",
-        "item": "À confirmer",
+        "item": "Corde de pétales de fleurs",
+        "id": 151952,
         "source": "Eonar la lieuse-de-vie",
-        "quality": "todo"
+        "quality": "epic",
+        "icon": "inv_belt_cloth_raidpriestmythic_s_01"
       },
       {
         "slot": "Jambes",
-        "item": "Gilded Seraph's Leggings",
-        "source": "Imonar le Chasseur d'âmes",
+        "item": "Jambards de l'exterminateur aguerri",
+        "id": 152424,
+        "source": "Haut-commandement antoréen",
         "quality": "epic",
-        "tier": true
+        "icon": "inv_pant_cloth_raidwarlockmythic_s_01"
       },
       {
         "slot": "Pieds",
-        "item": "À confirmer",
+        "item": "Sandalettes murmepas",
+        "id": 151939,
         "source": "Imonar le Chasseur d'âmes",
-        "quality": "todo"
+        "quality": "epic",
+        "icon": "inv_boot_cloth_raidmagemythic_s_01"
       },
       {
         "slot": "Bague 1",
-        "item": "À confirmer",
+        "item": "Jonc de la Lieuse-de-Vie",
+        "id": 152688,
         "source": "Eonar la lieuse-de-vie",
-        "quality": "todo"
+        "quality": "epic",
+        "icon": "inv_70_raid_ring7d"
       },
       {
         "slot": "Bague 2",
-        "item": "À confirmer",
+        "item": "Bague du forge-sargerite",
+        "id": 152064,
         "source": "Kin'garoth",
-        "quality": "todo"
+        "quality": "epic",
+        "icon": "inv_70_raid_ring4a"
       },
       {
         "slot": "Bijou 1",
         "item": "Vision d'Aman'Thul",
+        "id": 154172,
         "source": "Légendaire, Argus l'Annihilateur",
         "quality": "legendary",
-        "id": 154172
+        "icon": "inv_antorus_turquoise"
       },
       {
         "slot": "Bijou 2",
         "item": "Résonateur de vitalité",
+        "id": 151970,
         "source": "Eonar la lieuse-de-vie",
         "quality": "epic",
-        "id": 151970
+        "icon": "inv_7_0raid_trinket_08d"
       }
     ],
     "mm": [],
     "notes": [
-      "Les pièces de tier 21 (Séraphin doré) sont marquées. Leur bonus 4 pièces colle mal au style du Sacré : garde ton 4 pièces tier 20 si tu l'as, sauf gros gain de niveau d'objet.",
-      "Légendaires conseillés, du meilleur au moins bon : X'anshi, Prydaz, puis Velen's Future Sight. Vision d'Aman'Thul ne compte pas dans la limite de deux légendaires.",
+      "Les pièces de tier 21 (séraphin doré) sont marquées : le guide en conseille 4 (tête, épaules, torse, mains). Leur bonus colle mal au style du Sacré : garde ton 4 pièces tier 20 si tu l'as, sauf gros gain de niveau d'objet.",
+      "Légendaires conseillés, du meilleur au moins bon : X'anshi, Prydaz, puis Vision future de Velen. La Vision d'Aman'Thul ne compte pas dans la limite de deux légendaires.",
       "Bijoux alternatifs : Eonar's Compassion (Panthéon, Argus), Carafe of Searing Light pour le mana (Varimathras), Garothi Feedback Conduit (Brise-monde Garothi), Highfather's Machination (Le sabbat des Shivarra), Tarratus Keystone (Garde-portail Hasabel) et Ishkar's Felshield Emitter (Haut-commandement antoréen)."
     ]
   },
   "artifact": {
-    "name": "T'uure, Fanal des naaru",
-    "icon": "inv_staff_2h_artifacttuure_d_01",
-    "ability": "Light of T'uure",
+    "name": "T'uure, guide des Naaru",
+    "icon": "inv_staff_2h_artifactheartofkure_d_01",
+    "ability": "Lumière de T'uure",
     "relics": [
       "Sacré",
       "Vie",
@@ -336,32 +375,102 @@
     "relicPicks": [
       {
         "type": "Sacré",
-        "item": "Spark of Everburning Light",
+        "item": "Etincelle de Lumière semperardente",
+        "id": 152044,
         "source": "Eonar la lieuse-de-vie"
       },
       {
         "type": "Vie",
-        "item": "Sporemound Seedling",
+        "item": "Bouture de sporetertre",
+        "id": 152052,
         "source": "Aggramar"
       },
       {
         "type": "Sacré",
-        "item": "Venerated Puresoul Idol",
+        "item": "Idole d'âme pure vénérée",
+        "id": 152045,
         "source": "Imonar le Chasseur d'âmes"
       }
     ],
     "priority": [
-      "Say Your Prayers",
-      "Holy Guidance",
-      "Hallowed Ground",
-      "Power of the Naaru",
-      "Words of Healing",
-      "Holy Hands",
-      "Reverence",
-      "Serenity Now",
-      "Trust in the Light",
-      "Concordance of the Legionfall"
+      {
+        "name": "Faites vos prières",
+        "id": 196358,
+        "icon": "spell_holy_prayerofmendingtga"
+      },
+      {
+        "name": "Soutien sacré",
+        "id": 196434,
+        "icon": "spell_holy_prayerofhealing02"
+      },
+      {
+        "name": "Terre bénie",
+        "id": 196429,
+        "icon": "spell_holy_divineprovidence"
+      },
+      {
+        "name": "Prières sanctifiées",
+        "id": 196489,
+        "icon": "spell_holy_pureofheart"
+      },
+      {
+        "name": "Mots de soin",
+        "id": 196430,
+        "icon": "spell_holy_persecution"
+      },
+      {
+        "name": "Mains sacrées",
+        "id": 196422,
+        "icon": "spell_holy_renew"
+      },
+      {
+        "name": "Révérence",
+        "id": 196418,
+        "icon": "spell_holy_holyguidance"
+      },
+      {
+        "name": "Sérénité retrouvée",
+        "id": 196416,
+        "icon": "ability_priest_flashoflight"
+      },
+      {
+        "name": "Foi en la Lumière",
+        "id": 196355,
+        "icon": "priest_spell_leapoffaith_a"
+      },
+      {
+        "name": "Accord du Déclin",
+        "id": 239042,
+        "icon": "trade_archaeology_shark-jaws",
+        "final": true
+      }
     ],
-    "crucible": []
+    "crucible": [
+      {
+        "name": "Maître des Ombres",
+        "id": 252091,
+        "note": "Meilleur choix, devant tous les autres"
+      },
+      {
+        "name": "Carapace réfringente",
+        "id": 252207,
+        "note": "Meilleur trait de Lumière"
+      },
+      {
+        "name": "Lumière foudroyante",
+        "id": 252799
+      },
+      {
+        "name": "Vitesse de la Lumière",
+        "id": 252088
+      },
+      {
+        "name": "Intention de nuire",
+        "id": 252191
+      }
+    ],
+    "id": 128825,
+    "abilityId": 208065,
+    "relicTraits": "Pour les reliques, vise dans l'ordre : Faites vos prières > Terre bénie > Soutien sacré ≥ Mots de soin > Prières sanctifiées."
   }
 }

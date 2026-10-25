@@ -314,6 +314,7 @@ h1 { font-family: Cinzel, serif; }
 .gear-item.legendary { --q: var(--legendary); }
 .gear-item.todo { --q: var(--muted); opacity: .7; }
 .slot-ic {
+  position: relative; overflow: hidden;
   width: 44px; height: 44px; border-radius: 11px; display: grid; place-items: center; flex: none;
   color: var(--q); background: color-mix(in srgb, var(--q) 14%, transparent);
   box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--q) 70%, transparent);
@@ -380,3 +381,127 @@ h1 { font-family: Cinzel, serif; }
   .install-more { display: none; }
   .seg button { padding: 7px 10px; font-size: 13px; }
 }
+
+/* Chemin de l'arme prodigieuse */
+.trail-help { color: var(--muted); font-size: 14px; margin: -6px 0 10px; }
+.trail-progress { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 6px; }
+.trail-count { font-weight: 600; color: var(--accent); }
+.trail-reset { cursor: pointer; border: 1px solid var(--border); background: var(--surface-2); border-radius: 8px; padding: 5px 10px; font-size: 13px; color: var(--muted); }
+.trail-reset:hover { color: var(--text); }
+.trail { position: relative; width: 100%; }
+.trail-svg { position: absolute; inset: 0; overflow: visible; }
+.trail-line { fill: none; stroke: var(--border); stroke-width: 4; stroke-linecap: round; stroke-dasharray: 2 10; }
+.trail-line.lit { stroke: var(--accent); stroke-dasharray: none; filter: drop-shadow(0 0 6px color-mix(in srgb, var(--accent) 70%, transparent)); }
+.trail-node {
+  position: absolute; transform: translate(-50%, -28px);
+  display: grid; justify-items: center; gap: 8px; width: 130px;
+  background: none; border: 0; padding: 0; cursor: pointer; text-align: center;
+}
+.trail-dot {
+  position: relative; overflow: hidden;
+  width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center;
+  font-weight: 700; font-size: 18px; color: var(--muted);
+  background: var(--surface-solid); border: 2px solid var(--border);
+  transition: transform .15s, box-shadow .2s, border-color .2s;
+}
+.trail-node:hover .trail-dot { transform: scale(1.08); }
+.trail-node.gold .trail-dot, .trail-node.final .trail-dot { width: 64px; height: 64px; border-radius: 18px; transform: rotate(45deg); }
+.trail-node.gold .trail-dot svg, .trail-node.final .trail-dot svg { transform: rotate(-45deg); }
+.trail-node.gold:hover .trail-dot, .trail-node.final:hover .trail-dot { transform: rotate(45deg) scale(1.08); }
+.trail-node.gold .trail-dot { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 60%, transparent); }
+.trail-node.final .trail-dot { color: var(--accent-2); border-color: color-mix(in srgb, var(--accent-2) 60%, transparent); }
+.trail-node.taken .trail-dot {
+  color: #111; border-color: transparent;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  box-shadow: 0 0 22px color-mix(in srgb, var(--accent) 55%, transparent);
+}
+.trail-node.next .trail-dot { border-color: var(--accent); animation: pulse 1.6s ease-in-out infinite; }
+@keyframes pulse { 50% { box-shadow: 0 0 0 8px color-mix(in srgb, var(--accent) 18%, transparent); } }
+.trail-label { font-size: 13px; font-weight: 600; line-height: 1.25; color: var(--text); }
+.trail-node:not(.taken) .trail-label { color: var(--muted); }
+.trail-node.next .trail-label { color: var(--text); }
+.trail-label em { display: block; font-style: normal; font-weight: 500; font-size: 11px; color: var(--accent); text-transform: uppercase; letter-spacing: .06em; }
+@media (max-width: 520px) { .trail-node { width: 110px; } .trail-label { font-size: 12px; } }
+
+.trail-dot img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) brightness(.55); }
+.trail-node.gold .trail-dot img, .trail-node.final .trail-dot img { transform: rotate(-45deg) scale(1.42); }
+.trail-node.taken .trail-dot img { filter: none; }
+.trail-node.taken .trail-dot { box-shadow: 0 0 0 3px var(--accent), 0 0 22px color-mix(in srgb, var(--accent) 55%, transparent); }
+.trail-dot b { position: relative; z-index: 1; display: grid; place-items: center; }
+.trail-dot:has(img) b {
+  position: absolute; right: 2px; bottom: 2px; min-width: 22px; height: 22px; padding: 0 5px;
+  border-radius: 999px; font-size: 12px; background: var(--surface-solid); color: var(--text);
+  box-shadow: 0 0 0 2px var(--accent);
+}
+.trail-node.gold .trail-dot:has(img) b, .trail-node.final .trail-dot:has(img) b { right: auto; bottom: auto; transform: rotate(-45deg); }
+.trail-node.gold .trail-dot:has(img) b svg, .trail-node.final .trail-dot:has(img) b svg { transform: none; }
+.unsure { color: var(--accent); font-weight: 700; margin-left: 2px; }
+.crucible { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.crucible li { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; counter-increment: cru; }
+.crucible li::before { content: counter(cru); font-weight: 700; font-size: 12px; color: var(--muted); width: 14px; }
+a.chip:hover { border-color: var(--accent-2); }
+.crucible-note { font-size: 12px; color: var(--muted); }
+.artifact-head h2 a:hover, .text-link:hover { text-decoration: underline; }
+.text-link { color: var(--accent); }
+
+/* Arbre façon interface du jeu (grand écran) */
+.trail.tree { display: grid; grid-template-columns: minmax(0, 1fr) 230px; gap: 18px; align-items: start; }
+.tree-board {
+  position: relative; aspect-ratio: 920 / 650; border-radius: 16px; overflow: hidden;
+  background:
+    radial-gradient(60% 55% at 50% 55%, rgba(80, 160, 175, .35), transparent 70%),
+    radial-gradient(120% 90% at 50% 40%, #1b3a44, #0b171d 75%);
+  box-shadow: inset 0 0 0 2px rgba(150, 220, 230, .25), inset 0 0 60px rgba(0, 0, 0, .6), 0 10px 30px rgba(0, 0, 0, .35);
+}
+.tree-title {
+  position: absolute; top: 3%; left: 0; right: 0; text-align: center; z-index: 2;
+  font-family: Cinzel, serif; font-weight: 700; font-size: clamp(14px, 2.4vw, 22px);
+  color: #d9f6ff; text-shadow: 0 0 12px rgba(120, 220, 255, .7);
+}
+.tree-relics { position: absolute; top: 11%; left: 0; right: 0; display: flex; justify-content: center; gap: 14px; z-index: 2; }
+.tree-relic {
+  width: 22px; height: 22px; transform: rotate(45deg); border-radius: 5px;
+  background: radial-gradient(circle at 30% 30%, #fff8, transparent 50%), linear-gradient(135deg, var(--gc), color-mix(in srgb, var(--gc) 35%, #000));
+  box-shadow: 0 0 0 2px #c9a24a, 0 0 14px color-mix(in srgb, var(--gc) 60%, transparent);
+}
+.tree-svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.tree-crystal { fill: rgba(140, 200, 210, .07); stroke: rgba(170, 230, 240, .18); stroke-width: 3; }
+.tree-arc { fill: none; stroke: rgba(200, 245, 255, .22); stroke-width: 26; stroke-linecap: round; filter: blur(2px); }
+.tree-line { stroke: #2a3236; stroke-width: 7; stroke-linecap: round; }
+.tree-line.lit { stroke: #8ff4ff; stroke-width: 6; filter: drop-shadow(0 0 6px #4fe3ff); }
+.tree .trail-node { width: auto; transform: translate(-50%, -50%); z-index: 1; }
+.tree .trail-dot {
+  width: clamp(34px, 6.2cqw, 56px); height: clamp(34px, 6.2cqw, 56px); overflow: visible;
+  border-radius: 50%; background: #0d1418; border: 3px solid #3a3a36;
+  box-shadow: 0 0 0 2px #0a0d0f, 0 4px 10px rgba(0, 0, 0, .6);
+}
+.tree-board { container-type: inline-size; }
+.tree .trail-dot img { border-radius: 50%; filter: grayscale(.9) brightness(.45); transform: none; }
+.tree .trail-node.gold .trail-dot, .tree .trail-node.final .trail-dot { transform: none; border-radius: 50%; width: clamp(40px, 7.4cqw, 66px); height: clamp(40px, 7.4cqw, 66px); }
+.tree .trail-node.gold .trail-dot { border: 4px double #d9b55a; box-shadow: 0 0 0 3px #6b5520, 0 0 18px rgba(217, 181, 90, .45); }
+.tree .trail-node.final .trail-dot { border: 4px double #7fd36b; box-shadow: 0 0 0 3px #2f5a24, 0 0 18px rgba(127, 211, 107, .45); }
+.tree .trail-node.gold:hover .trail-dot, .tree .trail-node.final:hover .trail-dot { transform: scale(1.08); }
+.tree .trail-node.gold .trail-dot img, .tree .trail-node.final .trail-dot img { transform: none; }
+.tree .trail-node.taken .trail-dot { background: #0d1418; border-color: #f2d27a; box-shadow: 0 0 0 2px #0a0d0f, 0 0 16px rgba(242, 210, 122, .65); }
+.tree .trail-node.taken .trail-dot img { filter: none; }
+.tree .trail-node.next .trail-dot { border-color: #8ff4ff; }
+.tree .trail-dot b, .tree .trail-dot:has(img) b {
+  position: absolute; left: 50%; right: auto; top: auto; bottom: -9px; transform: translateX(-50%);
+  min-width: 20px; height: 18px; padding: 0 4px; border-radius: 4px;
+  display: grid; place-items: center; font-size: 11px; font-weight: 700;
+  background: #111; color: #f2d27a; box-shadow: 0 0 0 1px #7a6230;
+}
+.tree .trail-node.gold .trail-dot:has(img) b, .tree .trail-node.final .trail-dot:has(img) b { transform: translateX(-50%); }
+.tree .trail-node.gold .trail-dot b svg, .tree .trail-node.final .trail-dot b svg { transform: none; }
+
+.tree-legend { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; font-size: 14px; }
+.tree-legend li { display: flex; align-items: baseline; gap: 8px; padding: 5px 8px; border-radius: 8px; color: var(--muted); }
+.tree-legend li span { flex: none; width: 22px; text-align: center; font-weight: 700; color: var(--muted); }
+.tree-legend li a:hover { text-decoration: underline; }
+.tree-legend li em { font-style: normal; font-size: 11px; color: var(--accent); text-transform: uppercase; letter-spacing: .05em; }
+.tree-legend li.taken { color: var(--text); }
+.tree-legend li.taken span { color: var(--accent); }
+.tree-legend li.next { background: var(--surface-2); color: var(--text); box-shadow: inset 0 0 0 1px var(--accent); }
+@media (max-width: 900px) { .trail.tree { grid-template-columns: 1fr; } .tree-legend { grid-template-columns: 1fr 1fr; } }
+
+.slot-ic img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 9px; }

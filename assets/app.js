@@ -49,6 +49,7 @@
   const wowhead = (name) => 'https://www.wowhead.com/search?q=' + encodeURIComponent(name);
   // Lien vers la fiche Wowhead en français quand l'identifiant de l'objet est connu (infobulle au survol).
   const itemLink = (g) => g.id ? 'https://fr.wowhead.com/item=' + g.id : wowhead(g.item);
+  const spellLink = (id) => 'https://fr.wowhead.com/spell=' + id;
   const initials = (s) => s.split(/[\s'-]+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
   const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
@@ -160,9 +161,9 @@
             : `<a class="gear-name" href="${itemLink(g)}" target="_blank" rel="noopener">${esc(g.item)}</a>`;
           return `
           <div class="gear-item ${g.quality || 'epic'}">
-            <span class="slot-ic">${svg(g.quality === 'legendary' ? 'star' : 'gear', 20)}</span>
+            <span class="slot-ic">${g.icon ? `<img src="${ICON_URL}${g.icon}.jpg" alt="" loading="lazy" onerror="this.remove()">` : ''}${svg(g.quality === 'legendary' ? 'star' : 'gear', 20)}</span>
             <div class="gear-text">
-              <div class="gear-slot">${esc(g.slot)}${g.tier ? '<span class="tag">Tier</span>' : ''}</div>
+              <div class="gear-slot">${esc(g.slot)}${g.tier ? '<span class="tag">Tier 21</span>' : ''}${g.tier20 ? '<span class="tag">Tier 20</span>' : ''}${g.unsure ? '<span class="tag" title="Nom français à confirmer">EN</span>' : ''}</div>
               ${name}
               <div class="gear-source">${esc(g.source)}</div>
             </div>
@@ -184,13 +185,14 @@
             ${t.options.map((o, j) => {
               const picked = build.picks[i] === j;
               return `<div class="talent${picked ? ' picked' : ''}">
-                ${icon(o.icon, o.name)}<span>${esc(o.name)}</span>
+                ${icon(o.icon, o.name)}<span>${esc(o.name)}${o.unsure ? '<sup class="unsure" title="Nom français à confirmer">*</sup>' : ''}</span>
                 ${picked ? `<span class="check">${svg('check', 14)}</span>` : ''}
               </div>`;
             }).join('')}
           </div>`).join('')}
       </div>
-      ${build.note ? `<p class="note">${svg('info')}${esc(build.note)}</p>` : ''}`;
+      ${build.note ? `<p class="note">${svg('info')}${esc(build.note)}</p>` : ''}
+      ${data.talents.tiers.some((t) => t.options.some((o) => o.unsure)) ? `<p class="note"><sup class="unsure">*</sup>Nom français pas encore confirmé sur Wowhead.</p>` : ''}`;
   }
 
   function renderArtifact(data) {
@@ -199,13 +201,13 @@
       <div class="artifact-head">
         ${icon(a.icon, a.name)}
         <div>
-          <h2>${esc(a.name)}</h2>
-          <p>Capacité : ${esc(a.ability)}</p>
+          <h2>${a.id ? `<a href="${itemLink(a)}" target="_blank" rel="noopener">${esc(a.name)}</a>` : esc(a.name)}</h2>
+          <p>Capacité : ${a.abilityId ? `<a class="text-link" href="${spellLink(a.abilityId)}" target="_blank" rel="noopener">${esc(a.ability)}</a>` : esc(a.ability)}</p>
         </div>
       </div>
       <div class="artifact-cols">
         <div>
-          <h3 class="panel-title">${svg('artifact')}Reliques</h3>
+          <h3 class="panel-title">${svg('artifact')}Reliques (le plus important en fin de jeu)</h3>
           <div class="relics">
             ${a.relics.map((r, i) => {
               const pick = a.relicPicks && a.relicPicks[i];
@@ -213,15 +215,113 @@
                 ${pick ? `<a class="relic-pick" href="${itemLink(pick)}" target="_blank" rel="noopener">${esc(pick.item)}</a><span class="relic-src">${esc(pick.source)}</span>` : ''}</div>`;
             }).join('')}
           </div>
+          ${a.relicTraits ? `<p class="note">${svg('info')}${esc(a.relicTraits)}</p>` : ''}
           <h3 class="panel-title" style="margin-top:24px">${svg('spark')}Creuset de Lumen-Néant</h3>
-          ${a.crucible.length ? `<div class="chips">${a.crucible.map((t) => `<span class="chip">${svg('star', 13)}${esc(t)}</span>`).join('')}</div>`
+          ${a.crucible.length ? `<ol class="crucible">${a.crucible.map((t) => `<li><a class="chip" href="${spellLink(t.id)}" target="_blank" rel="noopener">${svg('star', 13)}${esc(t.name)}</a>${t.note ? `<span class="crucible-note">${esc(t.note)}</span>` : ''}</li>`).join('')}</ol>`
             : `<p class="empty-state">${svg('info')}À compléter.</p>`}
         </div>
-        <div>
-          <h3 class="panel-title">${svg('talents')}Ordre des traits</h3>
-          <ol class="path">${a.priority.map((t, i) => `<li><span class="node">${i + 1}</span>${esc(t)}</li>`).join('')}</ol>
+      </div>
+      <h3 class="panel-title" style="margin-top:28px">${svg('talents')}Ordre pour un nouveau perso</h3>
+      <p class="trail-help">En fin de jeu, tous les traits finissent débloqués : cet ordre sert surtout à monter l'arme d'un nouveau perso ou d'un reroll. Touche un trait pour noter ta progression, elle reste enregistrée sur cet appareil.</p>
+      <div class="trail-progress"><span class="trail-count"></span><button class="trail-reset" type="button">Réinitialiser</button></div>
+      <div class="trail"></div>`;
+  }
+
+  // Arbre de l'arme prodigieuse : la capacité, puis les traits dans l'ordre.
+  // Sur grand écran, disposition en boucle façon interface du jeu ; sur téléphone, serpentin sur 2 colonnes.
+  const TREE_SIZE = { w: 920, h: 650 };
+  const TREE_POINTS = [[290, 265], [342, 325], [230, 358], [208, 465], [305, 575], [432, 578], [540, 575], [563, 478], [585, 365], [498, 242], [395, 228], [470, 430], [690, 470], [700, 300]];
+
+  function drawTrail(el, data, key) {
+    const a = data.artifact;
+    const nodes = [{ name: a.ability, id: a.abilityId, icon: a.icon, kind: 'gold', tag: 'Capacité' }]
+      .concat(a.priority.map((t) => ({ name: t.name, id: t.id, icon: t.icon, kind: t.final ? 'final' : 'trait', tag: t.final ? 'Trait final' : '' })));
+    const storeKey = 'artefact-' + key;
+    let done = 0;
+    try { done = Math.min(nodes.length, parseInt(localStorage.getItem(storeKey), 10) || 0); } catch (e) { /* stockage indisponible */ }
+
+    const panel = el.closest('.panel');
+    const count = panel.querySelector('.trail-count');
+
+    const nodeHtml = (n, i, style, withLabel) => `
+      <button type="button" class="trail-node ${n.kind}${i < done ? ' taken' : ''}${i === done ? ' next' : ''}" data-i="${i}"
+        style="${style}" aria-pressed="${i < done}" aria-label="${i}. ${esc(n.name)}"${n.id ? ` data-wowhead="spell=${n.id}&domain=fr"` : ''}>
+        <span class="trail-dot">${n.icon ? `<img src="${ICON_URL}${n.icon}.jpg" alt="" loading="lazy" onerror="this.remove()">` : ''}<b>${n.kind === 'gold' ? svgFill('star', 14) : n.kind === 'final' ? svgFill('logo', 14) : i}</b></span>
+        ${withLabel ? `<span class="trail-label">${esc(n.name)}${n.tag ? `<em>${n.tag}</em>` : ''}</span>` : ''}
+      </button>`;
+
+    function treeLayout() {
+      const pts = TREE_POINTS.slice(0, nodes.length);
+      const lines = pts.slice(1).map((q, i) => {
+        const p = pts[i];
+        return `<line class="tree-line${i < done - 1 ? ' lit' : ''}" x1="${p[0]}" y1="${p[1]}" x2="${q[0]}" y2="${q[1]}"/>`;
+      }).join('');
+      el.className = 'trail tree';
+      el.style.height = '';
+      el.innerHTML = `
+        <div class="tree-board">
+          <div class="tree-title">${esc(a.name)}</div>
+          <div class="tree-relics">${a.relics.map((r) => `<span class="tree-relic" style="--gc:${RELIC_COLORS[r] || '#999'}" title="Relique ${esc(r)}"></span>`).join('')}</div>
+          <svg class="tree-svg" viewBox="0 0 ${TREE_SIZE.w} ${TREE_SIZE.h}" preserveAspectRatio="none" aria-hidden="true">
+            <path class="tree-crystal" d="M250 610 C120 520 120 330 230 200 C320 100 520 90 640 170 C760 250 760 470 650 590 Z"/>
+            <path class="tree-arc" d="M150 420 C80 230 260 80 470 95 C640 105 740 200 760 300"/>
+            ${lines}
+          </svg>
+          ${nodes.map((n, i) => nodeHtml(n, i, `left:${pts[i][0] / TREE_SIZE.w * 100}%;top:${pts[i][1] / TREE_SIZE.h * 100}%`, false)).join('')}
         </div>
-      </div>`;
+        <ol class="tree-legend">
+          ${nodes.map((n, i) => `<li class="${i < done ? 'taken' : ''}${i === done ? ' next' : ''}"><span>${n.kind === 'gold' ? '★' : n.kind === 'final' ? '✦' : i}</span>
+            ${n.id ? `<a href="${spellLink(n.id)}" target="_blank" rel="noopener">${esc(n.name)}</a>` : esc(n.name)}${n.tag ? `<em>${n.tag}</em>` : ''}</li>`).join('')}
+        </ol>`;
+    }
+
+    function pathLayout() {
+      const width = el.clientWidth;
+      const cols = 2;
+      const rowH = 150;
+      const padX = 70;
+      const rows = Math.ceil(nodes.length / cols);
+      const pts = nodes.map((n, i) => {
+        const r = Math.floor(i / cols);
+        let c = i % cols;
+        if (r % 2) c = cols - 1 - c;
+        return { x: padX + c * (width - 2 * padX) / (cols - 1), y: 60 + r * rowH };
+      });
+      const height = 60 + (rows - 1) * rowH + 80;
+      const seg = (p, q, i) => {
+        const lit = i < done - 1 ? ' lit' : '';
+        if (p.y === q.y) return `<path class="trail-line${lit}" d="M${p.x} ${p.y} L${q.x} ${q.y}"/>`;
+        const bend = p.x > width / 2 ? 70 : -70;
+        return `<path class="trail-line${lit}" d="M${p.x} ${p.y} C${p.x + bend} ${p.y}, ${q.x + bend} ${q.y}, ${q.x} ${q.y}"/>`;
+      };
+      el.className = 'trail';
+      el.style.height = height + 'px';
+      el.innerHTML = `
+        <svg class="trail-svg" width="${width}" height="${height}" aria-hidden="true">${pts.slice(1).map((q, i) => seg(pts[i], q, i)).join('')}</svg>
+        ${nodes.map((n, i) => nodeHtml(n, i, `left:${pts[i].x}px;top:${pts[i].y}px`, true)).join('')}`;
+    }
+
+    function layout() {
+      if (el.parentElement.clientWidth >= 640 && nodes.length <= TREE_POINTS.length) treeLayout();
+      else pathLayout();
+      count.textContent = done + ' / ' + nodes.length + ' traits';
+      el.querySelectorAll('.trail-node').forEach((b) => b.addEventListener('click', () => {
+        const i = +b.dataset.i;
+        done = done === i + 1 ? i : i + 1;
+        save();
+        layout();
+      }));
+    }
+
+    function save() {
+      try { localStorage.setItem(storeKey, String(done)); } catch (e) { /* stockage indisponible */ }
+    }
+
+    panel.querySelector('.trail-reset').addEventListener('click', () => { done = 0; save(); layout(); });
+    layout();
+    let timer;
+    const onResize = () => { clearTimeout(timer); timer = setTimeout(() => { if (el.isConnected) layout(); else window.removeEventListener('resize', onResize); }, 120); };
+    window.addEventListener('resize', onResize);
   }
 
   const RENDER = { stats: renderStats, gear: renderGear, talents: renderTalents, artifact: renderArtifact };
@@ -266,6 +366,8 @@
       </div>
       <section class="panel" role="tabpanel">${RENDER[view.tab](data)}</section>
       ${data.sources ? `<p class="sources">${svg('link', 13)}Sources : ${data.sources.map((s) => `<a href="${s.url}" target="_blank" rel="noopener">${esc(s.label)}</a>`).join(' · ')}</p>` : ''}`;
+    if (view.tab === 'artifact' && data.artifact.priority.length) drawTrail(app.querySelector('.trail'), data, classId + '-' + specId);
+    else if (view.tab === 'artifact') app.querySelector('.trail').innerHTML = `<p class="empty-state">${svg('info')}Chemin des traits à compléter.</p>`;
 
     app.querySelectorAll('[data-tab]').forEach((b) => b.addEventListener('click', () => { view.tab = b.dataset.tab; renderSpec(classId, specId); }));
     app.querySelectorAll('[data-mode]').forEach((b) => b.addEventListener('click', () => { view.mode = b.dataset.mode; renderSpec(classId, specId); }));
