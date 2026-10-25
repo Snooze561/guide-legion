@@ -217,11 +217,76 @@
           ${a.crucible.length ? `<div class="chips">${a.crucible.map((t) => `<span class="chip">${svg('star', 13)}${esc(t)}</span>`).join('')}</div>`
             : `<p class="empty-state">${svg('info')}À compléter.</p>`}
         </div>
-        <div>
-          <h3 class="panel-title">${svg('talents')}Ordre des traits</h3>
-          <ol class="path">${a.priority.map((t, i) => `<li><span class="node">${i + 1}</span>${esc(t)}</li>`).join('')}</ol>
-        </div>
-      </div>`;
+      </div>
+      <h3 class="panel-title" style="margin-top:28px">${svg('talents')}Chemin à suivre</h3>
+      <p class="trail-help">Touche un trait pour noter ta progression : tous les traits précédents se cochent aussi. Ta progression reste enregistrée sur cet appareil.</p>
+      <div class="trail-progress"><span class="trail-count"></span><button class="trail-reset" type="button">Réinitialiser</button></div>
+      <div class="trail"></div>`;
+  }
+
+  // Arbre de l'arme prodigieuse : la capacité, puis les traits dans l'ordre, reliés en serpentin.
+  function drawTrail(el, data, key) {
+    const a = data.artifact;
+    const nodes = [{ name: a.ability, kind: 'gold', tag: 'Capacité' }]
+      .concat(a.priority.map((name, i) => ({ name, kind: i === a.priority.length - 1 && /concordance|accord/i.test(name) ? 'final' : 'trait' })));
+    const storeKey = 'artefact-' + key;
+    let done = 0;
+    try { done = Math.min(nodes.length, parseInt(localStorage.getItem(storeKey), 10) || 0); } catch (e) { /* stockage indisponible */ }
+
+    const panel = el.closest('.panel');
+    const count = panel.querySelector('.trail-count');
+
+    function layout() {
+      const width = el.clientWidth;
+      const cols = width < 520 ? 2 : width < 820 ? 3 : 4;
+      const rowH = width < 520 ? 150 : 140;
+      const padX = width < 520 ? 70 : 90;
+      const rows = Math.ceil(nodes.length / cols);
+      const pts = nodes.map((n, i) => {
+        const r = Math.floor(i / cols);
+        let c = i % cols;
+        if (r % 2) c = cols - 1 - c;
+        return { x: cols === 1 ? width / 2 : padX + c * (width - 2 * padX) / (cols - 1), y: 60 + r * rowH };
+      });
+      const height = 60 + (rows - 1) * rowH + 80;
+
+      const seg = (p, q, i) => {
+        const lit = i < done - 1 ? ' lit' : '';
+        if (p.y === q.y) return `<path class="trail-line${lit}" d="M${p.x} ${p.y} L${q.x} ${q.y}"/>`;
+        const bend = p.x > width / 2 ? 70 : -70;
+        return `<path class="trail-line${lit}" d="M${p.x} ${p.y} C${p.x + bend} ${p.y}, ${q.x + bend} ${q.y}, ${q.x} ${q.y}"/>`;
+      };
+
+      el.style.height = height + 'px';
+      el.innerHTML = `
+        <svg class="trail-svg" width="${width}" height="${height}" aria-hidden="true">
+          ${pts.slice(1).map((q, i) => seg(pts[i], q, i)).join('')}
+        </svg>
+        ${nodes.map((n, i) => `
+          <button type="button" class="trail-node ${n.kind}${i < done ? ' taken' : ''}${i === done ? ' next' : ''}" data-i="${i}"
+            style="left:${pts[i].x}px;top:${pts[i].y}px" aria-pressed="${i < done}">
+            <span class="trail-dot">${n.kind === 'gold' ? svgFill('star', 22) : n.kind === 'final' ? svgFill('logo', 22) : i}</span>
+            <span class="trail-label">${esc(n.name)}${n.tag ? `<em>${n.tag}</em>` : ''}</span>
+          </button>`).join('')}`;
+      count.textContent = done + ' / ' + nodes.length + ' traits';
+
+      el.querySelectorAll('.trail-node').forEach((b) => b.addEventListener('click', () => {
+        const i = +b.dataset.i;
+        done = done === i + 1 ? i : i + 1;
+        save();
+        layout();
+      }));
+    }
+
+    function save() {
+      try { localStorage.setItem(storeKey, String(done)); } catch (e) { /* stockage indisponible */ }
+    }
+
+    panel.querySelector('.trail-reset').addEventListener('click', () => { done = 0; save(); layout(); });
+    layout();
+    let timer;
+    const onResize = () => { clearTimeout(timer); timer = setTimeout(() => { if (el.isConnected) layout(); else window.removeEventListener('resize', onResize); }, 120); };
+    window.addEventListener('resize', onResize);
   }
 
   const RENDER = { stats: renderStats, gear: renderGear, talents: renderTalents, artifact: renderArtifact };
@@ -266,6 +331,7 @@
       </div>
       <section class="panel" role="tabpanel">${RENDER[view.tab](data)}</section>
       ${data.sources ? `<p class="sources">${svg('link', 13)}Sources : ${data.sources.map((s) => `<a href="${s.url}" target="_blank" rel="noopener">${esc(s.label)}</a>`).join(' · ')}</p>` : ''}`;
+    if (view.tab === 'artifact') drawTrail(app.querySelector('.trail'), data, classId + '-' + specId);
 
     app.querySelectorAll('[data-tab]').forEach((b) => b.addEventListener('click', () => { view.tab = b.dataset.tab; renderSpec(classId, specId); }));
     app.querySelectorAll('[data-mode]').forEach((b) => b.addEventListener('click', () => { view.mode = b.dataset.mode; renderSpec(classId, specId); }));

@@ -380,3 +380,43 @@ h1 { font-family: Cinzel, serif; }
   .install-more { display: none; }
   .seg button { padding: 7px 10px; font-size: 13px; }
 }
+
+/* Chemin de l'arme prodigieuse */
+.trail-help { color: var(--muted); font-size: 14px; margin: -6px 0 10px; }
+.trail-progress { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 6px; }
+.trail-count { font-weight: 600; color: var(--accent); }
+.trail-reset { cursor: pointer; border: 1px solid var(--border); background: var(--surface-2); border-radius: 8px; padding: 5px 10px; font-size: 13px; color: var(--muted); }
+.trail-reset:hover { color: var(--text); }
+.trail { position: relative; width: 100%; }
+.trail-svg { position: absolute; inset: 0; overflow: visible; }
+.trail-line { fill: none; stroke: var(--border); stroke-width: 4; stroke-linecap: round; stroke-dasharray: 2 10; }
+.trail-line.lit { stroke: var(--accent); stroke-dasharray: none; filter: drop-shadow(0 0 6px color-mix(in srgb, var(--accent) 70%, transparent)); }
+.trail-node {
+  position: absolute; transform: translate(-50%, -28px);
+  display: grid; justify-items: center; gap: 8px; width: 130px;
+  background: none; border: 0; padding: 0; cursor: pointer; text-align: center;
+}
+.trail-dot {
+  width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center;
+  font-weight: 700; font-size: 18px; color: var(--muted);
+  background: var(--surface-solid); border: 2px solid var(--border);
+  transition: transform .15s, box-shadow .2s, border-color .2s;
+}
+.trail-node:hover .trail-dot { transform: scale(1.08); }
+.trail-node.gold .trail-dot, .trail-node.final .trail-dot { width: 64px; height: 64px; border-radius: 18px; transform: rotate(45deg); }
+.trail-node.gold .trail-dot svg, .trail-node.final .trail-dot svg { transform: rotate(-45deg); }
+.trail-node.gold:hover .trail-dot, .trail-node.final:hover .trail-dot { transform: rotate(45deg) scale(1.08); }
+.trail-node.gold .trail-dot { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 60%, transparent); }
+.trail-node.final .trail-dot { color: var(--accent-2); border-color: color-mix(in srgb, var(--accent-2) 60%, transparent); }
+.trail-node.taken .trail-dot {
+  color: #111; border-color: transparent;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  box-shadow: 0 0 22px color-mix(in srgb, var(--accent) 55%, transparent);
+}
+.trail-node.next .trail-dot { border-color: var(--accent); animation: pulse 1.6s ease-in-out infinite; }
+@keyframes pulse { 50% { box-shadow: 0 0 0 8px color-mix(in srgb, var(--accent) 18%, transparent); } }
+.trail-label { font-size: 13px; font-weight: 600; line-height: 1.25; color: var(--text); }
+.trail-node:not(.taken) .trail-label { color: var(--muted); }
+.trail-node.next .trail-label { color: var(--text); }
+.trail-label em { display: block; font-style: normal; font-weight: 500; font-size: 11px; color: var(--accent); text-transform: uppercase; letter-spacing: .06em; }
+@media (max-width: 520px) { .trail-node { width: 110px; } .trail-label { font-size: 12px; } }
