@@ -278,6 +278,29 @@
   }
 
   document.querySelector('.brand-logo').innerHTML = svgFill('logo', 16);
+
+  // Application installable : bouton « Installer » (Android, PC) ou astuce (iPhone).
+  const installBtn = document.getElementById('install');
+  const installTip = document.getElementById('install-tip');
+  const standalone = matchMedia('(display-mode: standalone)').matches || navigator.standalone;
+  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  let installEvent = null;
+  window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); installEvent = e; installBtn.hidden = false; });
+  window.addEventListener('appinstalled', () => { installBtn.hidden = true; });
+  if (ios && !standalone) installBtn.hidden = false;
+  installBtn.addEventListener('click', async () => {
+    if (installEvent) {
+      installEvent.prompt();
+      await installEvent.userChoice;
+      installEvent = null;
+      installBtn.hidden = true;
+    } else {
+      installTip.hidden = !installTip.hidden;
+    }
+  });
+  if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  }
   window.addEventListener('hashchange', route);
   route().catch(() => { app.innerHTML = '<p class="empty-state">Impossible de charger les données.</p>'; });
 })();
