@@ -57,57 +57,120 @@
       {
         "level": 15,
         "options": [
-          "Illumination",
-          "Traînée de lumière",
-          "Rénovation persistante"
+          {
+            "name": "Illumination",
+            "icon": "spell_arcane_mindmastery"
+          },
+          {
+            "name": "Traînée de lumière",
+            "icon": "ability_priest_wordsofmeaning"
+          },
+          {
+            "name": "Rénovation persistante",
+            "icon": "ability_paladin_blessedmending"
+          }
         ]
       },
       {
         "level": 30,
         "options": [
-          "Plume angélique",
-          "Corps et esprit",
-          "Persévérance"
+          {
+            "name": "Plume angélique",
+            "icon": "ability_priest_angelicfeather"
+          },
+          {
+            "name": "Corps et esprit",
+            "icon": "spell_holy_symbolofhope"
+          },
+          {
+            "name": "Persévérance",
+            "icon": "spell_holy_persistentshield"
+          }
         ]
       },
       {
         "level": 45,
         "options": [
-          "Lumière du naaru",
-          "Ange gardien",
-          "Symbole d'espoir"
+          {
+            "name": "Lumière du naaru",
+            "icon": "spell_holy_holyguidance"
+          },
+          {
+            "name": "Ange gardien",
+            "icon": "ability_priest_pathofthedevout"
+          },
+          {
+            "name": "Symbole d'espoir",
+            "icon": "spell_holy_symbolofhope"
+          }
         ]
       },
       {
         "level": 60,
         "options": [
-          "Vague de Lumière",
-          "Soins de lien",
-          "Piété"
+          {
+            "name": "Vague de Lumière",
+            "icon": "spell_holy_surgeoflight"
+          },
+          {
+            "name": "Soins de lien",
+            "icon": "spell_holy_blindingheal"
+          },
+          {
+            "name": "Piété",
+            "icon": "spell_holy_prayerofmendingtga"
+          }
         ]
       },
       {
         "level": 75,
         "options": [
-          "Censure",
-          "Vie après la mort",
-          "Force brillante"
+          {
+            "name": "Censure",
+            "icon": "spell_holy_penance"
+          },
+          {
+            "name": "Vie après la mort",
+            "icon": "inv_enchant_essenceeternallarge"
+          },
+          {
+            "name": "Force brillante",
+            "icon": "ability_paladin_blindinglight"
+          }
         ]
       },
       {
         "level": 90,
         "options": [
-          "Étoile divine",
-          "Halo",
-          "Cercle de soins"
+          {
+            "name": "Étoile divine",
+            "icon": "spell_priest_divinestar"
+          },
+          {
+            "name": "Halo",
+            "icon": "ability_priest_halo"
+          },
+          {
+            "name": "Cercle de soins",
+            "icon": "spell_holy_circleofrenewal"
+          }
         ]
       },
       {
         "level": 100,
         "options": [
-          "Apothéose",
-          "Bénédiction",
-          "Divinité"
+          {
+            "name": "Apothéose",
+            "icon": "ability_priest_ascension"
+          },
+          {
+            "name": "Bénédiction",
+            "icon": "spell_holy_divineillumination"
+          },
+          {
+            "name": "Divinité",
+            "icon": "spell_holy_divinepurpose"
+          }
         ]
       }
     ],
@@ -143,72 +206,86 @@
       {
         "slot": "Tête",
         "item": "À compléter (étape 2)",
-        "source": "—"
+        "source": "—",
+        "quality": "todo"
       },
       {
         "slot": "Cou",
         "item": "À compléter (étape 2)",
-        "source": "—"
+        "source": "—",
+        "quality": "todo"
       },
       {
         "slot": "Épaules",
         "item": "À compléter (étape 2)",
-        "source": "—"
+        "source": "—",
+        "quality": "todo"
       },
       {
         "slot": "Dos",
         "item": "X'anshi, retour de l'archevêque Benedictus",
-        "source": "Légendaire"
+        "source": "Légendaire",
+        "quality": "legendary"
       },
       {
         "slot": "Torse",
         "item": "À compléter (étape 2)",
-        "source": "—"
+        "source": "—",
+        "quality": "todo"
       },
       {
         "slot": "Poignets",
         "item": "À compléter (étape 2)",
-        "source": "—"
+        "source": "—",
+        "quality": "todo"
       },
       {
         "slot": "Mains",
         "item": "À compléter (étape 2)",
-        "source": "—"
+        "source": "—",
+        "quality": "todo"
       },
       {
         "slot": "Taille",
         "item": "À compléter (étape 2)",
-        "source": "—"
+        "source": "—",
+        "quality": "todo"
       },
       {
         "slot": "Jambes",
         "item": "À compléter (étape 2)",
-        "source": "—"
+        "source": "—",
+        "quality": "todo"
       },
       {
         "slot": "Pieds",
         "item": "À compléter (étape 2)",
-        "source": "—"
+        "source": "—",
+        "quality": "todo"
       },
       {
         "slot": "Bague 1",
         "item": "Âme du grand prêtre",
-        "source": "Légendaire"
+        "source": "Légendaire",
+        "quality": "legendary"
       },
       {
         "slot": "Bague 2",
         "item": "À compléter (étape 2)",
-        "source": "—"
+        "source": "—",
+        "quality": "todo"
       },
       {
         "slot": "Bijou 1",
         "item": "Compassion d'Eonar",
-        "source": "Antorus"
+        "source": "Antorus",
+        "quality": "epic"
       },
       {
         "slot": "Bijou 2",
         "item": "Vision d'Aman'Thul",
-        "source": "Antorus"
+        "source": "Antorus",
+        "quality": "epic"
       }
     ],
     "mm": []
@@ -231,6 +308,9 @@
     "crucible": [
       "Infusion de lumière",
       "Sûreté de la lumière"
-    ]
-  }
+    ],
+    "icon": "inv_staff_2h_artifacttuure_d_01",
+    "abilityIcon": "spell_holy_holybolt"
+  },
+  "icon": "spell_holy_guardianspirit"
 }
