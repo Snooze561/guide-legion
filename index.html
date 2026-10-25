@@ -5,6 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Guide Legion 7.3.5</title>
   <meta name="description" content="Stats, BiS, talents et arme prodigieuse pour toutes les spés de Legion 7.3.5 (PvE).">
+  <meta name="theme-color" content="#08090d">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" href="assets/icons/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Guide Legion">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="Guide des classes Legion 7.3.5">
+  <meta property="og:description" content="Stats, BiS, talents et arme prodigieuse pour les 36 spés, en raid et en Mythique+.">
+  <meta property="og:url" content="https://snooze561.github.io/guide-legion/">
+  <meta property="og:image" content="https://snooze561.github.io/guide-legion/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
@@ -16,11 +31,20 @@
       <span class="brand-title">Guide Legion</span>
       <span class="brand-patch">7.3.5 · PvE</span>
     </a>
+    <button id="install" class="install" hidden>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
+      Installer<span class="install-more"> l'appli</span>
+    </button>
+    <div id="install-tip" class="install-tip" hidden>
+      Sur iPhone : appuie sur <strong>Partager</strong> puis <strong>Sur l'écran d'accueil</strong>.
+    </div>
   </header>
   <main id="app" class="container" aria-live="polite"></main>
   <footer class="site-footer container">
     Guide de guilde, données à vérifier en jeu. Liens d'objets via Wowhead.
   </footer>
+  <script>const whTooltips = { colorLinks: false, iconizeLinks: false, renameLinks: false };</script>
+  <script src="https://wow.zamimg.com/js/tooltips.js" async></script>
   <script src="assets/app.js"></script>
 </body>
 </html>

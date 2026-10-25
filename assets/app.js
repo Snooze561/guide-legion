@@ -47,6 +47,8 @@
 
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const wowhead = (name) => 'https://www.wowhead.com/search?q=' + encodeURIComponent(name);
+  // Lien vers la fiche Wowhead en français quand l'identifiant de l'objet est connu (infobulle au survol).
+  const itemLink = (g) => g.id ? 'https://fr.wowhead.com/item=' + g.id : wowhead(g.item);
   const initials = (s) => s.split(/[\s'-]+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
   const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
@@ -155,7 +157,7 @@
         ${list.map((g) => {
           const todo = g.quality === 'todo';
           const name = todo ? `<span class="gear-name">${esc(g.item)}</span>`
-            : `<a class="gear-name" href="${wowhead(g.item)}" target="_blank" rel="noopener">${esc(g.item)}</a>`;
+            : `<a class="gear-name" href="${itemLink(g)}" target="_blank" rel="noopener">${esc(g.item)}</a>`;
           return `
           <div class="gear-item ${g.quality || 'epic'}">
             <span class="slot-ic">${svg(g.quality === 'legendary' ? 'star' : 'gear', 20)}</span>
@@ -208,7 +210,7 @@
             ${a.relics.map((r, i) => {
               const pick = a.relicPicks && a.relicPicks[i];
               return `<div class="relic"><span class="gem" style="--gc:${RELIC_COLORS[r] || '#999'}"></span>${esc(r)}
-                ${pick ? `<a class="relic-pick" href="${wowhead(pick.item)}" target="_blank" rel="noopener">${esc(pick.item)}</a><span class="relic-src">${esc(pick.source)}</span>` : ''}</div>`;
+                ${pick ? `<a class="relic-pick" href="${itemLink(pick)}" target="_blank" rel="noopener">${esc(pick.item)}</a><span class="relic-src">${esc(pick.source)}</span>` : ''}</div>`;
             }).join('')}
           </div>
           <h3 class="panel-title" style="margin-top:24px">${svg('spark')}Creuset de Lumen-Néant</h3>
@@ -278,6 +280,29 @@
   }
 
   document.querySelector('.brand-logo').innerHTML = svgFill('logo', 16);
+
+  // Application installable : bouton « Installer » (Android, PC) ou astuce (iPhone).
+  const installBtn = document.getElementById('install');
+  const installTip = document.getElementById('install-tip');
+  const standalone = matchMedia('(display-mode: standalone)').matches || navigator.standalone;
+  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  let installEvent = null;
+  window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); installEvent = e; installBtn.hidden = false; });
+  window.addEventListener('appinstalled', () => { installBtn.hidden = true; });
+  if (ios && !standalone) installBtn.hidden = false;
+  installBtn.addEventListener('click', async () => {
+    if (installEvent) {
+      installEvent.prompt();
+      await installEvent.userChoice;
+      installEvent = null;
+      installBtn.hidden = true;
+    } else {
+      installTip.hidden = !installTip.hidden;
+    }
+  });
+  if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  }
   window.addEventListener('hashchange', route);
   route().catch(() => { app.innerHTML = '<p class="empty-state">Impossible de charger les données.</p>'; });
 })();

@@ -3,23 +3,69 @@
   "icon": "spell_holy_guardianspirit",
   "summary": "Soigneur de raid polyvalent. La maîtrise (Écho de lumière) ajoute un soin sur la durée à chaque soin direct, et les Mots sacrés rythment la rotation.",
   "sources": [
-    { "label": "Guías WoW, guide PvE Prêtre Sacré 7.3.5 (février 2018)", "url": "https://en.guiaswow.com/game-guide/holy-priest-guide-pve-patch-7-3-5.html" },
-    { "label": "Blizzard Watch, équiper son prêtre dans Antorus (novembre 2017)", "url": "https://blizzardwatch.com/2017/11/30/spiritual-guidance-gearing-priest-antorus/" }
+    {
+      "label": "Guías WoW, guide PvE Prêtre Sacré 7.3.5 (février 2018)",
+      "url": "https://en.guiaswow.com/game-guide/holy-priest-guide-pve-patch-7-3-5.html"
+    },
+    {
+      "label": "Blizzard Watch, équiper son prêtre dans Antorus (novembre 2017)",
+      "url": "https://blizzardwatch.com/2017/11/30/spiritual-guidance-gearing-priest-antorus/"
+    },
+    {
+      "label": "Millenium, bijoux d'Antorus (patch 7.3.2)",
+      "url": "https://www.millenium.org/guide/279807.html"
+    }
   ],
   "stats": {
     "raid": [
-      { "stat": "Intelligence", "weight": 100 },
-      { "stat": "Maîtrise", "weight": 75, "target": "35 à 40 %" },
-      { "stat": "Critique", "weight": 60, "target": "25 % min." },
-      { "stat": "Hâte", "weight": 45, "target": "12 à 15 %" },
-      { "stat": "Polyvalence", "weight": 35 }
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 75,
+        "target": "35 à 40 %"
+      },
+      {
+        "stat": "Critique",
+        "weight": 60,
+        "target": "25 % min."
+      },
+      {
+        "stat": "Hâte",
+        "weight": 45,
+        "target": "12 à 15 %"
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 35
+      }
     ],
     "mm": [
-      { "stat": "Intelligence", "weight": 100 },
-      { "stat": "Maîtrise", "weight": 75, "target": "35 à 40 %" },
-      { "stat": "Critique", "weight": 60, "target": "25 % min." },
-      { "stat": "Hâte", "weight": 45, "target": "12 à 15 %" },
-      { "stat": "Polyvalence", "weight": 35 }
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 75,
+        "target": "35 à 40 %"
+      },
+      {
+        "stat": "Critique",
+        "weight": 60,
+        "target": "25 % min."
+      },
+      {
+        "stat": "Hâte",
+        "weight": 45,
+        "target": "12 à 15 %"
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 35
+      }
     ],
     "tips": [
       "Au-delà de 40 % de maîtrise, l'Écho de lumière fait surtout du soin en trop : passe alors sur le critique.",
@@ -29,86 +75,280 @@
   },
   "talents": {
     "tiers": [
-      { "level": 15, "options": [
-        { "name": "Illumination", "icon": "spell_arcane_mindmastery" },
-        { "name": "Traînée de lumière", "icon": "ability_priest_wordsofmeaning" },
-        { "name": "Rénovation persistante", "icon": "ability_paladin_blessedmending" }
-      ]},
-      { "level": 30, "options": [
-        { "name": "Plume angélique", "icon": "ability_priest_angelicfeather" },
-        { "name": "Corps et esprit", "icon": "spell_holy_symbolofhope" },
-        { "name": "Persévérance", "icon": "spell_holy_persistentshield" }
-      ]},
-      { "level": 45, "options": [
-        { "name": "Censure", "icon": "spell_holy_penance" },
-        { "name": "Vie après la mort", "icon": "inv_enchant_essenceeternallarge" },
-        { "name": "Force brillante", "icon": "ability_paladin_blindinglight" }
-      ]},
-      { "level": 60, "options": [
-        { "name": "Lumière du naaru", "icon": "spell_holy_holyguidance" },
-        { "name": "Ange gardien", "icon": "ability_priest_pathofthedevout" },
-        { "name": "Symbole d'espoir", "icon": "spell_holy_symbolofhope" }
-      ]},
-      { "level": 75, "options": [
-        { "name": "Vague de Lumière", "icon": "spell_holy_surgeoflight" },
-        { "name": "Soins de lien", "icon": "spell_holy_blindingheal" },
-        { "name": "Piété", "icon": "spell_holy_prayerofmendingtga" }
-      ]},
-      { "level": 90, "options": [
-        { "name": "Étoile divine", "icon": "spell_priest_divinestar" },
-        { "name": "Halo", "icon": "ability_priest_halo" },
-        { "name": "Divinité", "icon": "spell_holy_divinepurpose" }
-      ]},
-      { "level": 100, "options": [
-        { "name": "Apothéose", "icon": "ability_priest_ascension" },
-        { "name": "Bénédiction", "icon": "spell_holy_divineillumination" },
-        { "name": "Cercle de soins", "icon": "spell_holy_circleofrenewal" }
-      ]}
+      {
+        "level": 15,
+        "options": [
+          {
+            "name": "Illumination",
+            "icon": "spell_arcane_mindmastery"
+          },
+          {
+            "name": "Traînée de lumière",
+            "icon": "ability_priest_wordsofmeaning"
+          },
+          {
+            "name": "Rénovation persistante",
+            "icon": "ability_paladin_blessedmending"
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "name": "Plume angélique",
+            "icon": "ability_priest_angelicfeather"
+          },
+          {
+            "name": "Corps et esprit",
+            "icon": "spell_holy_symbolofhope"
+          },
+          {
+            "name": "Persévérance",
+            "icon": "spell_holy_persistentshield"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "name": "Censure",
+            "icon": "spell_holy_penance"
+          },
+          {
+            "name": "Vie après la mort",
+            "icon": "inv_enchant_essenceeternallarge"
+          },
+          {
+            "name": "Force brillante",
+            "icon": "ability_paladin_blindinglight"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "name": "Lumière du naaru",
+            "icon": "spell_holy_holyguidance"
+          },
+          {
+            "name": "Ange gardien",
+            "icon": "ability_priest_pathofthedevout"
+          },
+          {
+            "name": "Symbole d'espoir",
+            "icon": "spell_holy_symbolofhope"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "name": "Vague de Lumière",
+            "icon": "spell_holy_surgeoflight"
+          },
+          {
+            "name": "Soins de lien",
+            "icon": "spell_holy_blindingheal"
+          },
+          {
+            "name": "Piété",
+            "icon": "spell_holy_prayerofmendingtga"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "name": "Étoile divine",
+            "icon": "spell_priest_divinestar"
+          },
+          {
+            "name": "Halo",
+            "icon": "ability_priest_halo"
+          },
+          {
+            "name": "Divinité",
+            "icon": "spell_holy_divinepurpose"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "name": "Apothéose",
+            "icon": "ability_priest_ascension"
+          },
+          {
+            "name": "Bénédiction",
+            "icon": "spell_holy_divineillumination"
+          },
+          {
+            "name": "Cercle de soins",
+            "icon": "spell_holy_circleofrenewal"
+          }
+        ]
+      }
     ],
     "builds": {
       "raid": {
-        "picks": [0, 0, 1, 0, 2, 2, 1],
+        "picks": [
+          0,
+          0,
+          1,
+          0,
+          2,
+          2,
+          1
+        ],
         "note": "Illumination pour le mana (Traînée de lumière si le mana suit). Persévérance sur les combats statiques. Apothéose si le raid a besoin d'un cooldown de soin de plus."
       },
       "mm": {
-        "picks": [1, 0, 1, 0, 0, 2, 0],
+        "picks": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          2,
+          0
+        ],
         "note": "Vague de Lumière ou Soins de lien au niveau 75, selon ta préférence. Apothéose est le choix habituel en donjon."
       }
     }
   },
   "gear": {
     "raid": [
-      { "slot": "Tête", "item": "Gilded Seraph's Crown", "source": "Aggramar", "quality": "epic", "tier": true },
-      { "slot": "Cou", "item": "Prydaz, Xavaric's Magnum Opus", "source": "Légendaire", "quality": "legendary" },
-      { "slot": "Épaules", "item": "Gilded Seraph's Amice", "source": "Conclave des Shivarra", "quality": "epic", "tier": true },
-      { "slot": "Dos", "item": "X'anshi, Return of Archbishop Benedictus", "source": "Légendaire", "quality": "legendary" },
-      { "slot": "Torse", "item": "Gilded Seraph's Robe", "source": "Essence d'Eonar", "quality": "epic", "tier": true },
-      { "slot": "Poignets", "item": "À confirmer", "source": "Varimathras", "quality": "todo" },
-      { "slot": "Mains", "item": "Gilded Seraph's Handwraps", "source": "Kin'garoth", "quality": "epic", "tier": true },
-      { "slot": "Taille", "item": "À confirmer", "source": "Essence d'Eonar", "quality": "todo" },
-      { "slot": "Jambes", "item": "Gilded Seraph's Leggings", "source": "Imonar le Chasseur d'âmes", "quality": "epic", "tier": true },
-      { "slot": "Pieds", "item": "À confirmer", "source": "Imonar le Chasseur d'âmes", "quality": "todo" },
-      { "slot": "Bague 1", "item": "À confirmer", "source": "Essence d'Eonar", "quality": "todo" },
-      { "slot": "Bague 2", "item": "À confirmer", "source": "Kin'garoth", "quality": "todo" },
-      { "slot": "Bijou 1", "item": "Aman'Thul's Vision", "source": "Légendaire (Panthéon)", "quality": "legendary" },
-      { "slot": "Bijou 2", "item": "Vitality Resonator", "source": "Antorus", "quality": "epic" }
+      {
+        "slot": "Tête",
+        "item": "Gilded Seraph's Crown",
+        "source": "Aggramar",
+        "quality": "epic",
+        "tier": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Prydaz, chef-d'œuvre de Xavaric",
+        "source": "Légendaire",
+        "quality": "legendary",
+        "id": 132444
+      },
+      {
+        "slot": "Épaules",
+        "item": "Gilded Seraph's Amice",
+        "source": "Le sabbat des Shivarra",
+        "quality": "epic",
+        "tier": true
+      },
+      {
+        "slot": "Dos",
+        "item": "X'anshi, Return of Archbishop Benedictus",
+        "source": "Légendaire",
+        "quality": "legendary"
+      },
+      {
+        "slot": "Torse",
+        "item": "Gilded Seraph's Robe",
+        "source": "Eonar la lieuse-de-vie",
+        "quality": "epic",
+        "tier": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "À confirmer",
+        "source": "Varimathras",
+        "quality": "todo"
+      },
+      {
+        "slot": "Mains",
+        "item": "Gilded Seraph's Handwraps",
+        "source": "Kin'garoth",
+        "quality": "epic",
+        "tier": true
+      },
+      {
+        "slot": "Taille",
+        "item": "À confirmer",
+        "source": "Eonar la lieuse-de-vie",
+        "quality": "todo"
+      },
+      {
+        "slot": "Jambes",
+        "item": "Gilded Seraph's Leggings",
+        "source": "Imonar le Chasseur d'âmes",
+        "quality": "epic",
+        "tier": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "À confirmer",
+        "source": "Imonar le Chasseur d'âmes",
+        "quality": "todo"
+      },
+      {
+        "slot": "Bague 1",
+        "item": "À confirmer",
+        "source": "Eonar la lieuse-de-vie",
+        "quality": "todo"
+      },
+      {
+        "slot": "Bague 2",
+        "item": "À confirmer",
+        "source": "Kin'garoth",
+        "quality": "todo"
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Vision d'Aman'Thul",
+        "source": "Légendaire, Argus l'Annihilateur",
+        "quality": "legendary",
+        "id": 154172
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Résonateur de vitalité",
+        "source": "Eonar la lieuse-de-vie",
+        "quality": "epic",
+        "id": 151970
+      }
     ],
     "mm": [],
     "notes": [
       "Les pièces de tier 21 (Séraphin doré) sont marquées. Leur bonus 4 pièces colle mal au style du Sacré : garde ton 4 pièces tier 20 si tu l'as, sauf gros gain de niveau d'objet.",
-      "Légendaires conseillés, du meilleur au moins bon : X'anshi, Prydaz, puis Velen's Future Sight. Aman'Thul's Vision ne compte pas dans la limite de deux légendaires.",
-      "Bijoux alternatifs : Eonar's Compassion (Panthéon), Carafe of Searing Light pour le mana, Garothi Feedback Conduit, Highfather's Machination, Tarratus Keystone et Ishkar's Felshield Emitter."
+      "Légendaires conseillés, du meilleur au moins bon : X'anshi, Prydaz, puis Velen's Future Sight. Vision d'Aman'Thul ne compte pas dans la limite de deux légendaires.",
+      "Bijoux alternatifs : Eonar's Compassion (Panthéon, Argus), Carafe of Searing Light pour le mana (Varimathras), Garothi Feedback Conduit (Brise-monde Garothi), Highfather's Machination (Le sabbat des Shivarra), Tarratus Keystone (Garde-portail Hasabel) et Ishkar's Felshield Emitter (Haut-commandement antoréen)."
     ]
   },
   "artifact": {
     "name": "T'uure, Fanal des naaru",
     "icon": "inv_staff_2h_artifacttuure_d_01",
     "ability": "Light of T'uure",
-    "relics": ["Sacré", "Vie", "Sacré"],
+    "relics": [
+      "Sacré",
+      "Vie",
+      "Sacré"
+    ],
     "relicPicks": [
-      { "type": "Sacré", "item": "Spark of Everburning Light", "source": "Essence d'Eonar" },
-      { "type": "Vie", "item": "Sporemound Seedling", "source": "Aggramar" },
-      { "type": "Sacré", "item": "Venerated Puresoul Idol", "source": "Imonar le Chasseur d'âmes" }
+      {
+        "type": "Sacré",
+        "item": "Spark of Everburning Light",
+        "source": "Eonar la lieuse-de-vie"
+      },
+      {
+        "type": "Vie",
+        "item": "Sporemound Seedling",
+        "source": "Aggramar"
+      },
+      {
+        "type": "Sacré",
+        "item": "Venerated Puresoul Idol",
+        "source": "Imonar le Chasseur d'âmes"
+      }
     ],
     "priority": [
       "Say Your Prayers",
