@@ -46,7 +46,7 @@
   const view = { tab: 'stats', mode: 'raid', role: 'all', q: '' };
 
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-  const wowhead = (name) => 'https://fr.wowhead.com/search?q=' + encodeURIComponent(name);
+  const wowhead = (name) => 'https://www.wowhead.com/search?q=' + encodeURIComponent(name);
   const initials = (s) => s.split(/[\s'-]+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join('').toUpperCase();
   const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
@@ -139,7 +139,7 @@
               <div class="stat-name">${esc(s.stat)}</div>
               <div class="stat-bar" role="img" aria-label="Poids ${s.weight}"><span style="width:${s.weight}%"></span></div>
             </div>
-            <span class="stat-value">${s.weight}</span>
+            <span class="stat-value">${s.target ? esc(s.target) : ''}</span>
           </div>`;
         }).join('')}
       </div>
@@ -148,7 +148,7 @@
 
   function renderGear(data) {
     const list = data.gear[view.mode] || [];
-    if (!list.length) return `<p class="empty-state">${svg('info')}Pas encore de liste BiS pour ce mode.</p>`;
+    if (!list.length) return `<p class="empty-state">${svg('info')}La liste Mythique+ arrive bientôt. En attendant, la liste raid reste une bonne base.</p>`;
     return `
       <h2 class="panel-title">${svg('gear')}Équipement BiS</h2>
       <div class="gear">
@@ -160,13 +160,14 @@
           <div class="gear-item ${g.quality || 'epic'}">
             <span class="slot-ic">${svg(g.quality === 'legendary' ? 'star' : 'gear', 20)}</span>
             <div class="gear-text">
-              <div class="gear-slot">${esc(g.slot)}</div>
+              <div class="gear-slot">${esc(g.slot)}${g.tier ? '<span class="tag">Tier</span>' : ''}</div>
               ${name}
               <div class="gear-source">${esc(g.source)}</div>
             </div>
           </div>`;
         }).join('')}
-      </div>`;
+      </div>
+      ${data.gear.notes ? `<div class="tips">${data.gear.notes.map((t) => `<div class="tip">${svg('info')}<span>${esc(t)}</span></div>`).join('')}</div>` : ''}`;
   }
 
   function renderTalents(data) {
@@ -204,10 +205,15 @@
         <div>
           <h3 class="panel-title">${svg('artifact')}Reliques</h3>
           <div class="relics">
-            ${a.relics.map((r) => `<div class="relic"><span class="gem" style="--gc:${RELIC_COLORS[r] || '#999'}"></span>${esc(r)}</div>`).join('')}
+            ${a.relics.map((r, i) => {
+              const pick = a.relicPicks && a.relicPicks[i];
+              return `<div class="relic"><span class="gem" style="--gc:${RELIC_COLORS[r] || '#999'}"></span>${esc(r)}
+                ${pick ? `<a class="relic-pick" href="${wowhead(pick.item)}" target="_blank" rel="noopener">${esc(pick.item)}</a><span class="relic-src">${esc(pick.source)}</span>` : ''}</div>`;
+            }).join('')}
           </div>
           <h3 class="panel-title" style="margin-top:24px">${svg('spark')}Creuset de Lumen-Néant</h3>
-          <div class="chips">${a.crucible.map((t) => `<span class="chip">${svg('star', 13)}${esc(t)}</span>`).join('')}</div>
+          ${a.crucible.length ? `<div class="chips">${a.crucible.map((t) => `<span class="chip">${svg('star', 13)}${esc(t)}</span>`).join('')}</div>`
+            : `<p class="empty-state">${svg('info')}À compléter.</p>`}
         </div>
         <div>
           <h3 class="panel-title">${svg('talents')}Ordre des traits</h3>
@@ -236,7 +242,7 @@
           <div class="pills">
             <span class="pill"><span class="role-${spec.role}">${svgFill(spec.role, 12)}</span>${ROLES[spec.role]}</span>
             <span class="pill">Patch 7.3.5</span>
-            ${data && data.status === 'exemple' ? `<span class="pill draft">${svg('info', 12)}Données d'exemple</span>` : ''}
+            ${data && data.status === 'brouillon' ? `<span class="pill draft">${svg('info', 12)}Brouillon à vérifier</span>` : ''}
           </div>
         </div>
       </section>`;
@@ -256,7 +262,8 @@
           ${Object.entries(MODES).map(([k, [l, ic]]) => `<button data-mode="${k}" aria-pressed="${view.mode === k}">${svg(ic)}<span class="lbl">${l}</span></button>`).join('')}
         </div>` : ''}
       </div>
-      <section class="panel" role="tabpanel">${RENDER[view.tab](data)}</section>`;
+      <section class="panel" role="tabpanel">${RENDER[view.tab](data)}</section>
+      ${data.sources ? `<p class="sources">${svg('link', 13)}Sources : ${data.sources.map((s) => `<a href="${s.url}" target="_blank" rel="noopener">${esc(s.label)}</a>`).join(' · ')}</p>` : ''}`;
 
     app.querySelectorAll('[data-tab]').forEach((b) => b.addEventListener('click', () => { view.tab = b.dataset.tab; renderSpec(classId, specId); }));
     app.querySelectorAll('[data-mode]').forEach((b) => b.addEventListener('click', () => { view.mode = b.dataset.mode; renderSpec(classId, specId); }));

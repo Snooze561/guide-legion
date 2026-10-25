@@ -314,7 +314,7 @@ h1 { font-family: Cinzel, serif; }
 .artifact-head p { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
 .artifact-cols { display: grid; gap: 24px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
 
-.relics { display: flex; gap: 14px; flex-wrap: wrap; }
+.relics { display: flex; gap: 14px; flex-wrap: wrap; align-items: flex-start; }
 .relic { display: grid; justify-items: center; gap: 6px; font-size: 13px; font-weight: 600; }
 .gem {
   width: 58px; height: 58px; transform: rotate(45deg); border-radius: 14px;
@@ -337,6 +337,14 @@ h1 { font-family: Cinzel, serif; }
 .chip svg { color: var(--accent-2); }
 
 .empty-state { color: var(--muted); display: flex; align-items: center; gap: 10px; }
+
+.tag { margin-left: 6px; padding: 0 6px; border-radius: 4px; font-size: 10px; letter-spacing: .04em; color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent); }
+.relic { max-width: 120px; text-align: center; }
+.relic-pick { font-weight: 500; font-size: 12px; color: var(--epic); line-height: 1.3; }
+.relic-pick:hover { text-decoration: underline; }
+.relic-src { font-weight: 400; font-size: 11px; color: var(--muted); }
+.sources { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; color: var(--muted); font-size: 12px; margin: 14px 4px 0; }
+.sources a { text-decoration: underline; text-underline-offset: 2px; }
 
 @media (max-width: 600px) {
   .hero { padding-top: 32px; }
