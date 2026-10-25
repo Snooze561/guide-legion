@@ -227,7 +227,11 @@
       <div class="trail"></div>`;
   }
 
-  // Arbre de l'arme prodigieuse : la capacité, puis les traits dans l'ordre, reliés en serpentin.
+  // Arbre de l'arme prodigieuse : la capacité, puis les traits dans l'ordre.
+  // Sur grand écran, disposition en boucle façon interface du jeu ; sur téléphone, serpentin sur 2 colonnes.
+  const TREE_SIZE = { w: 920, h: 650 };
+  const TREE_POINTS = [[290, 265], [342, 325], [230, 358], [208, 465], [305, 575], [432, 578], [540, 575], [563, 478], [585, 365], [498, 242], [395, 228], [470, 430], [690, 470], [700, 300]];
+
   function drawTrail(el, data, key) {
     const a = data.artifact;
     const nodes = [{ name: a.ability, id: a.abilityId, icon: a.icon, kind: 'gold', tag: 'Capacité' }]
@@ -239,40 +243,68 @@
     const panel = el.closest('.panel');
     const count = panel.querySelector('.trail-count');
 
-    function layout() {
+    const nodeHtml = (n, i, style, withLabel) => `
+      <button type="button" class="trail-node ${n.kind}${i < done ? ' taken' : ''}${i === done ? ' next' : ''}" data-i="${i}"
+        style="${style}" aria-pressed="${i < done}" aria-label="${i}. ${esc(n.name)}"${n.id ? ` data-wowhead="spell=${n.id}&domain=fr"` : ''}>
+        <span class="trail-dot">${n.icon ? `<img src="${ICON_URL}${n.icon}.jpg" alt="" loading="lazy" onerror="this.remove()">` : ''}<b>${n.kind === 'gold' ? svgFill('star', 14) : n.kind === 'final' ? svgFill('logo', 14) : i}</b></span>
+        ${withLabel ? `<span class="trail-label">${esc(n.name)}${n.tag ? `<em>${n.tag}</em>` : ''}</span>` : ''}
+      </button>`;
+
+    function treeLayout() {
+      const pts = TREE_POINTS.slice(0, nodes.length);
+      const lines = pts.slice(1).map((q, i) => {
+        const p = pts[i];
+        return `<line class="tree-line${i < done - 1 ? ' lit' : ''}" x1="${p[0]}" y1="${p[1]}" x2="${q[0]}" y2="${q[1]}"/>`;
+      }).join('');
+      el.className = 'trail tree';
+      el.style.height = '';
+      el.innerHTML = `
+        <div class="tree-board">
+          <div class="tree-title">${esc(a.name)}</div>
+          <div class="tree-relics">${a.relics.map((r) => `<span class="tree-relic" style="--gc:${RELIC_COLORS[r] || '#999'}" title="Relique ${esc(r)}"></span>`).join('')}</div>
+          <svg class="tree-svg" viewBox="0 0 ${TREE_SIZE.w} ${TREE_SIZE.h}" preserveAspectRatio="none" aria-hidden="true">
+            <path class="tree-crystal" d="M250 610 C120 520 120 330 230 200 C320 100 520 90 640 170 C760 250 760 470 650 590 Z"/>
+            <path class="tree-arc" d="M150 420 C80 230 260 80 470 95 C640 105 740 200 760 300"/>
+            ${lines}
+          </svg>
+          ${nodes.map((n, i) => nodeHtml(n, i, `left:${pts[i][0] / TREE_SIZE.w * 100}%;top:${pts[i][1] / TREE_SIZE.h * 100}%`, false)).join('')}
+        </div>
+        <ol class="tree-legend">
+          ${nodes.map((n, i) => `<li class="${i < done ? 'taken' : ''}${i === done ? ' next' : ''}"><span>${n.kind === 'gold' ? '★' : n.kind === 'final' ? '✦' : i}</span>
+            ${n.id ? `<a href="${spellLink(n.id)}" target="_blank" rel="noopener">${esc(n.name)}</a>` : esc(n.name)}${n.tag ? `<em>${n.tag}</em>` : ''}</li>`).join('')}
+        </ol>`;
+    }
+
+    function pathLayout() {
       const width = el.clientWidth;
-      const cols = width < 520 ? 2 : width < 820 ? 3 : 4;
-      const rowH = width < 520 ? 150 : 140;
-      const padX = width < 520 ? 70 : 90;
+      const cols = 2;
+      const rowH = 150;
+      const padX = 70;
       const rows = Math.ceil(nodes.length / cols);
       const pts = nodes.map((n, i) => {
         const r = Math.floor(i / cols);
         let c = i % cols;
         if (r % 2) c = cols - 1 - c;
-        return { x: cols === 1 ? width / 2 : padX + c * (width - 2 * padX) / (cols - 1), y: 60 + r * rowH };
+        return { x: padX + c * (width - 2 * padX) / (cols - 1), y: 60 + r * rowH };
       });
       const height = 60 + (rows - 1) * rowH + 80;
-
       const seg = (p, q, i) => {
         const lit = i < done - 1 ? ' lit' : '';
         if (p.y === q.y) return `<path class="trail-line${lit}" d="M${p.x} ${p.y} L${q.x} ${q.y}"/>`;
         const bend = p.x > width / 2 ? 70 : -70;
         return `<path class="trail-line${lit}" d="M${p.x} ${p.y} C${p.x + bend} ${p.y}, ${q.x + bend} ${q.y}, ${q.x} ${q.y}"/>`;
       };
-
+      el.className = 'trail';
       el.style.height = height + 'px';
       el.innerHTML = `
-        <svg class="trail-svg" width="${width}" height="${height}" aria-hidden="true">
-          ${pts.slice(1).map((q, i) => seg(pts[i], q, i)).join('')}
-        </svg>
-        ${nodes.map((n, i) => `
-          <button type="button" class="trail-node ${n.kind}${i < done ? ' taken' : ''}${i === done ? ' next' : ''}" data-i="${i}"
-            style="left:${pts[i].x}px;top:${pts[i].y}px" aria-pressed="${i < done}"${n.id ? ` data-wowhead="spell=${n.id}&domain=fr"` : ''}>
-            <span class="trail-dot">${n.icon ? `<img src="${ICON_URL}${n.icon}.jpg" alt="" loading="lazy" onerror="this.remove()">` : ''}<b>${n.kind === 'gold' ? svgFill('star', 20) : n.kind === 'final' ? svgFill('logo', 20) : i}</b></span>
-            <span class="trail-label">${esc(n.name)}${n.tag ? `<em>${n.tag}</em>` : ''}</span>
-          </button>`).join('')}`;
-      count.textContent = done + ' / ' + nodes.length + ' traits';
+        <svg class="trail-svg" width="${width}" height="${height}" aria-hidden="true">${pts.slice(1).map((q, i) => seg(pts[i], q, i)).join('')}</svg>
+        ${nodes.map((n, i) => nodeHtml(n, i, `left:${pts[i].x}px;top:${pts[i].y}px`, true)).join('')}`;
+    }
 
+    function layout() {
+      if (el.parentElement.clientWidth >= 640 && nodes.length <= TREE_POINTS.length) treeLayout();
+      else pathLayout();
+      count.textContent = done + ' / ' + nodes.length + ' traits';
       el.querySelectorAll('.trail-node').forEach((b) => b.addEventListener('click', () => {
         const i = +b.dataset.i;
         done = done === i + 1 ? i : i + 1;
