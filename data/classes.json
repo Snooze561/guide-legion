@@ -128,7 +128,8 @@
           "id": "ombre",
           "name": "Ombre",
           "role": "dps",
-          "icon": "spell_shadow_shadowwordpain"
+          "icon": "spell_shadow_shadowwordpain",
+          "ready": true
         }
       ],
       "icon": "classicon_priest"

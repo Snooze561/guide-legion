@@ -163,7 +163,7 @@
           <div class="gear-item ${g.quality || 'epic'}">
             <span class="slot-ic">${g.icon ? `<img src="${ICON_URL}${g.icon}.jpg" alt="" loading="lazy" onerror="this.remove()">` : ''}${svg(g.quality === 'legendary' ? 'star' : 'gear', 20)}</span>
             <div class="gear-text">
-              <div class="gear-slot">${esc(g.slot)}${g.tier ? '<span class="tag">Tier</span>' : ''}${g.unsure ? '<span class="tag" title="Nom français à confirmer">EN</span>' : ''}</div>
+              <div class="gear-slot">${esc(g.slot)}${g.tier ? '<span class="tag">Tier 21</span>' : ''}${g.tier20 ? '<span class="tag">Tier 20</span>' : ''}${g.unsure ? '<span class="tag" title="Nom français à confirmer">EN</span>' : ''}</div>
               ${name}
               <div class="gear-source">${esc(g.source)}</div>
             </div>
