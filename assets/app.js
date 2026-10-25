@@ -161,7 +161,7 @@
             : `<a class="gear-name" href="${itemLink(g)}" target="_blank" rel="noopener">${esc(g.item)}</a>`;
           return `
           <div class="gear-item ${g.quality || 'epic'}">
-            <span class="slot-ic">${svg(g.quality === 'legendary' ? 'star' : 'gear', 20)}</span>
+            <span class="slot-ic">${g.icon ? `<img src="${ICON_URL}${g.icon}.jpg" alt="" loading="lazy" onerror="this.remove()">` : ''}${svg(g.quality === 'legendary' ? 'star' : 'gear', 20)}</span>
             <div class="gear-text">
               <div class="gear-slot">${esc(g.slot)}${g.tier ? '<span class="tag">Tier</span>' : ''}${g.unsure ? '<span class="tag" title="Nom français à confirmer">EN</span>' : ''}</div>
               ${name}

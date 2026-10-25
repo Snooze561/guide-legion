@@ -242,106 +242,124 @@
       {
         "slot": "Tête",
         "item": "Couronne du séraphin doré",
+        "id": 152156,
         "source": "Aggramar",
         "quality": "epic",
-        "tier": true,
-        "id": 152156
+        "icon": "inv_helm_cloth_raidpriestmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Cou",
         "item": "Prydaz, chef-d'œuvre de Xavaric",
+        "id": 132444,
         "source": "Légendaire",
         "quality": "legendary",
-        "id": 132444
+        "icon": "inv_misc_necklace15"
       },
       {
         "slot": "Épaules",
         "item": "Amict du séraphin doré",
+        "id": 152159,
         "source": "Le sabbat des Shivarra",
         "quality": "epic",
-        "tier": true,
-        "id": 152159
+        "icon": "inv_shoulder_cloth_raidpriestmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Dos",
-        "item": "X'anshi, Return of Archbishop Benedictus",
+        "item": "X'anshi, voile de l'archevêque Benedictus",
+        "id": 137109,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_misc_cape_20"
       },
       {
         "slot": "Torse",
         "item": "Robe du séraphin doré",
+        "id": 152158,
         "source": "Eonar la lieuse-de-vie",
         "quality": "epic",
-        "tier": true,
-        "id": 152158
+        "icon": "inv_robe_cloth_raidpriestmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Poignets",
-        "item": "À confirmer",
+        "item": "Manchettes trempées de sang",
+        "id": 151954,
         "source": "Varimathras",
-        "quality": "todo"
+        "quality": "epic",
+        "icon": "inv_bracer_cloth_raidwarlockmythic_s_01"
       },
       {
         "slot": "Mains",
         "item": "Protège-mains du séraphin doré",
+        "id": 152155,
         "source": "Kin'garoth",
         "quality": "epic",
-        "tier": true,
-        "id": 152155
+        "icon": "inv_glove_cloth_raidpriestmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Taille",
-        "item": "À confirmer",
+        "item": "Corde de pétales de fleurs",
+        "id": 151952,
         "source": "Eonar la lieuse-de-vie",
-        "quality": "todo"
+        "quality": "epic",
+        "icon": "inv_belt_cloth_raidpriestmythic_s_01"
       },
       {
         "slot": "Jambes",
-        "item": "Jambières du séraphin doré",
-        "source": "Imonar le Chasseur d'âmes",
+        "item": "Jambards de l'exterminateur aguerri",
+        "id": 152424,
+        "source": "Haut-commandement antoréen",
         "quality": "epic",
-        "tier": true,
-        "id": 152157
+        "icon": "inv_pant_cloth_raidwarlockmythic_s_01"
       },
       {
         "slot": "Pieds",
-        "item": "À confirmer",
+        "item": "Sandalettes murmepas",
+        "id": 151939,
         "source": "Imonar le Chasseur d'âmes",
-        "quality": "todo"
+        "quality": "epic",
+        "icon": "inv_boot_cloth_raidmagemythic_s_01"
       },
       {
         "slot": "Bague 1",
-        "item": "À confirmer",
+        "item": "Jonc de la Lieuse-de-Vie",
+        "id": 152688,
         "source": "Eonar la lieuse-de-vie",
-        "quality": "todo"
+        "quality": "epic",
+        "icon": "inv_70_raid_ring7d"
       },
       {
         "slot": "Bague 2",
-        "item": "À confirmer",
+        "item": "Bague du forge-sargerite",
+        "id": 152064,
         "source": "Kin'garoth",
-        "quality": "todo"
+        "quality": "epic",
+        "icon": "inv_70_raid_ring4a"
       },
       {
         "slot": "Bijou 1",
         "item": "Vision d'Aman'Thul",
+        "id": 154172,
         "source": "Légendaire, Argus l'Annihilateur",
         "quality": "legendary",
-        "id": 154172
+        "icon": "inv_antorus_turquoise"
       },
       {
         "slot": "Bijou 2",
         "item": "Résonateur de vitalité",
+        "id": 151970,
         "source": "Eonar la lieuse-de-vie",
         "quality": "epic",
-        "id": 151970
+        "icon": "inv_7_0raid_trinket_08d"
       }
     ],
     "mm": [],
     "notes": [
-      "Les pièces de tier 21 (séraphin doré) sont marquées. Leur bonus 4 pièces colle mal au style du Sacré : garde ton 4 pièces tier 20 si tu l'as, sauf gros gain de niveau d'objet.",
-      "Légendaires conseillés, du meilleur au moins bon : X'anshi, Prydaz, puis Velen's Future Sight. Vision d'Aman'Thul ne compte pas dans la limite de deux légendaires.",
+      "Les pièces de tier 21 (séraphin doré) sont marquées : le guide en conseille 4 (tête, épaules, torse, mains). Leur bonus colle mal au style du Sacré : garde ton 4 pièces tier 20 si tu l'as, sauf gros gain de niveau d'objet.",
+      "Légendaires conseillés, du meilleur au moins bon : X'anshi, Prydaz, puis Vision future de Velen. La Vision d'Aman'Thul ne compte pas dans la limite de deux légendaires.",
       "Bijoux alternatifs : Eonar's Compassion (Panthéon, Argus), Carafe of Searing Light pour le mana (Varimathras), Garothi Feedback Conduit (Brise-monde Garothi), Highfather's Machination (Le sabbat des Shivarra), Tarratus Keystone (Garde-portail Hasabel) et Ishkar's Felshield Emitter (Haut-commandement antoréen)."
     ]
   },
