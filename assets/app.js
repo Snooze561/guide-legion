@@ -207,7 +207,7 @@
       </div>
       <div class="artifact-cols">
         <div>
-          <h3 class="panel-title">${svg('artifact')}Reliques</h3>
+          <h3 class="panel-title">${svg('artifact')}Reliques (le plus important en fin de jeu)</h3>
           <div class="relics">
             ${a.relics.map((r, i) => {
               const pick = a.relicPicks && a.relicPicks[i];
@@ -221,8 +221,8 @@
             : `<p class="empty-state">${svg('info')}À compléter.</p>`}
         </div>
       </div>
-      <h3 class="panel-title" style="margin-top:28px">${svg('talents')}Chemin à suivre</h3>
-      <p class="trail-help">Touche un trait pour noter ta progression : tous les traits précédents se cochent aussi. Ta progression reste enregistrée sur cet appareil.</p>
+      <h3 class="panel-title" style="margin-top:28px">${svg('talents')}Ordre pour un nouveau perso</h3>
+      <p class="trail-help">En fin de jeu, tous les traits finissent débloqués : cet ordre sert surtout à monter l'arme d'un nouveau perso ou d'un reroll. Touche un trait pour noter ta progression, elle reste enregistrée sur cet appareil.</p>
       <div class="trail-progress"><span class="trail-count"></span><button class="trail-reset" type="button">Réinitialiser</button></div>
       <div class="trail"></div>`;
   }
