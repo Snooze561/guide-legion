@@ -240,111 +240,111 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Douli of Chi'Ji",
+        "item": "Douli de Chi Ji",
         "id": 152145,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_helm__inv_leather_raidmonkmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Cou",
-        "item": "Vulcanarcore Pendant",
+        "item": "Pendentif du noyau de Vulcanar",
         "id": 151965,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_14b"
       },
       {
         "slot": "Épaules",
-        "item": "Stormstout's Last Gasp",
+        "item": "Dernier souffle de Brune d'Orage",
         "id": 151788,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_shoulder_leather_pvpmonk_g_01"
       },
       {
         "slot": "Dos",
-        "item": "Cloak of Chi'Ji",
+        "item": "Cape de Chi Ji",
         "id": 152143,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_cape_inv_leather_raidmonkmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Torse",
-        "item": "Harness of Oppressing Dark",
+        "item": "Harnais des ténèbres oppressantes",
         "id": 151980,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_chest_leather_raiddruidmythic_s_01"
       },
       {
         "slot": "Poignets",
-        "item": "Bracers of Wanton Morality",
+        "item": "Brassards de moralité discutable",
         "id": 152414,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_leather_raidroguemythic_s_01_bracer"
       },
       {
         "slot": "Mains",
-        "item": "Grips of Chi'Ji",
+        "item": "Poignes de Chi Ji",
         "id": 152144,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_glove__inv_leather_raidmonkmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Taille",
-        "item": "Portal Keeper's Cincture",
+        "item": "Cordelière de garde-portail",
         "id": 151990,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_leather_raidroguemythic_s_01_belt"
       },
       {
         "slot": "Jambes",
-        "item": "Leggings of Chi'Ji",
+        "item": "Jambières de Chi Ji",
         "id": 152146,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_pant__inv_leather_raidmonkmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Pieds",
-        "item": "Life-Bearing Footpads",
+        "item": "Souliers porte-vie",
         "id": 151981,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_boot__inv_leather_raidmonkmythic_s_01"
       },
       {
         "slot": "Bague 1",
-        "item": "Sullied Seal of the Pantheon",
+        "item": "Sceau du Panthéon souillé",
         "id": 151972,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring3a"
       },
       {
         "slot": "Bague 2",
-        "item": "Band of the Sargerite Smith",
+        "item": "Bague du forge-sargerite",
         "id": 152064,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring4a"
       },
       {
         "slot": "Bijou 1",
-        "item": "Golganneth's Vitality",
+        "item": "Vitalité de Golganneth",
         "id": 154174,
         "source": "Argus l'Annihilateur (panthéon)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_antorus_grey"
       },
       {
         "slot": "Bijou 2",
@@ -375,19 +375,19 @@
     "relicPicks": [
       {
         "type": "Vie",
-        "item": "Sporemound Seedling",
+        "item": "Bouture de sporetertre",
         "id": 152052,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Tempête",
-        "item": "Stormcaller's Fury",
+        "item": "Fureur de mande-foudre",
         "id": 152058,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Fer",
-        "item": "Ironvine Thorn",
+        "item": "Epine de vignefer",
         "id": 152047,
         "source": "Antorus, le Trône ardent"
       }

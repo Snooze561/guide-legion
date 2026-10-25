@@ -237,29 +237,29 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Light's Vanguard Helm",
+        "item": "Heaume de l'avant-garde de la Lumière",
         "id": 152151,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_helm_plate_raidpaladinmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Cou",
-        "item": "Chain of the Unmaker",
+        "item": "Chaîne de l'Annihilateur",
         "id": 152283,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_18a"
       },
       {
         "slot": "Épaules",
-        "item": "Light's Vanguard Shoulderplates",
+        "item": "Plaques d'épaules de l'avant-garde de la Lumière",
         "id": 152153,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_shoulder_plate_raidpaladinmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Dos",
@@ -271,85 +271,85 @@
       },
       {
         "slot": "Torse",
-        "item": "Light's Vanguard Breastplate",
+        "item": "Cuirasse de l'avant-garde de la Lumière",
         "id": 152148,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_chest_plate_raidpaladinmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Poignets",
-        "item": "Vambraces of Life's Assurance",
+        "item": "Protège-bras de rassérénement",
         "id": 152023,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_bracer_plate_raidpaladinmythic_s_01"
       },
       {
         "slot": "Mains",
-        "item": "Light's Vanguard Gauntlets",
+        "item": "Gantelets de l'avant-garde de la Lumière",
         "id": 152150,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_glove_plate_raidpaladinmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Taille",
-        "item": "Grond-Father Girdle",
+        "item": "Ceinturon du Père Grond",
         "id": 152022,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_plate_raidwarriormythic_s_01buckle"
       },
       {
         "slot": "Jambes",
-        "item": "Cosmos-Culling Legplates",
+        "item": "Cuissards de purge cosmique",
         "id": 152016,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_pant_plate_raidpaladinmythic_s_01"
       },
       {
         "slot": "Pieds",
-        "item": "Burning Coven Sabatons",
+        "item": "Solerets du Sabbat ardent",
         "id": 152010,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_plate_raidwarriormythic_s_01boots"
       },
       {
         "slot": "Bague 1",
-        "item": "Sullied Seal of the Pantheon",
+        "item": "Sceau du Panthéon souillé",
         "id": 151972,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring3a"
       },
       {
         "slot": "Bague 2",
-        "item": "Soul of the Highlord",
+        "item": "Ame du généralissime",
         "id": 151644,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_jewelry_ring_68"
       },
       {
         "slot": "Bijou 1",
-        "item": "Seeping Scourgewing",
+        "item": "Aile du fléau suintante",
         "id": 151964,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "ability_creature_poison_03"
       },
       {
         "slot": "Bijou 2",
-        "item": "Aman'Thul's Vision",
+        "item": "Vision d'Aman'Thul",
         "id": 154172,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_antorus_turquoise"
       }
     ],
     "mm": [],
@@ -372,19 +372,19 @@
     "relicPicks": [
       {
         "type": "Sacré",
-        "item": "Reorigination Spark",
+        "item": "Etincelle de réorigination",
         "id": 155851,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Feu",
-        "item": "Pyretic Bronze Clasp",
+        "item": "Fermoir pyrétique en bronze",
         "id": 152038,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Sacré",
-        "item": "Reorigination Spark",
+        "item": "Etincelle de réorigination",
         "id": 155851,
         "source": "Antorus, le Trône ardent"
       }

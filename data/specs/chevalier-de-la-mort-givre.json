@@ -237,47 +237,47 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Dreadwake Helm",
+        "item": "Heaume de Noirsillage",
         "id": 152115,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_helm_plate_raiddeathknightmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Cou",
-        "item": "Chain of the Unmaker",
+        "item": "Chaîne de l'Annihilateur",
         "id": 152283,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_18a"
       },
       {
         "slot": "Épaules",
-        "item": "Dreadwake Pauldrons",
+        "item": "Espauliers de Noirsillage",
         "id": 152117,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_shoulder_plate_raiddeathknightmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Dos",
-        "item": "Dreadwake Greatcloak",
+        "item": "Grande cape de Noirsillage",
         "id": 152113,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_cape_plate_raiddeathknightmythic_s_01_long",
+        "tier": true
       },
       {
         "slot": "Torse",
-        "item": "Dreadwake Bonecage",
+        "item": "Cage thoracique de Noirsillage",
         "id": 152112,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_chest_plate_raiddeathknightmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Poignets",
@@ -289,11 +289,11 @@
       },
       {
         "slot": "Mains",
-        "item": "Nascent Deathbringer's Clutches",
+        "item": "Étreintes du porte-mort naissant",
         "id": 152686,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_glove_plate_raiddeathknightmythic_s_01"
       },
       {
         "slot": "Taille",
@@ -305,51 +305,51 @@
       },
       {
         "slot": "Jambes",
-        "item": "Cosmos-Culling Legplates",
+        "item": "Cuissards de purge cosmique",
         "id": 152016,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_pant_plate_raidpaladinmythic_s_01"
       },
       {
         "slot": "Pieds",
-        "item": "Doomwalker Warboots",
+        "item": "Bottes de guerre de marche-funeste",
         "id": 152009,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_boot_plate_raiddeathknightmythic_s_01"
       },
       {
         "slot": "Bague 1",
-        "item": "Zealous Tormentor's Ring",
+        "item": "Anneau du tourmenteur zélé",
         "id": 152284,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_quest_ring7a"
       },
       {
         "slot": "Bague 2",
-        "item": "Seal of the Portalmaster",
+        "item": "Sceau du maître de portail",
         "id": 152063,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring2c"
       },
       {
         "slot": "Bijou 1",
-        "item": "Aman'Thul's Vision",
+        "item": "Vision d'Aman'Thul",
         "id": 154172,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_antorus_turquoise"
       },
       {
         "slot": "Bijou 2",
-        "item": "Shadow-Singed Fang",
+        "item": "Croc roussi par l'ombre",
         "id": 151968,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_misc_blacksaberonfang"
       }
     ],
     "mm": [],
@@ -372,19 +372,19 @@
     "relicPicks": [
       {
         "type": "Givre",
-        "item": "Rime of the Spirit Realm",
+        "item": "Frimas du monde des esprits",
         "id": 155850,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Ombre",
-        "item": "Volatile Soul Fragment",
+        "item": "Fragment d'âme instable",
         "id": 155852,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Givre",
-        "item": "Rime of the Spirit Realm",
+        "item": "Frimas du monde des esprits",
         "id": 155850,
         "source": "Antorus, le Trône ardent"
       }

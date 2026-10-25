@@ -237,20 +237,20 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Bearmantle Headdress",
+        "item": "Coiffure de Mantelours",
         "id": 152127,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_helm_leather_raiddruidmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Cou",
-        "item": "Riveted Choker of Delirium",
+        "item": "Sautoir riveté du délire",
         "id": 151966,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_04b"
       },
       {
         "slot": "Épaules",
@@ -270,12 +270,12 @@
       },
       {
         "slot": "Torse",
-        "item": "Bearmantle Harness",
+        "item": "Harnais de Mantelours",
         "id": 152124,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_chest_leather_raiddruidmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Poignets",
@@ -295,27 +295,27 @@
       },
       {
         "slot": "Taille",
-        "item": "Death-Enveloping Cincture",
+        "item": "Cordelette de l'étau de mort",
         "id": 151986,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_buckle_leather_raiddemonhuntermythic_q_01"
       },
       {
         "slot": "Jambes",
-        "item": "Stormheart Legguards",
+        "item": "Garde-jambes cœur-de-tempête",
         "id": 147137,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_pant_leather_raiddruidmythic_r_01"
       },
       {
         "slot": "Pieds",
-        "item": "Vicious Flamepaws",
+        "item": "Pattes-de-feu vicieuses",
         "id": 151983,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_boot_leather_raiddruidmythic_s_01"
       },
       {
         "slot": "Bague 1",
@@ -327,27 +327,27 @@
       },
       {
         "slot": "Bague 2",
-        "item": "Sullied Seal of the Pantheon",
+        "item": "Sceau du Panthéon souillé",
         "id": 151972,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring3a"
       },
       {
         "slot": "Bijou 1",
-        "item": "Acrid Catalyst Injector",
+        "item": "Injecteur de catalyseur âcre",
         "id": 151955,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_trinket_01c"
       },
       {
         "slot": "Bijou 2",
-        "item": "Aman'Thul's Vision",
+        "item": "Vision d'Aman'Thul",
         "id": 154172,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_antorus_turquoise"
       }
     ],
     "mm": [],
@@ -370,19 +370,19 @@
     "relicPicks": [
       {
         "type": "Arcanes",
-        "item": "Miniaturized Cosmic Beacon",
+        "item": "Balise cosmique miniaturisée",
         "id": 155846,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Vie",
-        "item": "Root of the Lifebinder",
+        "item": "Racine de la Lieuse-de-Vie",
         "id": 155854,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Arcanes",
-        "item": "Miniaturized Cosmic Beacon",
+        "item": "Balise cosmique miniaturisée",
         "id": 155846,
         "source": "Antorus, le Trône ardent"
       }

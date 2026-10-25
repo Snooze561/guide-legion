@@ -237,46 +237,46 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Cavalier Hat of the Dashing Scoundrel",
+        "item": "Chapeau de cavalier du brigand audacieux",
         "id": 152163,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_leather_raidroguemythic_s_01_helm",
+        "tier": true
       },
       {
         "slot": "Cou",
-        "item": "Vulcanarcore Pendant",
+        "item": "Pendentif du noyau de Vulcanar",
         "id": 151965,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_14b"
       },
       {
         "slot": "Épaules",
-        "item": "Fanged Slayer's Shoulderpads",
+        "item": "Protège-épaules de tueur carnassier",
         "id": 147174,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_shoulder_leather_raidroguemythic_r_01"
       },
       {
         "slot": "Dos",
-        "item": "Cloak of the Dashing Scoundrel",
+        "item": "Cape du brigand audacieux",
         "id": 152161,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_leather_raidroguemythic_s_01_cape",
+        "tier": true
       },
       {
         "slot": "Torse",
-        "item": "Vest of the Dashing Scoundrel",
+        "item": "Gilet du brigand audacieux",
         "id": 152160,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_leather_raidroguemythic_s_01_chest",
+        "tier": true
       },
       {
         "slot": "Poignets",
@@ -288,36 +288,36 @@
       },
       {
         "slot": "Mains",
-        "item": "Fanged Slayer's Handguards",
+        "item": "Garde-mains de tueur carnassier",
         "id": 147171,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_glove_leather_raidroguemythic_r_01"
       },
       {
         "slot": "Taille",
-        "item": "Portal Keeper's Cincture",
+        "item": "Cordelière de garde-portail",
         "id": 151990,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_leather_raidroguemythic_s_01_belt"
       },
       {
         "slot": "Jambes",
-        "item": "Pants of the Dashing Scoundrel",
+        "item": "Pantalon du brigand audacieux",
         "id": 152164,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_leather_raidroguemythic_s_01_pant",
+        "tier": true
       },
       {
         "slot": "Pieds",
-        "item": "Life-Bearing Footpads",
+        "item": "Souliers porte-vie",
         "id": 151981,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_boot__inv_leather_raidmonkmythic_s_01"
       },
       {
         "slot": "Bague 1",
@@ -329,27 +329,27 @@
       },
       {
         "slot": "Bague 2",
-        "item": "Band of the Sargerite Smith",
+        "item": "Bague du forge-sargerite",
         "id": 152064,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring4a"
       },
       {
         "slot": "Bijou 1",
-        "item": "Seeping Scourgewing",
+        "item": "Aile du fléau suintante",
         "id": 151964,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "ability_creature_poison_03"
       },
       {
         "slot": "Bijou 2",
-        "item": "Golganneth's Vitality",
+        "item": "Vitalité de Golganneth",
         "id": 154174,
         "source": "Argus l'Annihilateur (panthéon)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_antorus_grey"
       }
     ],
     "mm": [],
@@ -372,19 +372,19 @@
     "relicPicks": [
       {
         "type": "Gangrène",
-        "item": "Condensed Blight Orb",
+        "item": "Orbe chancreux condensé",
         "id": 155848,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Ombre",
-        "item": "Crepuscular Skitterer Egg",
+        "item": "Œuf de glisseuse crépusculaire",
         "id": 152057,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Gangrène",
-        "item": "Condensed Blight Orb",
+        "item": "Orbe chancreux condensé",
         "id": 155848,
         "source": "Antorus, le Trône ardent"
       }

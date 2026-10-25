@@ -237,20 +237,20 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Dreadwake Helm",
+        "item": "Heaume de Noirsillage",
         "id": 152115,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_helm_plate_raiddeathknightmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Cou",
-        "item": "Riveted Choker of Delirium",
+        "item": "Sautoir riveté du délire",
         "id": 151966,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_04b"
       },
       {
         "slot": "Épaules",
@@ -262,94 +262,94 @@
       },
       {
         "slot": "Dos",
-        "item": "Dreadwake Greatcloak",
+        "item": "Grande cape de Noirsillage",
         "id": 152113,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_cape_plate_raiddeathknightmythic_s_01_long",
+        "tier": true
       },
       {
         "slot": "Torse",
-        "item": "Cold Heart",
+        "item": "Cœur froid",
         "id": 151796,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_chest_plate_raiddeathknight_p_01"
       },
       {
         "slot": "Poignets",
-        "item": "Vambraces of Life's Assurance",
+        "item": "Protège-bras de rassérénement",
         "id": 152023,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_bracer_plate_raidpaladinmythic_s_01"
       },
       {
         "slot": "Mains",
-        "item": "Dreadwake Gauntlets",
+        "item": "Gantelets de Noirsillage",
         "id": 152114,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_glove_plate_raiddeathknightmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Taille",
-        "item": "Nathrezim Battle Girdle",
+        "item": "Ceinturon de bataille nathrezim",
         "id": 152020,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_belt_plate_raidpaladinmythic_s_01"
       },
       {
         "slot": "Jambes",
-        "item": "Dreadwake Legplates",
+        "item": "Cuissards de Noirsillage",
         "id": 152116,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_pant_plate_raiddeathknightmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Pieds",
-        "item": "Burning Coven Sabatons",
+        "item": "Solerets du Sabbat ardent",
         "id": 152010,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_plate_raidwarriormythic_s_01boots"
       },
       {
         "slot": "Bague 1",
-        "item": "Loop of the Life-Binder",
+        "item": "Jonc de la Lieuse-de-Vie",
         "id": 152688,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring7d"
       },
       {
         "slot": "Bague 2",
-        "item": "Sullied Seal of the Pantheon",
+        "item": "Sceau du Panthéon souillé",
         "id": 151972,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring3a"
       },
       {
         "slot": "Bijou 1",
-        "item": "Khaz'goroth's Courage",
+        "item": "Courage de Khaz'goroth",
         "id": 154176,
         "source": "Argus l'Annihilateur (panthéon)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_antorus_red"
       },
       {
         "slot": "Bijou 2",
-        "item": "Seeping Scourgewing",
+        "item": "Aile du fléau suintante",
         "id": 151964,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "ability_creature_poison_03"
       }
     ],
     "mm": [],
@@ -372,19 +372,19 @@
     "relicPicks": [
       {
         "type": "Feu",
-        "item": "Flickering Ember of Rage",
+        "item": "Braise de rage frémissante",
         "id": 155849,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Ombre",
-        "item": "Corrupting Dewclaw",
+        "item": "Griffe-rosée corruptrice",
         "id": 152056,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Sang",
-        "item": "Cruor of the Avenger",
+        "item": "Cruor du vengeur",
         "id": 155847,
         "source": "Antorus, le Trône ardent"
       }

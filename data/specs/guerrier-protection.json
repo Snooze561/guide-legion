@@ -239,119 +239,119 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Helmet of the Hidden Sanctuary",
+        "item": "Casque du sanctuaire caché",
         "id": 152013,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_plate_raidwarriormythic_s_01helm"
       },
       {
         "slot": "Cou",
-        "item": "Riveted Choker of Delirium",
+        "item": "Sautoir riveté du délire",
         "id": 151966,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_04b"
       },
       {
         "slot": "Épaules",
-        "item": "Juggernaut Pauldrons",
+        "item": "Espauliers du mastodonte",
         "id": 152183,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_plate_raidwarriormythic_s_01shoulders",
+        "tier": true
       },
       {
         "slot": "Dos",
-        "item": "Juggernaut Cloak",
+        "item": "Cape du mastodonte",
         "id": 152179,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_plate_raidwarriormythic_s_01cape",
+        "tier": true
       },
       {
         "slot": "Torse",
-        "item": "Juggernaut Breastplate",
+        "item": "Cuirasse du mastodonte",
         "id": 152178,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_plate_raidwarriormythic_s_01chest",
+        "tier": true
       },
       {
         "slot": "Poignets",
-        "item": "Vambraces of Life's Assurance",
+        "item": "Protège-bras de rassérénement",
         "id": 152023,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_bracer_plate_raidpaladinmythic_s_01"
       },
       {
         "slot": "Mains",
-        "item": "Juggernaut Gauntlets",
+        "item": "Gantelets du mastodonte",
         "id": 152180,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_plate_raidwarriormythic_s_01gloves",
+        "tier": true
       },
       {
         "slot": "Taille",
-        "item": "Grond-Father Girdle",
+        "item": "Ceinturon du Père Grond",
         "id": 152022,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_plate_raidwarriormythic_s_01buckle"
       },
       {
         "slot": "Jambes",
-        "item": "Cosmos-Culling Legplates",
+        "item": "Cuissards de purge cosmique",
         "id": 152016,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_pant_plate_raidpaladinmythic_s_01"
       },
       {
         "slot": "Pieds",
-        "item": "Burning Coven Sabatons",
+        "item": "Solerets du Sabbat ardent",
         "id": 152010,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_plate_raidwarriormythic_s_01boots"
       },
       {
         "slot": "Bague 1",
-        "item": "Loop of the Life-Binder",
+        "item": "Jonc de la Lieuse-de-Vie",
         "id": 152688,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring7d"
       },
       {
         "slot": "Bague 2",
-        "item": "Seal of the Portalmaster",
+        "item": "Sceau du maître de portail",
         "id": 152063,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring2c"
       },
       {
         "slot": "Bijou 1",
-        "item": "Aggramar's Conviction",
+        "item": "Conviction d'Aggramar",
         "id": 154173,
         "source": "Argus l'Annihilateur (panthéon)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_antorus_orange"
       },
       {
         "slot": "Bijou 2",
-        "item": "Gorshalach's Legacy",
+        "item": "Héritage de Gorshalach",
         "id": 152093,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_sword_1h_firelandsraid_d_01"
       }
     ],
     "mm": [],
@@ -374,19 +374,19 @@
     "relicPicks": [
       {
         "type": "Fer",
-        "item": "Mote of the Forgemaster",
+        "item": "Particule du maître-forge",
         "id": 155855,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Sang",
-        "item": "Cruor of the Avenger",
+        "item": "Cruor du vengeur",
         "id": 155847,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Feu",
-        "item": "Tormentor's Brand",
+        "item": "Marque du tourmenteur",
         "id": 152037,
         "source": "Antorus, le Trône ardent"
       }

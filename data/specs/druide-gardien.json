@@ -248,11 +248,11 @@
       },
       {
         "slot": "Cou",
-        "item": "Vulcanarcore Pendant",
+        "item": "Pendentif du noyau de Vulcanar",
         "id": 151965,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_14b"
       },
       {
         "slot": "Épaules",
@@ -264,84 +264,84 @@
       },
       {
         "slot": "Dos",
-        "item": "Fury of Nature",
+        "item": "Fureur de la nature",
         "id": 151802,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_cape_draenorquest90_b_03_mail"
       },
       {
         "slot": "Torse",
-        "item": "Bearmantle Harness",
+        "item": "Harnais de Mantelours",
         "id": 152124,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_chest_leather_raiddruidmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Poignets",
-        "item": "Bracers of Wanton Morality",
+        "item": "Brassards de moralité discutable",
         "id": 152414,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_leather_raidroguemythic_s_01_bracer"
       },
       {
         "slot": "Mains",
-        "item": "Grips of Hungering Shadows",
+        "item": "Poignes des ombres affamées",
         "id": 152086,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_leather_raidroguemythic_s_01_glove"
       },
       {
         "slot": "Taille",
-        "item": "Belt of Fractured Sanity",
+        "item": "Ceinture de raison brisée",
         "id": 151991,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_belt__inv_leather_raidmonkmythic_s_01"
       },
       {
         "slot": "Jambes",
-        "item": "Breach-Blocker Legguards",
+        "item": "Garde-jambes de bloque-brèche",
         "id": 151987,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_pant_leather_raiddruidmythic_s_01"
       },
       {
         "slot": "Pieds",
-        "item": "Depraved Machinist's Footpads",
+        "item": "Souliers du machiniste dépravé",
         "id": 152412,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_leather_raiddemonhuntermythic_q_01boots"
       },
       {
         "slot": "Bague 1",
-        "item": "Sullied Seal of the Pantheon",
+        "item": "Sceau du Panthéon souillé",
         "id": 151972,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring3a"
       },
       {
         "slot": "Bague 2",
-        "item": "Seal of the Portalmaster",
+        "item": "Sceau du maître de portail",
         "id": 152063,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring2c"
       },
       {
         "slot": "Bijou 1",
-        "item": "Golganneth's Vitality",
+        "item": "Vitalité de Golganneth",
         "id": 154174,
         "source": "Argus l'Annihilateur (panthéon)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_antorus_grey"
       },
       {
         "slot": "Bijou 2",
@@ -372,7 +372,7 @@
     "relicPicks": [
       {
         "type": "Feu",
-        "item": "Tormentor's Brand",
+        "item": "Marque du tourmenteur",
         "id": 152037,
         "source": "Antorus, le Trône ardent"
       },
@@ -384,7 +384,7 @@
       },
       {
         "type": "Vie",
-        "item": "Eidolon of Life",
+        "item": "Eidolon de vie",
         "id": 152051,
         "source": "Antorus, le Trône ardent"
       }

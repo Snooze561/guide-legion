@@ -236,79 +236,79 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Helm of the Awakened Soul",
+        "item": "Casque de l'âme éveillée",
         "id": 152423,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_helm_mail_raidshamanmythic_s_01"
       },
       {
         "slot": "Cou",
-        "item": "Chain of the Unmaker",
+        "item": "Chaîne de l'Annihilateur",
         "id": 152283,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_18a"
       },
       {
         "slot": "Épaules",
-        "item": "Pauldrons of Venerated Spirits",
+        "item": "Espauliers des esprits vénérés",
         "id": 152171,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_shoulder_mail_raidshamanmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Dos",
-        "item": "Drape of Venerated Spirits",
+        "item": "Drapé des esprits vénérés",
         "id": 152167,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_cape_mail_raidshamanmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Torse",
-        "item": "Robes of Venerated Spirits",
+        "item": "Robe des esprits vénérés",
         "id": 152166,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_robe_mail_raidshamanmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Poignets",
-        "item": "Scalding Shatterguards",
+        "item": "Protège-poignets brûlants",
         "id": 152280,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_bracer_mail_raidhuntermythic_s_01"
       },
       {
         "slot": "Mains",
-        "item": "Smoldering Heart",
+        "item": "Coeur fumant",
         "id": 151819,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_gauntlets_85"
       },
       {
         "slot": "Taille",
-        "item": "World-Ravager Waistguard",
+        "item": "Sangle du ravageur de mondes",
         "id": 152683,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_belt_mail_raidshamanmythic_s_01"
       },
       {
         "slot": "Jambes",
-        "item": "Leggings of Venerated Spirits",
+        "item": "Jambières des esprits vénérés",
         "id": 152170,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_pant_mail_raidshamanmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Pieds",
@@ -320,35 +320,35 @@
       },
       {
         "slot": "Bague 1",
-        "item": "Sullied Seal of the Pantheon",
+        "item": "Sceau du Panthéon souillé",
         "id": 151972,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring3a"
       },
       {
         "slot": "Bague 2",
-        "item": "Band of the Sargerite Smith",
+        "item": "Bague du forge-sargerite",
         "id": 152064,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring4a"
       },
       {
         "slot": "Bijou 1",
-        "item": "Acrid Catalyst Injector",
+        "item": "Injecteur de catalyseur âcre",
         "id": 151955,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_trinket_01c"
       },
       {
         "slot": "Bijou 2",
-        "item": "Aman'Thul's Vision",
+        "item": "Vision d'Aman'Thul",
         "id": 154172,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_antorus_turquoise"
       }
     ],
     "mm": [],
@@ -371,19 +371,19 @@
     "relicPicks": [
       {
         "type": "Tempête",
-        "item": "Conch of the Thunderer",
+        "item": "Conque du foudroyeur",
         "id": 155853,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Givre",
-        "item": "Rime of the Spirit Realm",
+        "item": "Frimas du monde des esprits",
         "id": 155850,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Tempête",
-        "item": "Conch of the Thunderer",
+        "item": "Conque du foudroyeur",
         "id": 155853,
         "source": "Antorus, le Trône ardent"
       }

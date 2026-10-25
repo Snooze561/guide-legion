@@ -237,79 +237,79 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Serpentstalker Helmet",
+        "item": "Casque du traqueur de serpent",
         "id": 152133,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_helm_mail_raidhuntermythic_s_01",
+        "tier": true
       },
       {
         "slot": "Cou",
-        "item": "Chain of the Unmaker",
+        "item": "Chaîne de l'Annihilateur",
         "id": 152283,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_18a"
       },
       {
         "slot": "Épaules",
-        "item": "Serpentstalker Mantle",
+        "item": "Mantelet du traqueur de serpent",
         "id": 152135,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_shoulder_mail_raidhuntermythic_s_01",
+        "tier": true
       },
       {
         "slot": "Dos",
-        "item": "Wildstalker Cape",
+        "item": "Cape de traqueur sauvage",
         "id": 147140,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_cape_raidhuntermythic_r_01"
       },
       {
         "slot": "Torse",
-        "item": "Wildstalker Chestguard",
+        "item": "Corselet de traqueur sauvage",
         "id": 147139,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_chest_mail_raidhuntermythic_r_01"
       },
       {
         "slot": "Poignets",
-        "item": "Wristguards of Ominous Forging",
+        "item": "Garde-poignets de forge inquiétante",
         "id": 152089,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_bracer_mail_raidshamanmythic_s_01"
       },
       {
         "slot": "Mains",
-        "item": "Serpentstalker Grips",
+        "item": "Poignes du traqueur de serpent",
         "id": 152132,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_glove_mail_raidhuntermythic_s_01",
+        "tier": true
       },
       {
         "slot": "Taille",
-        "item": "Depraved Tactician's Waistguard",
+        "item": "Sangle du tacticien dépravé",
         "id": 152006,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_belt_mail_raidshamanmythic_s_01"
       },
       {
         "slot": "Jambes",
-        "item": "Serpentstalker Legguards",
+        "item": "Garde-jambes du traqueur de serpent",
         "id": 152134,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_pant_mail_raidhuntermythic_s_01",
+        "tier": true
       },
       {
         "slot": "Pieds",
@@ -321,35 +321,35 @@
       },
       {
         "slot": "Bague 1",
-        "item": "Soul of the Huntmaster",
+        "item": "Ame du maître chasseur",
         "id": 151641,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_70_quest_ring8a"
       },
       {
         "slot": "Bague 2",
-        "item": "Sullied Seal of the Pantheon",
+        "item": "Sceau du Panthéon souillé",
         "id": 151972,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring3a"
       },
       {
         "slot": "Bijou 1",
-        "item": "Aman'Thul's Vision",
+        "item": "Vision d'Aman'Thul",
         "id": 154172,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_antorus_turquoise"
       },
       {
         "slot": "Bijou 2",
-        "item": "Shadow-Singed Fang",
+        "item": "Croc roussi par l'ombre",
         "id": 151968,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_misc_blacksaberonfang"
       }
     ],
     "mm": [],
@@ -372,19 +372,19 @@
     "relicPicks": [
       {
         "type": "Tempête",
-        "item": "Conch of the Thunderer",
+        "item": "Conque du foudroyeur",
         "id": 155853,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Sang",
-        "item": "Cruor of the Avenger",
+        "item": "Cruor du vengeur",
         "id": 155847,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Vie",
-        "item": "Fraternal Fervor",
+        "item": "Ferveur fraternelle",
         "id": 152291,
         "source": "Antorus, le Trône ardent"
       }

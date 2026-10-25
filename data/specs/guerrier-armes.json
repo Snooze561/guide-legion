@@ -237,55 +237,55 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Juggernaut Helm",
+        "item": "Heaume du mastodonte",
         "id": 152181,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_plate_raidwarriormythic_s_01helm",
+        "tier": true
       },
       {
         "slot": "Cou",
-        "item": "Riveted Choker of Delirium",
+        "item": "Sautoir riveté du délire",
         "id": 151966,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_04b"
       },
       {
         "slot": "Épaules",
-        "item": "Juggernaut Pauldrons",
+        "item": "Espauliers du mastodonte",
         "id": 152183,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_plate_raidwarriormythic_s_01shoulders",
+        "tier": true
       },
       {
         "slot": "Dos",
-        "item": "Juggernaut Cloak",
+        "item": "Cape du mastodonte",
         "id": 152179,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_plate_raidwarriormythic_s_01cape",
+        "tier": true
       },
       {
         "slot": "Torse",
-        "item": "Juggernaut Breastplate",
+        "item": "Cuirasse du mastodonte",
         "id": 152178,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_plate_raidwarriormythic_s_01chest",
+        "tier": true
       },
       {
         "slot": "Poignets",
-        "item": "Vambraces of Life's Assurance",
+        "item": "Protège-bras de rassérénement",
         "id": 152023,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_bracer_plate_raidpaladinmythic_s_01"
       },
       {
         "slot": "Mains",
@@ -297,35 +297,35 @@
       },
       {
         "slot": "Taille",
-        "item": "Grond-Father Girdle",
+        "item": "Ceinturon du Père Grond",
         "id": 152022,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_plate_raidwarriormythic_s_01buckle"
       },
       {
         "slot": "Jambes",
-        "item": "Cosmos-Culling Legplates",
+        "item": "Cuissards de purge cosmique",
         "id": 152016,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_pant_plate_raidpaladinmythic_s_01"
       },
       {
         "slot": "Pieds",
-        "item": "Eredar Warcouncil Sabatons",
+        "item": "Solerets du conseil de guerre érédar",
         "id": 152011,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_boot_plate_raidpaladinmythic_s_01"
       },
       {
         "slot": "Bague 1",
-        "item": "Sullied Seal of the Pantheon",
+        "item": "Sceau du Panthéon souillé",
         "id": 151972,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring3a"
       },
       {
         "slot": "Bague 2",
@@ -337,19 +337,19 @@
       },
       {
         "slot": "Bijou 1",
-        "item": "Gorshalach's Legacy",
+        "item": "Héritage de Gorshalach",
         "id": 152093,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_sword_1h_firelandsraid_d_01"
       },
       {
         "slot": "Bijou 2",
-        "item": "Aman'Thul's Vision",
+        "item": "Vision d'Aman'Thul",
         "id": 154172,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_antorus_turquoise"
       }
     ],
     "mm": [],
@@ -372,19 +372,19 @@
     "relicPicks": [
       {
         "type": "Fer",
-        "item": "Fasces of the Endless Legions",
+        "item": "Faisceau des légions sans fin",
         "id": 152293,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Sang",
-        "item": "Nathrezim Incisor",
+        "item": "Incisive de nathrezim",
         "id": 152092,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Ombre",
-        "item": "Unwavering Soul Essence",
+        "item": "Essence d'âme inébranlable",
         "id": 152054,
         "source": "Antorus, le Trône ardent"
       }

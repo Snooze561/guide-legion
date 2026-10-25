@@ -240,61 +240,61 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Titan-Subjugator's Visage",
+        "item": "Visage du subjugateur de Titan",
         "id": 152014,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_helm_plate_raiddeathknightmythic_s_01"
       },
       {
         "slot": "Cou",
-        "item": "Riveted Choker of Delirium",
+        "item": "Sautoir riveté du délire",
         "id": 151966,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_04b"
       },
       {
         "slot": "Épaules",
-        "item": "Light's Vanguard Shoulderplates",
+        "item": "Plaques d'épaules de l'avant-garde de la Lumière",
         "id": 152153,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_shoulder_plate_raidpaladinmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Dos",
-        "item": "Drape of the Spirited Hunt",
+        "item": "Drapé de chasse fougueuse",
         "id": 151938,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_cape_plate_raiddeathknight_s_01_long"
       },
       {
         "slot": "Torse",
-        "item": "Light's Vanguard Breastplate",
+        "item": "Cuirasse de l'avant-garde de la Lumière",
         "id": 152148,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_chest_plate_raidpaladinmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Poignets",
-        "item": "Vambraces of Life's Assurance",
+        "item": "Protège-bras de rassérénement",
         "id": 152023,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_bracer_plate_raidpaladinmythic_s_01"
       },
       {
         "slot": "Mains",
-        "item": "Molten Bite Handguards",
+        "item": "Garde-mains de morsure en fusion",
         "id": 152012,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_glove_plate_raidpaladinmythic_s_01"
       },
       {
         "slot": "Taille",
@@ -306,27 +306,27 @@
       },
       {
         "slot": "Jambes",
-        "item": "Cosmos-Culling Legplates",
+        "item": "Cuissards de purge cosmique",
         "id": 152016,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_pant_plate_raidpaladinmythic_s_01"
       },
       {
         "slot": "Pieds",
-        "item": "Burning Coven Sabatons",
+        "item": "Solerets du Sabbat ardent",
         "id": 152010,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_plate_raidwarriormythic_s_01boots"
       },
       {
         "slot": "Bague 1",
-        "item": "Zealous Tormentor's Ring",
+        "item": "Anneau du tourmenteur zélé",
         "id": 152284,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_quest_ring7a"
       },
       {
         "slot": "Bague 2",
@@ -338,19 +338,19 @@
       },
       {
         "slot": "Bijou 1",
-        "item": "Apocalypse Drive",
+        "item": "Résolution apocalyptique",
         "id": 151975,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_misc_enggizmos_11"
       },
       {
         "slot": "Bijou 2",
-        "item": "Aman'Thul's Vision",
+        "item": "Vision d'Aman'Thul",
         "id": 154172,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_antorus_turquoise"
       }
     ],
     "mm": [],

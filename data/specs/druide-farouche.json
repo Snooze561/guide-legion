@@ -237,119 +237,119 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Behemoth Headdress",
+        "item": "Coiffure de béhémoth",
         "id": 151801,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_helmet_leather_draenorhonors2_c_01"
       },
       {
         "slot": "Cou",
-        "item": "Vulcanarcore Pendant",
+        "item": "Pendentif du noyau de Vulcanar",
         "id": 151965,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_14b"
       },
       {
         "slot": "Épaules",
-        "item": "Bearmantle Shoulders",
+        "item": "Épaulières de Mantelours",
         "id": 152129,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_shoulder_leather_raiddruidmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Dos",
-        "item": "Bearmantle Cloak",
+        "item": "Cape de Mantelours",
         "id": 152125,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_cape_leather_raiddruidmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Torse",
-        "item": "Vest of Waning Life",
+        "item": "Gilet de vie déclinante",
         "id": 151982,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_chest__inv_leather_raidmonkmythic_s_01"
       },
       {
         "slot": "Poignets",
-        "item": "Sinuous Kerapteron Bindings",
+        "item": "Manchettes de kéraptéron sinueux",
         "id": 152087,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_bracer_leather_raiddruidmythic_s_01"
       },
       {
         "slot": "Mains",
-        "item": "Bearmantle Paws",
+        "item": "Pattes de Mantelours",
         "id": 152126,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_glove_leather_raiddruidmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Taille",
-        "item": "Belt of Fractured Sanity",
+        "item": "Ceinture de raison brisée",
         "id": 151991,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_belt__inv_leather_raidmonkmythic_s_01"
       },
       {
         "slot": "Jambes",
-        "item": "Bearmantle Legguards",
+        "item": "Garde-jambes de Mantelours",
         "id": 152128,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_pant_leather_raiddruidmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Pieds",
-        "item": "Vicious Flamepaws",
+        "item": "Pattes-de-feu vicieuses",
         "id": 151983,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_boot_leather_raiddruidmythic_s_01"
       },
       {
         "slot": "Bague 1",
-        "item": "Sullied Seal of the Pantheon",
+        "item": "Sceau du Panthéon souillé",
         "id": 151972,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring3a"
       },
       {
         "slot": "Bague 2",
-        "item": "Soul of the Archdruid",
+        "item": "Ame de l'archidruide",
         "id": 151636,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_70_raid_ring6a"
       },
       {
         "slot": "Bijou 1",
-        "item": "Golganneth's Vitality",
+        "item": "Vitalité de Golganneth",
         "id": 154174,
         "source": "Argus l'Annihilateur (panthéon)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_antorus_grey"
       },
       {
         "slot": "Bijou 2",
-        "item": "Seeping Scourgewing",
+        "item": "Aile du fléau suintante",
         "id": 151964,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "ability_creature_poison_03"
       }
     ],
     "mm": [],
@@ -372,19 +372,19 @@
     "relicPicks": [
       {
         "type": "Sang",
-        "item": "Cruor of the Avenger",
+        "item": "Cruor du vengeur",
         "id": 155847,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Givre",
-        "item": "Sublimating Portal Frost",
+        "item": "Givre de portail sublimant",
         "id": 152041,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Vie",
-        "item": "Root of the Lifebinder",
+        "item": "Racine de la Lieuse-de-Vie",
         "id": 155854,
         "source": "Antorus, le Trône ardent"
       }

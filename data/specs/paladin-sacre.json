@@ -235,12 +235,12 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Light's Vanguard Helm",
+        "item": "Heaume de l'avant-garde de la Lumière",
         "id": 152151,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_helm_plate_raidpaladinmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Cou",
@@ -252,96 +252,96 @@
       },
       {
         "slot": "Épaules",
-        "item": "Light's Vanguard Shoulderplates",
+        "item": "Plaques d'épaules de l'avant-garde de la Lumière",
         "id": 152153,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_shoulder_plate_raidpaladinmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Dos",
-        "item": "Light's Vanguard Greatcloak",
+        "item": "Grande cape de l'avant-garde de la Lumière",
         "id": 152149,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_cape_plate_raidpaladinmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Torse",
-        "item": "Light's Vanguard Breastplate",
+        "item": "Cuirasse de l'avant-garde de la Lumière",
         "id": 152148,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_chest_plate_raidpaladinmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Poignets",
-        "item": "Wristguards of the Dark Keepers",
+        "item": "Garde-poignets des gardiens noirs",
         "id": 152091,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_bracer_plate_raiddeathknightmythic_s_01"
       },
       {
         "slot": "Mains",
-        "item": "Light's Vanguard Gauntlets",
+        "item": "Gantelets de l'avant-garde de la Lumière",
         "id": 152150,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_glove_plate_raidpaladinmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Taille",
-        "item": "Nathrezim Battle Girdle",
+        "item": "Ceinturon de bataille nathrezim",
         "id": 152020,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_belt_plate_raidpaladinmythic_s_01"
       },
       {
         "slot": "Jambes",
-        "item": "Light's Vanguard Legplates",
+        "item": "Cuissards de l'avant-garde de la Lumière",
         "id": 152152,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_pant_plate_raidpaladinmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Pieds",
-        "item": "Doomwalker Warboots",
+        "item": "Bottes de guerre de marche-funeste",
         "id": 152009,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_boot_plate_raiddeathknightmythic_s_01"
       },
       {
         "slot": "Bague 1",
-        "item": "Zealous Tormentor's Ring",
+        "item": "Anneau du tourmenteur zélé",
         "id": 152284,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_quest_ring7a"
       },
       {
         "slot": "Bague 2",
-        "item": "Band of the Sargerite Smith",
+        "item": "Bague du forge-sargerite",
         "id": 152064,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring4a"
       },
       {
         "slot": "Bijou 1",
-        "item": "Aman'Thul's Vision",
+        "item": "Vision d'Aman'Thul",
         "id": 154172,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_antorus_turquoise"
       },
       {
         "slot": "Bijou 2",
@@ -371,13 +371,13 @@
     "relicPicks": [
       {
         "type": "Vie",
-        "item": "Mysterious Petrified Egg",
+        "item": "Mystérieux œuf pétrifié",
         "id": 152050,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Sacré",
-        "item": "Venerated Puresoul Idol",
+        "item": "Idole d'âme pure vénérée",
         "id": 152045,
         "source": "Antorus, le Trône ardent"
       }

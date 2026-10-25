@@ -237,20 +237,20 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Grim Inquisitor's Death Mask",
+        "item": "Masque funéraire de l'inquisiteur sinistre",
         "id": 152174,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_helm_cloth_raidwarlockmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Cou",
-        "item": "Chain of the Unmaker",
+        "item": "Chaîne de l'Annihilateur",
         "id": 152283,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_18a"
       },
       {
         "slot": "Épaules",
@@ -262,38 +262,38 @@
       },
       {
         "slot": "Dos",
-        "item": "Grim Inquisitor's Cloak",
+        "item": "Cape de l'inquisiteur sinistre",
         "id": 152172,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_cape_raidwarlockmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Torse",
-        "item": "Grim Inquisitor's Robes",
+        "item": "Robe de l'inquisiteur sinistre",
         "id": 152176,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_chest_cloth_raidwarlockmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Poignets",
-        "item": "Blood-Drenched Bindings",
+        "item": "Manchettes trempées de sang",
         "id": 151954,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_bracer_cloth_raidwarlockmythic_s_01"
       },
       {
         "slot": "Mains",
-        "item": "Grim Inquisitor's Gloves",
+        "item": "Gants de l'inquisiteur sinistre",
         "id": 152173,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_glove_cloth_raidwarlockmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Taille",
@@ -305,52 +305,52 @@
       },
       {
         "slot": "Jambes",
-        "item": "Grim Inquisitor's Leggings",
+        "item": "Jambières de l'inquisiteur sinistre",
         "id": 152175,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_pant_cloth_raidwarlockmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Pieds",
-        "item": "Lady Dacidion's Silk Slippers",
+        "item": "Mules en soie de dame Dacidion",
         "id": 151945,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_boot_cloth_raidwarlockmythic_s_01"
       },
       {
         "slot": "Bague 1",
-        "item": "Zealous Tormentor's Ring",
+        "item": "Anneau du tourmenteur zélé",
         "id": 152284,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_quest_ring7a"
       },
       {
         "slot": "Bague 2",
-        "item": "Band of the Sargerite Smith",
+        "item": "Bague du forge-sargerite",
         "id": 152064,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring4a"
       },
       {
         "slot": "Bijou 1",
-        "item": "Acrid Catalyst Injector",
+        "item": "Injecteur de catalyseur âcre",
         "id": 151955,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_trinket_01c"
       },
       {
         "slot": "Bijou 2",
-        "item": "Aman'Thul's Vision",
+        "item": "Vision d'Aman'Thul",
         "id": 154172,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_antorus_turquoise"
       }
     ],
     "mm": [],
@@ -373,19 +373,19 @@
     "relicPicks": [
       {
         "type": "Gangrène",
-        "item": "Doomfire Dynamo",
+        "item": "Dynamo de feu funeste",
         "id": 152031,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Feu",
-        "item": "Flickering Ember of Rage",
+        "item": "Braise de rage frémissante",
         "id": 155849,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Gangrène",
-        "item": "Doomfire Dynamo",
+        "item": "Dynamo de feu funeste",
         "id": 152031,
         "source": "Antorus, le Trône ardent"
       }

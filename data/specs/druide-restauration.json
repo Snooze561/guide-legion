@@ -235,11 +235,11 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "General Erodus' Tricorne",
+        "item": "Tricorne du général Erodus",
         "id": 151985,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_leather_raidroguemythic_s_01_helm"
       },
       {
         "slot": "Cou",
@@ -251,87 +251,87 @@
       },
       {
         "slot": "Épaules",
-        "item": "Spaulders of the Relentless Tracker",
+        "item": "Spallières du pisteur implacable",
         "id": 151989,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_shoulder_leather_raiddruidmythic_s_01"
       },
       {
         "slot": "Dos",
-        "item": "Bearmantle Cloak",
+        "item": "Cape de Mantelours",
         "id": 152125,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_cape_leather_raiddruidmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Torse",
-        "item": "Bearmantle Harness",
+        "item": "Harnais de Mantelours",
         "id": 152124,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_chest_leather_raiddruidmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Poignets",
-        "item": "Bracers of Wanton Morality",
+        "item": "Brassards de moralité discutable",
         "id": 152414,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_leather_raidroguemythic_s_01_bracer"
       },
       {
         "slot": "Mains",
-        "item": "Bearmantle Paws",
+        "item": "Pattes de Mantelours",
         "id": 152126,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_glove_leather_raiddruidmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Taille",
-        "item": "Death-Enveloping Cincture",
+        "item": "Cordelette de l'étau de mort",
         "id": 151986,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_buckle_leather_raiddemonhuntermythic_q_01"
       },
       {
         "slot": "Jambes",
-        "item": "Bearmantle Legguards",
+        "item": "Garde-jambes de Mantelours",
         "id": 152128,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_pant_leather_raiddruidmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Pieds",
-        "item": "Life-Bearing Footpads",
+        "item": "Souliers porte-vie",
         "id": 151981,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_boot__inv_leather_raidmonkmythic_s_01"
       },
       {
         "slot": "Bague 1",
-        "item": "Seal of the Portalmaster",
+        "item": "Sceau du maître de portail",
         "id": 152063,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring2c"
       },
       {
         "slot": "Bague 2",
-        "item": "Band of the Sargerite Smith",
+        "item": "Bague du forge-sargerite",
         "id": 152064,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring4a"
       },
       {
         "slot": "Bijou 1",
@@ -343,11 +343,11 @@
       },
       {
         "slot": "Bijou 2",
-        "item": "Aman'Thul's Vision",
+        "item": "Vision d'Aman'Thul",
         "id": 154172,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_antorus_turquoise"
       }
     ],
     "mm": [],
@@ -369,13 +369,13 @@
     "relicPicks": [
       {
         "type": "Vie",
-        "item": "Essence of the Burgeoning Brood",
+        "item": "Essence de la couvée émergente",
         "id": 152053,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Givre",
-        "item": "Sublimating Portal Frost",
+        "item": "Givre de portail sublimant",
         "id": 152041,
         "source": "Antorus, le Trône ardent"
       }

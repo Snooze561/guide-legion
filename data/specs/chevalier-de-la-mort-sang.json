@@ -240,20 +240,20 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Dreadwake Helm",
+        "item": "Heaume de Noirsillage",
         "id": 152115,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_helm_plate_raiddeathknightmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Cou",
-        "item": "Chain of the Unmaker",
+        "item": "Chaîne de l'Annihilateur",
         "id": 152283,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_18a"
       },
       {
         "slot": "Épaules",
@@ -273,19 +273,19 @@
       },
       {
         "slot": "Torse",
-        "item": "Soulflayer's Corruption",
+        "item": "Corruption de l'écorcheur d'âmes",
         "id": 151795,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_plate_raidwarrior_o_01chest"
       },
       {
         "slot": "Poignets",
-        "item": "Varimathras' Shattered Manacles",
+        "item": "Menottes brisées de Varimathras",
         "id": 152281,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_plate_raidwarriormythic_s_01bracer"
       },
       {
         "slot": "Mains",
@@ -297,60 +297,60 @@
       },
       {
         "slot": "Taille",
-        "item": "Flamelicked Girdle",
+        "item": "Ceinturon léché par les flammes",
         "id": 152021,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_belt_plate_raiddeathknightmythic_s_01"
       },
       {
         "slot": "Jambes",
-        "item": "Dreadwake Legplates",
+        "item": "Cuissards de Noirsillage",
         "id": 152116,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_pant_plate_raiddeathknightmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Pieds",
-        "item": "Doomwalker Warboots",
+        "item": "Bottes de guerre de marche-funeste",
         "id": 152009,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_boot_plate_raiddeathknightmythic_s_01"
       },
       {
         "slot": "Bague 1",
-        "item": "Zealous Tormentor's Ring",
+        "item": "Anneau du tourmenteur zélé",
         "id": 152284,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_quest_ring7a"
       },
       {
         "slot": "Bague 2",
-        "item": "Band of the Sargerite Smith",
+        "item": "Bague du forge-sargerite",
         "id": 152064,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring4a"
       },
       {
         "slot": "Bijou 1",
-        "item": "Aggramar's Conviction",
+        "item": "Conviction d'Aggramar",
         "id": 154173,
         "source": "Argus l'Annihilateur (panthéon)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_antorus_orange"
       },
       {
         "slot": "Bijou 2",
-        "item": "Astral Alchemist Stone",
+        "item": "Pierre d'alchimiste astrale",
         "id": 151607,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_alchemy_astralalchemiststone"
       }
     ],
     "mm": [],
@@ -373,19 +373,19 @@
     "relicPicks": [
       {
         "type": "Sang",
-        "item": "Cruor of the Avenger",
+        "item": "Cruor du vengeur",
         "id": 155847,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Fer",
-        "item": "Mote of the Forgemaster",
+        "item": "Particule du maître-forge",
         "id": 155855,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Ombre",
-        "item": "Volatile Soul Fragment",
+        "item": "Fragment d'âme instable",
         "id": 155852,
         "source": "Antorus, le Trône ardent"
       }

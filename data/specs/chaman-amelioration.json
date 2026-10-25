@@ -236,87 +236,87 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Helm of the Awakened Soul",
+        "item": "Casque de l'âme éveillée",
         "id": 152423,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_helm_mail_raidshamanmythic_s_01"
       },
       {
         "slot": "Cou",
-        "item": "Riveted Choker of Delirium",
+        "item": "Sautoir riveté du délire",
         "id": 151966,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_04b"
       },
       {
         "slot": "Épaules",
-        "item": "Pauldrons of Venerated Spirits",
+        "item": "Espauliers des esprits vénérés",
         "id": 152171,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_shoulder_mail_raidshamanmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Dos",
-        "item": "Drape of Venerated Spirits",
+        "item": "Drapé des esprits vénérés",
         "id": 152167,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_cape_mail_raidshamanmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Torse",
-        "item": "Robes of Venerated Spirits",
+        "item": "Robe des esprits vénérés",
         "id": 152166,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_robe_mail_raidshamanmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Poignets",
-        "item": "Reality-Splitting Wristguards",
+        "item": "Garde-poignets de fracture du réel",
         "id": 152008,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_bracer_mail_raidshamanmythic_s_01"
       },
       {
         "slot": "Mains",
-        "item": "Smoldering Heart",
+        "item": "Coeur fumant",
         "id": 151819,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_gauntlets_85"
       },
       {
         "slot": "Taille",
-        "item": "Depraved Tactician's Waistguard",
+        "item": "Sangle du tacticien dépravé",
         "id": 152006,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_belt_mail_raidshamanmythic_s_01"
       },
       {
         "slot": "Jambes",
-        "item": "Leggings of Venerated Spirits",
+        "item": "Jambières des esprits vénérés",
         "id": 152170,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_pant_mail_raidshamanmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Pieds",
-        "item": "Greatboots of the Searing Tempest",
+        "item": "Grandes bottes de la tempête incendiaire",
         "id": 152684,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_boot_mail_raidshamanmythic_s_01"
       },
       {
         "slot": "Bague 1",
@@ -328,27 +328,27 @@
       },
       {
         "slot": "Bague 2",
-        "item": "Loop of the Life-Binder",
+        "item": "Jonc de la Lieuse-de-Vie",
         "id": 152688,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring7d"
       },
       {
         "slot": "Bijou 1",
-        "item": "Golganneth's Vitality",
+        "item": "Vitalité de Golganneth",
         "id": 154174,
         "source": "Argus l'Annihilateur (panthéon)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_antorus_grey"
       },
       {
         "slot": "Bijou 2",
-        "item": "Shadow-Singed Fang",
+        "item": "Croc roussi par l'ombre",
         "id": 151968,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_misc_blacksaberonfang"
       }
     ],
     "mm": [],
@@ -371,19 +371,19 @@
     "relicPicks": [
       {
         "type": "Feu",
-        "item": "Flickering Ember of Rage",
+        "item": "Braise de rage frémissante",
         "id": 155849,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Fer",
-        "item": "Mote of the Forgemaster",
+        "item": "Particule du maître-forge",
         "id": 155855,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Tempête",
-        "item": "Conch of the Thunderer",
+        "item": "Conque du foudroyeur",
         "id": 155853,
         "source": "Antorus, le Trône ardent"
       }

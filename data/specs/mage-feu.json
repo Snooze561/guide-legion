@@ -237,46 +237,46 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Runebound Collar",
+        "item": "Collerette runeliée",
         "id": 152138,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_helm_cloth_raidmagemythic_s_01",
+        "tier": true
       },
       {
         "slot": "Cou",
-        "item": "Chain of the Unmaker",
+        "item": "Chaîne de l'Annihilateur",
         "id": 152283,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_18a"
       },
       {
         "slot": "Épaules",
-        "item": "Runebound Mantle",
+        "item": "Mantelet runelié",
         "id": 152141,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_shoulders_cloth_raidmagemythic_s_01",
+        "tier": true
       },
       {
         "slot": "Dos",
-        "item": "Runebound Cape",
+        "item": "Cape runeliée",
         "id": 152136,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_cape_raidmagemythic_s_01",
+        "tier": true
       },
       {
         "slot": "Torse",
-        "item": "Gambeson of Sargeras' Corruption",
+        "item": "Gambison de la corruption de Sargeras",
         "id": 152679,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_chest_cloth_raidmagemythic_s_01"
       },
       {
         "slot": "Poignets",
@@ -288,44 +288,44 @@
       },
       {
         "slot": "Mains",
-        "item": "Handwraps of Inevitable Doom",
+        "item": "Protège-mains de malédiction inévitable",
         "id": 152680,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_glove_cloth_raidwarlockmythic_s_01"
       },
       {
         "slot": "Taille",
-        "item": "Cord of Blossoming Petals",
+        "item": "Corde de pétales de fleurs",
         "id": 151952,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_belt_cloth_raidpriestmythic_s_01"
       },
       {
         "slot": "Jambes",
-        "item": "Runebound Leggings",
+        "item": "Jambières runeliées",
         "id": 152139,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_pant_cloth_raidmagemythic_s_01",
+        "tier": true
       },
       {
         "slot": "Pieds",
-        "item": "Whisperstep Runners",
+        "item": "Sandalettes murmepas",
         "id": 151939,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_boot_cloth_raidmagemythic_s_01"
       },
       {
         "slot": "Bague 1",
-        "item": "Band of the Sargerite Smith",
+        "item": "Bague du forge-sargerite",
         "id": 152064,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring4a"
       },
       {
         "slot": "Bague 2",
@@ -337,19 +337,19 @@
       },
       {
         "slot": "Bijou 1",
-        "item": "Acrid Catalyst Injector",
+        "item": "Injecteur de catalyseur âcre",
         "id": 151955,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_trinket_01c"
       },
       {
         "slot": "Bijou 2",
-        "item": "Aman'Thul's Vision",
+        "item": "Vision d'Aman'Thul",
         "id": 154172,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_antorus_turquoise"
       }
     ],
     "mm": [],
@@ -372,19 +372,19 @@
     "relicPicks": [
       {
         "type": "Feu",
-        "item": "Flickering Ember of Rage",
+        "item": "Braise de rage frémissante",
         "id": 155849,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Arcanes",
-        "item": "Prototype Titan-Disc",
+        "item": "Prototype de disque des Titans",
         "id": 152026,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Feu",
-        "item": "Flickering Ember of Rage",
+        "item": "Braise de rage frémissante",
         "id": 155849,
         "source": "Antorus, le Trône ardent"
       }

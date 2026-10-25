@@ -235,110 +235,110 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Douli of Chi'Ji",
+        "item": "Douli de Chi Ji",
         "id": 152145,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_helm__inv_leather_raidmonkmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Cou",
-        "item": "Vulcanarcore Pendant",
+        "item": "Pendentif du noyau de Vulcanar",
         "id": 151965,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_14b"
       },
       {
         "slot": "Épaules",
-        "item": "Meditation Spheres of Chi'Ji",
+        "item": "Sphères de méditation de Chi Ji",
         "id": 152147,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_shoulder__inv_leather_raidmonkmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Dos",
-        "item": "Doorway to Nowhere",
+        "item": "Porte vers Nulle part",
         "id": 151784,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_misc_cape_cataclysm_healer_b_01"
       },
       {
         "slot": "Torse",
-        "item": "Vest of Waning Life",
+        "item": "Gilet de vie déclinante",
         "id": 151982,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_chest__inv_leather_raidmonkmythic_s_01"
       },
       {
         "slot": "Poignets",
-        "item": "Fiendish Logistician's Wristwraps",
+        "item": "Bandelettes du logisticien démonique",
         "id": 151992,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_leather_raiddemonhuntermythic_q_01bracer"
       },
       {
         "slot": "Mains",
-        "item": "Grips of Chi'Ji",
+        "item": "Poignes de Chi Ji",
         "id": 152144,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_glove__inv_leather_raidmonkmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Taille",
-        "item": "Belt of Fractured Sanity",
+        "item": "Ceinture de raison brisée",
         "id": 151991,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_belt__inv_leather_raidmonkmythic_s_01"
       },
       {
         "slot": "Jambes",
-        "item": "Breach-Blocker Legguards",
+        "item": "Garde-jambes de bloque-brèche",
         "id": 151987,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_pant_leather_raiddruidmythic_s_01"
       },
       {
         "slot": "Pieds",
-        "item": "Depraved Machinist's Footpads",
+        "item": "Souliers du machiniste dépravé",
         "id": 152412,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_leather_raiddemonhuntermythic_q_01boots"
       },
       {
         "slot": "Bague 1",
-        "item": "Seal of the Portalmaster",
+        "item": "Sceau du maître de portail",
         "id": 152063,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring2c"
       },
       {
         "slot": "Bague 2",
-        "item": "Zealous Tormentor's Ring",
+        "item": "Anneau du tourmenteur zélé",
         "id": 152284,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_quest_ring7a"
       },
       {
         "slot": "Bijou 1",
-        "item": "Aman'Thul's Vision",
+        "item": "Vision d'Aman'Thul",
         "id": 154172,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_antorus_turquoise"
       },
       {
         "slot": "Bijou 2",
@@ -369,19 +369,19 @@
     "relicPicks": [
       {
         "type": "Vie",
-        "item": "Root of the Lifebinder",
+        "item": "Racine de la Lieuse-de-Vie",
         "id": 155854,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Tempête",
-        "item": "Conch of the Thunderer",
+        "item": "Conque du foudroyeur",
         "id": 155853,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Givre",
-        "item": "Frigid Gloomstone",
+        "item": "Pierre funèbre algide",
         "id": 152040,
         "source": "Antorus, le Trône ardent"
       }

@@ -237,46 +237,46 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Helm of the Awakened Soul",
+        "item": "Casque de l'âme éveillée",
         "id": 152423,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_helm_mail_raidshamanmythic_s_01"
       },
       {
         "slot": "Cou",
-        "item": "Chain of the Unmaker",
+        "item": "Chaîne de l'Annihilateur",
         "id": 152283,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_18a"
       },
       {
         "slot": "Épaules",
-        "item": "Serpentstalker Mantle",
+        "item": "Mantelet du traqueur de serpent",
         "id": 152135,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_shoulder_mail_raidhuntermythic_s_01",
+        "tier": true
       },
       {
         "slot": "Dos",
-        "item": "Serpentstalker Drape",
+        "item": "Drapé du traqueur de serpent",
         "id": 152131,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_cape_raidhuntermythic_s_01",
+        "tier": true
       },
       {
         "slot": "Torse",
-        "item": "Serpentstalker Tunic",
+        "item": "Tunique du traqueur de serpent",
         "id": 152130,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_chest_mail_raidhuntermythic_s_01",
+        "tier": true
       },
       {
         "slot": "Poignets",
@@ -288,44 +288,44 @@
       },
       {
         "slot": "Mains",
-        "item": "Serpentstalker Grips",
+        "item": "Poignes du traqueur de serpent",
         "id": 152132,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_glove_mail_raidhuntermythic_s_01",
+        "tier": true
       },
       {
         "slot": "Taille",
-        "item": "Sash of the Gilded Rose",
+        "item": "Echarpe de la Rose dorée",
         "id": 152007,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_belt_mail_raidhuntermythic_s_01"
       },
       {
         "slot": "Jambes",
-        "item": "Battalion-Shattering Leggings",
+        "item": "Jambières brise-bataillon",
         "id": 152002,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_pant_mail_raidshamanmythic_s_01"
       },
       {
         "slot": "Pieds",
-        "item": "Deft Soulhunter's Sabatons",
+        "item": "Solerets du chasseur d'âmes adroit",
         "id": 151996,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_boot_mail_raidhuntermythic_s_01"
       },
       {
         "slot": "Bague 1",
-        "item": "Seal of the Portalmaster",
+        "item": "Sceau du maître de portail",
         "id": 152063,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring2c"
       },
       {
         "slot": "Bague 2",
@@ -337,19 +337,19 @@
       },
       {
         "slot": "Bijou 1",
-        "item": "Seeping Scourgewing",
+        "item": "Aile du fléau suintante",
         "id": 151964,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "ability_creature_poison_03"
       },
       {
         "slot": "Bijou 2",
-        "item": "Golganneth's Vitality",
+        "item": "Vitalité de Golganneth",
         "id": 154174,
         "source": "Argus l'Annihilateur (panthéon)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_antorus_grey"
       }
     ],
     "mm": [],
@@ -372,19 +372,19 @@
     "relicPicks": [
       {
         "type": "Tempête",
-        "item": "Neuroshock Electrode",
+        "item": "Electrode de neurodécharge",
         "id": 152060,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Fer",
-        "item": "Mote of the Forgemaster",
+        "item": "Particule du maître-forge",
         "id": 155855,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Sang",
-        "item": "Cruor of the Avenger",
+        "item": "Cruor du vengeur",
         "id": 155847,
         "source": "Antorus, le Trône ardent"
       }

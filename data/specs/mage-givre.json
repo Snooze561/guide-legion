@@ -237,46 +237,46 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "Runebound Collar",
+        "item": "Collerette runeliée",
         "id": 152138,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_helm_cloth_raidmagemythic_s_01",
+        "tier": true
       },
       {
         "slot": "Cou",
-        "item": "Chain of the Unmaker",
+        "item": "Chaîne de l'Annihilateur",
         "id": 152283,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_18a"
       },
       {
         "slot": "Épaules",
-        "item": "Runebound Mantle",
+        "item": "Mantelet runelié",
         "id": 152141,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_shoulders_cloth_raidmagemythic_s_01",
+        "tier": true
       },
       {
         "slot": "Dos",
-        "item": "Drape of the Arcane Tempest",
+        "item": "Drapé de la tempête arcanique",
         "id": 147145,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_cape_cloth_raidmage_r_01mythic"
       },
       {
         "slot": "Torse",
-        "item": "Runebound Tunic",
+        "item": "Tunique runeliée",
         "id": 152140,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_chest_cloth_raidmagemythic_s_01",
+        "tier": true
       },
       {
         "slot": "Poignets",
@@ -288,44 +288,44 @@
       },
       {
         "slot": "Mains",
-        "item": "Gloves of the Arcane Tempest",
+        "item": "Gants de la tempête arcanique",
         "id": 147146,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_glove_cloth_raidmage_r_01mythic"
       },
       {
         "slot": "Taille",
-        "item": "Cord of Blossoming Petals",
+        "item": "Corde de pétales de fleurs",
         "id": 151952,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_belt_cloth_raidpriestmythic_s_01"
       },
       {
         "slot": "Jambes",
-        "item": "Runebound Leggings",
+        "item": "Jambières runeliées",
         "id": 152139,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_pant_cloth_raidmagemythic_s_01",
+        "tier": true
       },
       {
         "slot": "Pieds",
-        "item": "Lady Dacidion's Silk Slippers",
+        "item": "Mules en soie de dame Dacidion",
         "id": 151945,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_boot_cloth_raidwarlockmythic_s_01"
       },
       {
         "slot": "Bague 1",
-        "item": "Seal of the Portalmaster",
+        "item": "Sceau du maître de portail",
         "id": 152063,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring2c"
       },
       {
         "slot": "Bague 2",
@@ -337,19 +337,19 @@
       },
       {
         "slot": "Bijou 1",
-        "item": "Acrid Catalyst Injector",
+        "item": "Injecteur de catalyseur âcre",
         "id": 151955,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_trinket_01c"
       },
       {
         "slot": "Bijou 2",
-        "item": "Aman'Thul's Vision",
+        "item": "Vision d'Aman'Thul",
         "id": 154172,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_antorus_turquoise"
       }
     ],
     "mm": [],
@@ -372,19 +372,19 @@
     "relicPicks": [
       {
         "type": "Givre",
-        "item": "Rime of the Spirit Realm",
+        "item": "Frimas du monde des esprits",
         "id": 155850,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Arcanes",
-        "item": "Miniaturized Cosmic Beacon",
+        "item": "Balise cosmique miniaturisée",
         "id": 155846,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Givre",
-        "item": "Rime of the Spirit Realm",
+        "item": "Frimas du monde des esprits",
         "id": 155850,
         "source": "Antorus, le Trône ardent"
       }

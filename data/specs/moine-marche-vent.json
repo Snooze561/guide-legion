@@ -237,37 +237,37 @@
     "raid": [
       {
         "slot": "Tête",
-        "item": "The Wind Blows",
+        "item": "Le vent souffle",
         "id": 151811,
         "source": "Légendaire",
         "quality": "legendary",
-        "unsure": true
+        "icon": "inv_helmet_leather_raidmonk_l_01"
       },
       {
         "slot": "Cou",
-        "item": "Collar of Null-Flame",
+        "item": "Collier d'annulation des flammes",
         "id": 151973,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_7_0raid_necklace_07b"
       },
       {
         "slot": "Épaules",
-        "item": "Meditation Spheres of Chi'Ji",
+        "item": "Sphères de méditation de Chi Ji",
         "id": 152147,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_shoulder__inv_leather_raidmonkmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Dos",
-        "item": "Cloak of Chi'Ji",
+        "item": "Cape de Chi Ji",
         "id": 152143,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_cape_inv_leather_raidmonkmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Torse",
@@ -279,77 +279,77 @@
       },
       {
         "slot": "Poignets",
-        "item": "Fiendish Logistician's Wristwraps",
+        "item": "Bandelettes du logisticien démonique",
         "id": 151992,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_leather_raiddemonhuntermythic_q_01bracer"
       },
       {
         "slot": "Mains",
-        "item": "Grips of Chi'Ji",
+        "item": "Poignes de Chi Ji",
         "id": 152144,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_glove__inv_leather_raidmonkmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Taille",
-        "item": "Belt of Fractured Sanity",
+        "item": "Ceinture de raison brisée",
         "id": 151991,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_belt__inv_leather_raidmonkmythic_s_01"
       },
       {
         "slot": "Jambes",
-        "item": "Leggings of Chi'Ji",
+        "item": "Jambières de Chi Ji",
         "id": 152146,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "tier": true,
-        "unsure": true
+        "icon": "inv_pant__inv_leather_raidmonkmythic_s_01",
+        "tier": true
       },
       {
         "slot": "Pieds",
-        "item": "Vicious Flamepaws",
+        "item": "Pattes-de-feu vicieuses",
         "id": 151983,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_boot_leather_raiddruidmythic_s_01"
       },
       {
         "slot": "Bague 1",
-        "item": "Sullied Seal of the Pantheon",
+        "item": "Sceau du Panthéon souillé",
         "id": 151972,
         "source": "Autre (donjon, artisanat ou monde)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring3a"
       },
       {
         "slot": "Bague 2",
-        "item": "Band of the Sargerite Smith",
+        "item": "Bague du forge-sargerite",
         "id": 152064,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_70_raid_ring4a"
       },
       {
         "slot": "Bijou 1",
-        "item": "Golganneth's Vitality",
+        "item": "Vitalité de Golganneth",
         "id": 154174,
         "source": "Argus l'Annihilateur (panthéon)",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_antorus_grey"
       },
       {
         "slot": "Bijou 2",
-        "item": "Shadow-Singed Fang",
+        "item": "Croc roussi par l'ombre",
         "id": 151968,
         "source": "Antorus, le Trône ardent",
         "quality": "epic",
-        "unsure": true
+        "icon": "inv_misc_blacksaberonfang"
       }
     ],
     "mm": [],
@@ -372,19 +372,19 @@
     "relicPicks": [
       {
         "type": "Tempête",
-        "item": "Conch of the Thunderer",
+        "item": "Conque du foudroyeur",
         "id": 155853,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Fer",
-        "item": "Ironvine Thorn",
+        "item": "Epine de vignefer",
         "id": 152047,
         "source": "Antorus, le Trône ardent"
       },
       {
         "type": "Tempête",
-        "item": "Conch of the Thunderer",
+        "item": "Conque du foudroyeur",
         "id": 155853,
         "source": "Antorus, le Trône ardent"
       }
