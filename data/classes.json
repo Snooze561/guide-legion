@@ -114,7 +114,8 @@
           "id": "discipline",
           "name": "Discipline",
           "role": "heal",
-          "icon": "spell_holy_powerwordshield"
+          "icon": "spell_holy_powerwordshield",
+          "ready": true
         },
         {
           "id": "sacre",

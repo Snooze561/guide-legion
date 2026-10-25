@@ -1,0 +1,390 @@
+{
+  "status": "brouillon",
+  "icon": "spell_holy_powerwordshield",
+  "summary": "Soigneur par les dégâts : tes attaques soignent les alliés sous Expiation. On prépare les dégâts avec des boucliers et des Expiations, puis on enchaîne les sorts offensifs.",
+  "sources": [
+    {
+      "label": "Guías WoW, guide PvE Prêtre Discipline 7.3.5 (février 2018)",
+      "url": "https://en.guiaswow.com/game-guide/priest-discipline-patch-7-3-5.html"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Hâte",
+        "weight": 75
+      },
+      {
+        "stat": "Critique",
+        "weight": 60
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 50
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 40
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Hâte",
+        "weight": 75
+      },
+      {
+        "stat": "Critique",
+        "weight": 60
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 50
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 40
+      }
+    ],
+    "tips": [
+      "La hâte accélère tes Expiations et tes sorts de dégâts : c'est ta meilleure statistique secondaire.",
+      "La même priorité s'applique en raid et en Mythique+."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "name": "Tour du destin",
+            "icon": "spell_shadow_mindtwisting",
+            "id": 109142
+          },
+          {
+            "name": "Fustigation",
+            "icon": "spell_holy_searinglightpriest",
+            "id": 193134
+          },
+          {
+            "name": "Schisme",
+            "icon": "spell_warlock_focusshadow",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "name": "Corps et âme",
+            "icon": "spell_holy_symbolofhope",
+            "id": 64129
+          },
+          {
+            "name": "Plume angélique",
+            "icon": "ability_priest_angelicfeather",
+            "id": 121536
+          },
+          {
+            "name": "Masochisme",
+            "icon": "spell_holy_holyprotection",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "name": "Force rayonnante",
+            "icon": "ability_paladin_blindinglight2",
+            "id": 204263
+          },
+          {
+            "name": "Voix psychique",
+            "icon": "ability_warrior_commandingshout",
+            "id": 196704
+          },
+          {
+            "name": "Esprit dominant",
+            "icon": "spell_priest_void-flay",
+            "id": 205367
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "name": "Mot de pouvoir : Réconfort",
+            "icon": "spell_priest_flashoflight",
+            "unsure": true
+          },
+          {
+            "name": "Discipline du bouclier",
+            "icon": "spell_holy_divineprotection",
+            "id": 197045
+          },
+          {
+            "name": "Torve-esprit",
+            "icon": "spell_shadow_soulleech_3",
+            "id": 200174
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "name": "Sanctuaire",
+            "icon": "spell_holy_purifyingpower",
+            "unsure": true
+          },
+          {
+            "name": "Clarté d'esprit",
+            "icon": "ability_priest_clarityofwill",
+            "id": 152118
+          },
+          {
+            "name": "Alliance de l'ombre",
+            "icon": "spell_shadow_summonvoidwalker",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "name": "Purge du mal",
+            "icon": "ability_mage_firestarter",
+            "id": 204197
+          },
+          {
+            "name": "Halo",
+            "icon": "ability_priest_halo",
+            "id": 120517
+          },
+          {
+            "name": "Étoile divine",
+            "icon": "spell_priest_divinestar",
+            "id": 110744
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "name": "Évangélisation",
+            "icon": "spell_holy_divineillumination",
+            "unsure": true
+          },
+          {
+            "name": "Grâce",
+            "icon": "spell_holy_hopeandgrace",
+            "unsure": true
+          },
+          {
+            "name": "Infusion de puissance",
+            "icon": "spell_holy_powerinfusion",
+            "id": 10060
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "note": "Fustigation est encore meilleure avec le légendaire Âme du grand prêtre. Plume angélique est le meilleur choix au niveau 30 presque partout."
+      },
+      "mm": {
+        "picks": [
+          0,
+          1,
+          1,
+          2,
+          1,
+          0,
+          2
+        ],
+        "note": "Torve-esprit pour le mana et les dégâts en donjon. Clarté d'esprit protège bien le tank lors des gros coups."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Couronne du séraphin doré",
+        "id": 152156,
+        "source": "Aggramar",
+        "quality": "epic",
+        "icon": "inv_helm_cloth_raidpriestmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Prydaz, chef-d'œuvre de Xavaric",
+        "id": 132444,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_misc_necklace15"
+      },
+      {
+        "slot": "Épaules",
+        "item": "Amict du séraphin doré",
+        "id": 152159,
+        "source": "Le sabbat des Shivarra",
+        "quality": "epic",
+        "icon": "inv_shoulder_cloth_raidpriestmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Drapé du séraphin doré",
+        "id": 152154,
+        "source": "Haut-commandement antoréen",
+        "quality": "epic",
+        "icon": "inv_cape_cloth_raidpriestmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Robe du séraphin doré",
+        "id": 152158,
+        "source": "Eonar la lieuse-de-vie",
+        "quality": "epic",
+        "icon": "inv_robe_cloth_raidpriestmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Crispins des tisseurs de flammes viridiens",
+        "id": 152085,
+        "source": "Butin d'Antorus",
+        "quality": "epic",
+        "icon": "inv_bracer_cloth_raidmagemythic_s_01"
+      },
+      {
+        "slot": "Mains",
+        "item": "Protège-mains du séraphin doré",
+        "id": 152155,
+        "source": "Kin'garoth",
+        "quality": "epic",
+        "icon": "inv_glove_cloth_raidpriestmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Cordelière de brûle-monde améliorée",
+        "id": 151951,
+        "source": "Brise-monde Garothi",
+        "quality": "epic",
+        "icon": "inv_belt_cloth_raidmagemythic_s_01"
+      },
+      {
+        "slot": "Jambes",
+        "item": "Jambières du séraphin doré",
+        "id": 152157,
+        "source": "Imonar le Chasseur d'âmes",
+        "quality": "epic",
+        "icon": "inv_pant_cloth_raidpriestmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Sandalettes murmepas",
+        "id": 151939,
+        "source": "Imonar le Chasseur d'âmes",
+        "quality": "epic",
+        "icon": "inv_boot_cloth_raidmagemythic_s_01"
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Anneau du tourmenteur zélé",
+        "id": 152284,
+        "source": "Le sabbat des Shivarra",
+        "quality": "epic",
+        "icon": "inv_70_quest_ring7a"
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Jonc de la Lieuse-de-Vie",
+        "id": 152688,
+        "source": "Eonar la lieuse-de-vie",
+        "quality": "epic",
+        "icon": "inv_70_raid_ring7d"
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Vision d'Aman'Thul",
+        "id": 154172,
+        "source": "Légendaire, Argus l'Annihilateur",
+        "quality": "legendary",
+        "icon": "inv_antorus_turquoise"
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Vision future de Velen",
+        "id": 144258,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "spell_holy_healingfocus"
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Les pièces de tier 21 (séraphin doré) sont marquées : le guide en conseille 6, dont la cape.",
+      "Âme du grand prêtre (légendaire) renforce le talent Fustigation, ce qui en fait un bon choix en raid."
+    ]
+  },
+  "artifact": {
+    "name": "Courroux-de-Lumière",
+    "id": 128868,
+    "icon": "inv_staff_2h_artifacttome_d_01",
+    "ability": "Courroux de la Lumière",
+    "abilityId": 207946,
+    "relics": [
+      "Sacré",
+      "Ombre",
+      "Sacré"
+    ],
+    "relicPicks": [
+      {
+        "type": "Sacré",
+        "item": "Etincelle de Lumière semperardente",
+        "id": 152044,
+        "source": "Eonar la lieuse-de-vie"
+      },
+      {
+        "type": "Ombre",
+        "item": "Griffe-rosée corruptrice",
+        "id": 152056,
+        "source": "Gangrechiens de Sargeras"
+      }
+    ],
+    "priority": [],
+    "crucible": []
+  }
+}

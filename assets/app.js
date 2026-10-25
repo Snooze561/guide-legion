@@ -366,7 +366,8 @@
       </div>
       <section class="panel" role="tabpanel">${RENDER[view.tab](data)}</section>
       ${data.sources ? `<p class="sources">${svg('link', 13)}Sources : ${data.sources.map((s) => `<a href="${s.url}" target="_blank" rel="noopener">${esc(s.label)}</a>`).join(' · ')}</p>` : ''}`;
-    if (view.tab === 'artifact') drawTrail(app.querySelector('.trail'), data, classId + '-' + specId);
+    if (view.tab === 'artifact' && data.artifact.priority.length) drawTrail(app.querySelector('.trail'), data, classId + '-' + specId);
+    else if (view.tab === 'artifact') app.querySelector('.trail').innerHTML = `<p class="empty-state">${svg('info')}Chemin des traits à compléter.</p>`;
 
     app.querySelectorAll('[data-tab]').forEach((b) => b.addEventListener('click', () => { view.tab = b.dataset.tab; renderSpec(classId, specId); }));
     app.querySelectorAll('[data-mode]').forEach((b) => b.addEventListener('click', () => { view.mode = b.dataset.mode; renderSpec(classId, specId); }));
