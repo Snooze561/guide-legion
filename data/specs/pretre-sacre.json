@@ -1,0 +1,236 @@
+{
+  "status": "exemple",
+  "note": "Données d'exemple pour la maquette, à vérifier à l'étape 2.",
+  "summary": "Soigneur de raid polyvalent, fort en soins de zone grâce à Prière de soins, Cercle de soins et Écho de lumière (maîtrise).",
+  "stats": {
+    "raid": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Critique",
+        "weight": 70
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 65
+      },
+      {
+        "stat": "Hâte",
+        "weight": 50
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 45
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 70
+      },
+      {
+        "stat": "Critique",
+        "weight": 65
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 55
+      },
+      {
+        "stat": "Hâte",
+        "weight": 45
+      }
+    ],
+    "tips": [
+      "La maîtrise (Écho de lumière) ajoute un soin sur la durée après chaque soin direct.",
+      "Le critique double aussi l'Écho de lumière, d'où sa bonne valeur en raid."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          "Illumination",
+          "Traînée de lumière",
+          "Rénovation persistante"
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          "Plume angélique",
+          "Corps et esprit",
+          "Persévérance"
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          "Lumière du naaru",
+          "Ange gardien",
+          "Symbole d'espoir"
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          "Vague de Lumière",
+          "Soins de lien",
+          "Piété"
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          "Censure",
+          "Vie après la mort",
+          "Force brillante"
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          "Étoile divine",
+          "Halo",
+          "Cercle de soins"
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          "Apothéose",
+          "Bénédiction",
+          "Divinité"
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          1,
+          0,
+          0,
+          2,
+          1,
+          2,
+          0
+        ],
+        "note": "Build standard pour Antorus."
+      },
+      "mm": {
+        "picks": [
+          0,
+          0,
+          1,
+          0,
+          2,
+          1,
+          0
+        ],
+        "note": "Plus de survie et de soins mobiles en Mythique+."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "À compléter (étape 2)",
+        "source": "—"
+      },
+      {
+        "slot": "Cou",
+        "item": "À compléter (étape 2)",
+        "source": "—"
+      },
+      {
+        "slot": "Épaules",
+        "item": "À compléter (étape 2)",
+        "source": "—"
+      },
+      {
+        "slot": "Dos",
+        "item": "X'anshi, retour de l'archevêque Benedictus",
+        "source": "Légendaire"
+      },
+      {
+        "slot": "Torse",
+        "item": "À compléter (étape 2)",
+        "source": "—"
+      },
+      {
+        "slot": "Poignets",
+        "item": "À compléter (étape 2)",
+        "source": "—"
+      },
+      {
+        "slot": "Mains",
+        "item": "À compléter (étape 2)",
+        "source": "—"
+      },
+      {
+        "slot": "Taille",
+        "item": "À compléter (étape 2)",
+        "source": "—"
+      },
+      {
+        "slot": "Jambes",
+        "item": "À compléter (étape 2)",
+        "source": "—"
+      },
+      {
+        "slot": "Pieds",
+        "item": "À compléter (étape 2)",
+        "source": "—"
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Âme du grand prêtre",
+        "source": "Légendaire"
+      },
+      {
+        "slot": "Bague 2",
+        "item": "À compléter (étape 2)",
+        "source": "—"
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Compassion d'Eonar",
+        "source": "Antorus"
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Vision d'Aman'Thul",
+        "source": "Antorus"
+      }
+    ],
+    "mm": []
+  },
+  "artifact": {
+    "name": "T'uure, Fanal des naaru",
+    "relics": [
+      "Sacré",
+      "Vie",
+      "Sacré"
+    ],
+    "ability": "Lumière de T'uure",
+    "priority": [
+      "Lumière de T'uure",
+      "Pouvoir du naaru",
+      "Bénédiction de T'uure",
+      "Concordance de la Légion",
+      "Traits secondaires selon les points restants"
+    ],
+    "crucible": [
+      "Infusion de lumière",
+      "Sûreté de la lumière"
+    ]
+  }
+}

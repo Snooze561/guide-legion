@@ -1,0 +1,65 @@
+{
+  "patch": "7.3.5",
+  "classes": [
+    { "id": "guerrier", "name": "Guerrier", "color": "#C79C6E", "specs": [
+      { "id": "armes", "name": "Armes", "role": "dps" },
+      { "id": "fureur", "name": "Fureur", "role": "dps" },
+      { "id": "protection", "name": "Protection", "role": "tank" }
+    ]},
+    { "id": "paladin", "name": "Paladin", "color": "#F58CBA", "specs": [
+      { "id": "sacre", "name": "Sacré", "role": "heal" },
+      { "id": "protection", "name": "Protection", "role": "tank" },
+      { "id": "vindicte", "name": "Vindicte", "role": "dps" }
+    ]},
+    { "id": "chasseur", "name": "Chasseur", "color": "#ABD473", "specs": [
+      { "id": "maitrise-des-betes", "name": "Maîtrise des bêtes", "role": "dps" },
+      { "id": "precision", "name": "Précision", "role": "dps" },
+      { "id": "survie", "name": "Survie", "role": "dps" }
+    ]},
+    { "id": "voleur", "name": "Voleur", "color": "#FFF569", "specs": [
+      { "id": "assassinat", "name": "Assassinat", "role": "dps" },
+      { "id": "hors-la-loi", "name": "Hors-la-loi", "role": "dps" },
+      { "id": "finesse", "name": "Finesse", "role": "dps" }
+    ]},
+    { "id": "pretre", "name": "Prêtre", "color": "#FFFFFF", "specs": [
+      { "id": "discipline", "name": "Discipline", "role": "heal" },
+      { "id": "sacre", "name": "Sacré", "role": "heal" },
+      { "id": "ombre", "name": "Ombre", "role": "dps" }
+    ]},
+    { "id": "chevalier-de-la-mort", "name": "Chevalier de la mort", "color": "#C41F3B", "specs": [
+      { "id": "sang", "name": "Sang", "role": "tank" },
+      { "id": "givre", "name": "Givre", "role": "dps" },
+      { "id": "impie", "name": "Impie", "role": "dps" }
+    ]},
+    { "id": "chaman", "name": "Chaman", "color": "#0070DE", "specs": [
+      { "id": "elementaire", "name": "Élémentaire", "role": "dps" },
+      { "id": "amelioration", "name": "Amélioration", "role": "dps" },
+      { "id": "restauration", "name": "Restauration", "role": "heal" }
+    ]},
+    { "id": "mage", "name": "Mage", "color": "#69CCF0", "specs": [
+      { "id": "arcanes", "name": "Arcanes", "role": "dps" },
+      { "id": "feu", "name": "Feu", "role": "dps" },
+      { "id": "givre", "name": "Givre", "role": "dps" }
+    ]},
+    { "id": "demoniste", "name": "Démoniste", "color": "#9482C9", "specs": [
+      { "id": "affliction", "name": "Affliction", "role": "dps" },
+      { "id": "demonologie", "name": "Démonologie", "role": "dps" },
+      { "id": "destruction", "name": "Destruction", "role": "dps" }
+    ]},
+    { "id": "moine", "name": "Moine", "color": "#00FF96", "specs": [
+      { "id": "maitre-brasseur", "name": "Maître brasseur", "role": "tank" },
+      { "id": "tisse-brume", "name": "Tisse-brume", "role": "heal" },
+      { "id": "marche-vent", "name": "Marche-vent", "role": "dps" }
+    ]},
+    { "id": "druide", "name": "Druide", "color": "#FF7D0A", "specs": [
+      { "id": "equilibre", "name": "Équilibre", "role": "dps" },
+      { "id": "farouche", "name": "Farouche", "role": "dps" },
+      { "id": "gardien", "name": "Gardien", "role": "tank" },
+      { "id": "restauration", "name": "Restauration", "role": "heal" }
+    ]},
+    { "id": "chasseur-de-demons", "name": "Chasseur de démons", "color": "#A330C9", "specs": [
+      { "id": "devastation", "name": "Dévastation", "role": "dps" },
+      { "id": "vengeance", "name": "Vengeance", "role": "tank" }
+    ]}
+  ]
+}
