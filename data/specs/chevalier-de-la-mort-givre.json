@@ -1,0 +1,416 @@
+{
+  "status": "brouillon",
+  "icon": "spell_deathknight_frostpresence",
+  "summary": "DPS mêlée de givre. Machine de guerre et Tueur glacial alimentent Anéantissement.",
+  "sources": [
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Death_Knight_Frost.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Death_Knight_Frost.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Force",
+        "weight": 100
+      },
+      {
+        "stat": "Hâte",
+        "weight": 90
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 80
+      },
+      {
+        "stat": "Critique",
+        "weight": 72
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 72
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Force",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 90
+      },
+      {
+        "stat": "Hâte",
+        "weight": 85
+      },
+      {
+        "stat": "Critique",
+        "weight": 75
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 67
+      }
+    ],
+    "tips": [
+      "Priorité calculée avec SimulationCraft sur le profil Tier 21 : un seul boss pour le raid, 4 cibles pour le Mythique+.",
+      "La stat principale reste la base : à niveau d'objet égal, prends toujours l'objet le plus haut en niveau.",
+      "Les écarts entre secondaires sont faibles : simule ton propre personnage pour affiner."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 56,
+        "options": [
+          {
+            "id": 207057,
+            "name": "Lame fracassante",
+            "icon": "inv_7af_deathknight_frostmournefragment"
+          },
+          {
+            "id": 194878,
+            "name": "Serres glaciales",
+            "icon": "spell_deathknight_icytalons"
+          },
+          {
+            "id": 207104,
+            "name": "Atténuation runique",
+            "icon": "boss_odunrunes_blue"
+          }
+        ]
+      },
+      {
+        "level": 57,
+        "options": [
+          {
+            "id": 207060,
+            "name": "Brouillard givrant",
+            "icon": "spell_frost_arcticwinds"
+          },
+          {
+            "id": 207061,
+            "name": "Efficacité meurtrière",
+            "icon": "spell_frost_frostarmor"
+          },
+          {
+            "id": 57330,
+            "name": "Cor de l'hiver",
+            "icon": "inv_misc_horn_02"
+          }
+        ]
+      },
+      {
+        "level": 58,
+        "options": [
+          {
+            "id": 207126,
+            "name": "Chape de glace",
+            "icon": "inv_misc_herb_icecap"
+          },
+          {
+            "id": 194913,
+            "name": "Avancée glaciale",
+            "icon": "ability_hunter_glacialtrap"
+          },
+          {
+            "id": 207142,
+            "name": "Avalanche",
+            "icon": "spell_frost_icestorm"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 207161,
+            "name": "Puissance de l'abomination",
+            "icon": "spell_deathknight_icetouch"
+          },
+          {
+            "id": 207167,
+            "name": "Grésil aveuglant",
+            "icon": "spell_frost_chillingblast"
+          },
+          {
+            "id": 207170,
+            "name": "L'hiver approche",
+            "icon": "inv_wolfdraenormountfrost"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 207188,
+            "name": "Protection volatile",
+            "icon": "ability_mage_shattershield"
+          },
+          {
+            "id": 207200,
+            "name": "Gel prolongé",
+            "icon": "achievement_zone_frostfire"
+          },
+          {
+            "id": 253593,
+            "name": "Assaut inexorable",
+            "icon": "achievement_dungeon_icecrown_frostmourne"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 207230,
+            "name": "Faux de givre",
+            "icon": "inv12_ability_deathknight_frostscythe"
+          },
+          {
+            "id": 194909,
+            "name": "Onde gelée",
+            "icon": "inv_misc_permafrostshard"
+          },
+          {
+            "id": 194912,
+            "name": "Tempête grandissante",
+            "icon": "spell_frost_ice-shards"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 207256,
+            "name": "Oblitération",
+            "icon": "inv_axe_114"
+          },
+          {
+            "id": 152279,
+            "name": "Souffle de Sindragosa",
+            "icon": "spell_deathknight_breathofsindragosa"
+          },
+          {
+            "id": 207127,
+            "name": "Arme runique affamée",
+            "icon": "ability_deathknight_hungeringruneblade"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          0,
+          1,
+          0,
+          -1,
+          -1,
+          2,
+          0
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible. Les rangées sans coche sont au choix (contrôle, mobilité ou survie)."
+      },
+      "mm": {
+        "picks": [
+          0,
+          1,
+          0,
+          -1,
+          -1,
+          2,
+          0
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs. Les rangées sans coche sont au choix."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Dreadwake Helm",
+        "id": 152115,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Chain of the Unmaker",
+        "id": 152283,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Épaules",
+        "item": "Dreadwake Pauldrons",
+        "id": 152117,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Dreadwake Greatcloak",
+        "id": 152113,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Dreadwake Bonecage",
+        "id": 152112,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Manchettes aveuglantes de Toravon",
+        "id": 132458,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_bracer_plate_raidpaladin_l_01"
+      },
+      {
+        "slot": "Mains",
+        "item": "Nascent Deathbringer's Clutches",
+        "id": 152686,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Volonté nouvelle de Koltira",
+        "id": 132366,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_belt_14"
+      },
+      {
+        "slot": "Jambes",
+        "item": "Cosmos-Culling Legplates",
+        "id": 152016,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Doomwalker Warboots",
+        "id": 152009,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Zealous Tormentor's Ring",
+        "id": 152284,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Seal of the Portalmaster",
+        "id": 152063,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Aman'Thul's Vision",
+        "id": 154172,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Shadow-Singed Fang",
+        "id": 151968,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Lames du prince déchu",
+    "id": 128292,
+    "icon": "inv_sword_1h_artifactruneblade_d_01",
+    "ability": "Epées cristallines",
+    "abilityId": 189186,
+    "relics": [
+      "Givre",
+      "Ombre",
+      "Givre"
+    ],
+    "relicPicks": [
+      {
+        "type": "Givre",
+        "item": "Rime of the Spirit Realm",
+        "id": 155850,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Ombre",
+        "item": "Volatile Soul Fragment",
+        "id": 155852,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Givre",
+        "item": "Rime of the Spirit Realm",
+        "id": 155850,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Intention de nuire",
+        "id": 252191,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Ambidextrie",
+        "id": 189092,
+        "note": "Rang 2"
+      },
+      {
+        "name": "Plus que les bottes",
+        "id": 189144
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

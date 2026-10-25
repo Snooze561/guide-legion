@@ -1,0 +1,412 @@
+{
+  "status": "brouillon",
+  "icon": "ability_racial_bearform",
+  "summary": "Tank ours. Mutiler et Rosser, avec Ironfur et Régénération frénétique pour durer.",
+  "sources": [
+    {
+      "label": "Guías WoW, guide PvE 7.3.5 (stats)",
+      "url": "https://en.guiaswow.com/game-guide/druid-guardian-patch-7-3-5.html"
+    },
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Druid_Guardian.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Druid_Guardian.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 85
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 70
+      },
+      {
+        "stat": "Hâte",
+        "weight": 55
+      },
+      {
+        "stat": "Critique",
+        "weight": 40
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 85
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 70
+      },
+      {
+        "stat": "Hâte",
+        "weight": 55
+      },
+      {
+        "stat": "Critique",
+        "weight": 40
+      }
+    ],
+    "tips": [
+      "Priorité orientée survie, d'après le guide Guías WoW 7.3.5.",
+      "La même priorité s'applique en raid et en Mythique+."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 203953,
+            "name": "Ronces",
+            "icon": "inv_misc_thornnecklace"
+          },
+          {
+            "id": 155835,
+            "name": "Poils hérissés",
+            "icon": "spell_druid_bristlingfur"
+          },
+          {
+            "id": 203962,
+            "name": "Frénésie sanglante",
+            "icon": "ability_druid_primaltenacity"
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 204012,
+            "name": "Rugissements gutturaux",
+            "icon": "ability_druid_enrage"
+          },
+          {
+            "id": 236748,
+            "name": "Rugissement d'intimidation",
+            "icon": "ability_druid_challangingroar"
+          },
+          {
+            "id": 102401,
+            "name": "Charge sauvage",
+            "icon": "spell_druid_wildcharge"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 197488,
+            "name": "Affinité avec l'équilibre",
+            "icon": "ability_druid_improvedmoonkinform"
+          },
+          {
+            "id": 202155,
+            "name": "Affinité farouche",
+            "icon": "talentspec_druid_feral_cat"
+          },
+          {
+            "id": 197492,
+            "name": "Affinité avec la restauration",
+            "icon": "ability_druid_improvedtreeform"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 5211,
+            "name": "Rossée puissante",
+            "icon": "ability_druid_bash"
+          },
+          {
+            "id": 102359,
+            "name": "Enchevêtrement de masse",
+            "icon": "spell_druid_massentanglement"
+          },
+          {
+            "id": 132469,
+            "name": "Typhon",
+            "icon": "ability_druid_typhoon"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 158477,
+            "name": "Ame de la forêt",
+            "icon": "ability_druid_manatree"
+          },
+          {
+            "id": 102558,
+            "name": "Incarnation : Gardien d'Ursoc",
+            "icon": "spell_druid_incarnation"
+          },
+          {
+            "id": 203964,
+            "name": "Gardien galactique",
+            "icon": "spell_frost_iceclaw"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 203974,
+            "name": "Gardien de la terre",
+            "icon": "spell_shaman_blessingofeternals"
+          },
+          {
+            "id": 155578,
+            "name": "Gardien d'Elune",
+            "icon": "spell_druid_guardianofelune"
+          },
+          {
+            "id": 203965,
+            "name": "Survie du plus fort",
+            "icon": "ability_druid_enrage"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 204053,
+            "name": "Rend and Tear",
+            "unsure": true
+          },
+          {
+            "id": 204066,
+            "name": "Rayon lunaire",
+            "icon": "spell_nature_moonglow"
+          },
+          {
+            "id": 80313,
+            "name": "Pulvérisation",
+            "icon": "spell_druid_malfurionstenacity"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          0,
+          0,
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible."
+      },
+      "mm": {
+        "picks": [
+          0,
+          0,
+          0,
+          1,
+          2,
+          1,
+          0
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Heaume en peau de kraken",
+        "id": 133618,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_helm_leather_legiondungeon_c_01"
+      },
+      {
+        "slot": "Cou",
+        "item": "Vulcanarcore Pendant",
+        "id": 151965,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Épaules",
+        "item": "La Dame et l'Enfant",
+        "id": 144295,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_shoulder_leather_draenorcrafted_d_01_alliance"
+      },
+      {
+        "slot": "Dos",
+        "item": "Fury of Nature",
+        "id": 151802,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "unsure": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Bearmantle Harness",
+        "id": 152124,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Bracers of Wanton Morality",
+        "id": 152414,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Mains",
+        "item": "Grips of Hungering Shadows",
+        "id": 152086,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Belt of Fractured Sanity",
+        "id": 151991,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Jambes",
+        "item": "Breach-Blocker Legguards",
+        "id": 151987,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Depraved Machinist's Footpads",
+        "id": 152412,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Sullied Seal of the Pantheon",
+        "id": 151972,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Seal of the Portalmaster",
+        "id": 152063,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Golganneth's Vitality",
+        "id": 154174,
+        "source": "Argus l'Annihilateur (panthéon)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Instinct assoiffé de sang",
+        "id": 139329,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "ability_druid_primaltenacity"
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Griffes d'Ursoc",
+    "id": 128821,
+    "icon": "inv_hand_1h_artifactursoc_d_01",
+    "ability": "Rage du dormeur",
+    "abilityId": 200851,
+    "relics": [
+      "Feu",
+      "Sang",
+      "Vie"
+    ],
+    "relicPicks": [
+      {
+        "type": "Feu",
+        "item": "Tormentor's Brand",
+        "id": 152037,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Sang",
+        "item": "Appât caustique",
+        "id": 147081,
+        "source": "Autre (donjon, artisanat ou monde)"
+      },
+      {
+        "type": "Vie",
+        "item": "Eidolon of Life",
+        "id": 152051,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Tourment des faibles",
+        "id": 252906,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Morsures vicieuses",
+        "id": 200440,
+        "note": "Rang 3"
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

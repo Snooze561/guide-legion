@@ -1,0 +1,411 @@
+{
+  "status": "brouillon",
+  "icon": "spell_shaman_improvedstormstrike",
+  "summary": "DPS mêlée à deux armes. Frappe-tempête et la malestrom, avec les loups spectraux en renfort.",
+  "sources": [
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Shaman_Enhancement.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Shaman_Enhancement.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 90
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 88
+      },
+      {
+        "stat": "Critique",
+        "weight": 85
+      },
+      {
+        "stat": "Hâte",
+        "weight": 74
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 90
+      },
+      {
+        "stat": "Critique",
+        "weight": 89
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 81
+      },
+      {
+        "stat": "Hâte",
+        "weight": 64
+      }
+    ],
+    "tips": [
+      "Priorité calculée avec SimulationCraft sur le profil Tier 21 : un seul boss pour le raid, 4 cibles pour le Mythique+.",
+      "La stat principale reste la base : à niveau d'objet égal, prends toujours l'objet le plus haut en niveau.",
+      "Les écarts entre secondaires sont faibles : simule ton propre personnage pour affiner."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 201898,
+            "name": "Windsong",
+            "unsure": true
+          },
+          {
+            "id": 201900,
+            "name": "Main brûlante",
+            "icon": "spell_fire_playingwithfire"
+          },
+          {
+            "id": 197992,
+            "name": "Glissement de terrain",
+            "icon": "inv_ore_blackrock_nugget"
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 215864,
+            "name": "Rainfall",
+            "unsure": true
+          },
+          {
+            "id": 196884,
+            "name": "Impulsion farouche",
+            "icon": "spell_beastmaster_wolf"
+          },
+          {
+            "id": 192077,
+            "name": "Totem de bouffée de vent",
+            "icon": "ability_shaman_windwalktotem"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 192058,
+            "name": "Totem condensateur",
+            "icon": "spell_nature_brilliance"
+          },
+          {
+            "id": 51485,
+            "name": "Totem de poigne de terre",
+            "icon": "spell_nature_stranglevines"
+          },
+          {
+            "id": 196932,
+            "name": "Totem vaudou",
+            "icon": "spell_totem_wardofdraining"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 192106,
+            "name": "Bouclier de foudre",
+            "icon": "spell_nature_lightningshield"
+          },
+          {
+            "id": 192087,
+            "name": "Ancestral Swiftness",
+            "unsure": true
+          },
+          {
+            "id": 210853,
+            "name": "Hailstorm",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 192234,
+            "name": "Tempête",
+            "icon": "inv_misc_herb_stormvine"
+          },
+          {
+            "id": 210727,
+            "name": "Surcharge",
+            "icon": "spell_nature_callstorm"
+          },
+          {
+            "id": 210731,
+            "name": "Empowered Stormlash",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 192246,
+            "name": "Tempête écrasante",
+            "icon": "spell_nature_unrelentingstorm"
+          },
+          {
+            "id": 197211,
+            "name": "Fureur de l'Air",
+            "icon": "ability_ironmaidens_swirlingvortex"
+          },
+          {
+            "id": 197214,
+            "name": "Fracture",
+            "icon": "ability_rhyolith_lavapool"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 114051,
+            "name": "Ascendance"
+          },
+          {
+            "id": 246035,
+            "name": "Rochepoing",
+            "icon": "ability_earthenfury_giftofearth"
+          },
+          {
+            "id": 188089,
+            "name": "Earthen Spike",
+            "unsure": true
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          2,
+          0,
+          2,
+          1,
+          0,
+          1,
+          2
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible."
+      },
+      "mm": {
+        "picks": [
+          2,
+          0,
+          2,
+          1,
+          0,
+          1,
+          2
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Helm of the Awakened Soul",
+        "id": 152423,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Riveted Choker of Delirium",
+        "id": 151966,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Épaules",
+        "item": "Pauldrons of Venerated Spirits",
+        "id": 152171,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Drape of Venerated Spirits",
+        "id": 152167,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Robes of Venerated Spirits",
+        "id": 152166,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Reality-Splitting Wristguards",
+        "id": 152008,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Mains",
+        "item": "Smoldering Heart",
+        "id": 151819,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "unsure": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Depraved Tactician's Waistguard",
+        "id": 152006,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Jambes",
+        "item": "Leggings of Venerated Spirits",
+        "id": 152170,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Greatboots of the Searing Tempest",
+        "id": 152684,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Oeil du Néant distordu",
+        "id": 137050,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_jewelry_ring_ahnqiraj_02"
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Loop of the Life-Binder",
+        "id": 152688,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Golganneth's Vitality",
+        "id": 154174,
+        "source": "Argus l'Annihilateur (panthéon)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Shadow-Singed Fang",
+        "id": 151968,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Marteau-du-Destin",
+    "id": 128819,
+    "icon": "inv_mace_1h_doomhammer",
+    "ability": "Vents funestes",
+    "abilityId": 204945,
+    "relics": [
+      "Feu",
+      "Fer",
+      "Tempête"
+    ],
+    "relicPicks": [
+      {
+        "type": "Feu",
+        "item": "Flickering Ember of Rage",
+        "id": 155849,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Fer",
+        "item": "Mote of the Forgemaster",
+        "id": 155855,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Tempête",
+        "item": "Conch of the Thunderer",
+        "id": 155853,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Maître des Ombres",
+        "id": 252091,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Frappes des vents",
+        "id": 198292,
+        "note": "Rang 3"
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

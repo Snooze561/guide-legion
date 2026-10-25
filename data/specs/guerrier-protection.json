@@ -1,0 +1,397 @@
+{
+  "status": "brouillon",
+  "icon": "ability_warrior_defensivestance",
+  "summary": "Tank bouclier. Maîtrise du blocage avec Maîtrise du bouclier et Cri d'avertissement, la rage paie ta survie.",
+  "sources": [
+    {
+      "label": "Guías WoW, guide PvE 7.3.5",
+      "url": "https://fr.guiaswow.com/guide-du-jeu/guide-de-protection-du-guerrier-pve.html"
+    },
+    {
+      "label": "SimulationCraft 7.3.5, profil PR_Warrior_Protection.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/PreRaids/PR_Warrior_Protection.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Force",
+        "weight": 100
+      },
+      {
+        "stat": "Hâte",
+        "weight": 85
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 70
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 55
+      },
+      {
+        "stat": "Critique",
+        "weight": 40
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Force",
+        "weight": 100
+      },
+      {
+        "stat": "Hâte",
+        "weight": 85
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 70
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 55
+      },
+      {
+        "stat": "Critique",
+        "weight": 40
+      }
+    ],
+    "tips": [
+      "La même priorité s'applique en raid et en Mythique+, d'après le guide Guías WoW 7.3.5."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 46968,
+            "name": "Onde de choc",
+            "icon": "ability_warrior_shockwave"
+          },
+          {
+            "id": 107570,
+            "name": "Éclair de tempête",
+            "icon": "warrior_talent_icon_stormbolt"
+          },
+          {
+            "id": 103828,
+            "name": "Porteguerre",
+            "icon": "ability_warrior_warbringer"
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 202168,
+            "name": "Victoire imminente",
+            "icon": "spell_impending_victory"
+          },
+          {
+            "id": 205484,
+            "name": "Inspiring Presence",
+            "unsure": true
+          },
+          {
+            "id": 223657,
+            "name": "Protéger",
+            "icon": "ability_warrior_safeguard"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 202288,
+            "name": "Regain de fureur",
+            "icon": "ability_warrior_intensifyrage"
+          },
+          {
+            "id": 202560,
+            "name": "Un plat qui se mange froid",
+            "icon": "ability_warrior_revenge"
+          },
+          {
+            "id": 107574,
+            "name": "Avatar",
+            "icon": "warrior_talent_icon_avatar"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 223662,
+            "name": "Warlord's Challenge",
+            "unsure": true
+          },
+          {
+            "id": 202163,
+            "name": "Marche bondissante",
+            "icon": "ability_heroicleap"
+          },
+          {
+            "id": 203201,
+            "name": "Tonnerre crépitant",
+            "icon": "ability_thunderking_overcharge"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 236279,
+            "name": "Dévastateur",
+            "icon": "inv_sword_11"
+          },
+          {
+            "id": 202561,
+            "name": "Jusqu'au bout",
+            "icon": "ability_butcher_gushingwounds"
+          },
+          {
+            "id": 202095,
+            "name": "Indomptable",
+            "icon": "ability_warrior_intensifyrage"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 202572,
+            "name": "Vengeance",
+            "icon": "ability_warrior_unrelentingassault"
+          },
+          {
+            "id": 202603,
+            "name": "Dans la mêlée",
+            "icon": "ability_warrior_bloodfrenzy"
+          },
+          {
+            "id": 202743,
+            "name": "Voix tonitruante",
+            "icon": "ability_warrior_commandingshout"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 152278,
+            "name": "Maîtrise de la rage",
+            "icon": "warrior_talent_icon_angermanagement"
+          },
+          {
+            "id": 203177,
+            "name": "Lourdes répercussions",
+            "icon": "inv_shield_32"
+          },
+          {
+            "id": 228920,
+            "name": "Ravageur",
+            "icon": "warrior_talent_icon_ravager"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "note": "Build conseillé par le guide Guías WoW 7.3.5."
+      },
+      "mm": {
+        "picks": [
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          1
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Helmet of the Hidden Sanctuary",
+        "id": 152013,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Riveted Choker of Delirium",
+        "id": 151966,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Épaules",
+        "item": "Juggernaut Pauldrons",
+        "id": 152183,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Juggernaut Cloak",
+        "id": 152179,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Juggernaut Breastplate",
+        "id": 152178,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Vambraces of Life's Assurance",
+        "id": 152023,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Mains",
+        "item": "Juggernaut Gauntlets",
+        "id": 152180,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Grond-Father Girdle",
+        "id": 152022,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Jambes",
+        "item": "Cosmos-Culling Legplates",
+        "id": 152016,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Burning Coven Sabatons",
+        "id": 152010,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Loop of the Life-Binder",
+        "id": 152688,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Seal of the Portalmaster",
+        "id": 152063,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Aggramar's Conviction",
+        "id": 154173,
+        "source": "Argus l'Annihilateur (panthéon)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Gorshalach's Legacy",
+        "id": 152093,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du guide Guías WoW 7.3.5 (Antorus).",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Ecaille du Gardeterre",
+    "id": 128289,
+    "icon": "inv_shield_1h_artifactmagnar_d_01",
+    "ability": "Fureur de Neltharion",
+    "abilityId": 203524,
+    "relics": [
+      "Fer",
+      "Sang",
+      "Feu"
+    ],
+    "relicPicks": [
+      {
+        "type": "Fer",
+        "item": "Mote of the Forgemaster",
+        "id": 155855,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Sang",
+        "item": "Cruor of the Avenger",
+        "id": 155847,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Feu",
+        "item": "Tormentor's Brand",
+        "id": 152037,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": []
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "status": "brouillon",
+  "icon": "spell_holy_auraoflight",
+  "summary": "DPS mêlée sacré. Accumule la puissance sacrée puis dépense-la avec Verdict du templier et Tempête divine.",
+  "sources": [
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Paladin_Retribution.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Paladin_Retribution.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Force",
+        "weight": 100
+      },
+      {
+        "stat": "Hâte",
+        "weight": 90
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 76
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 74
+      },
+      {
+        "stat": "Critique",
+        "weight": 66
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Force",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 90
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 70
+      },
+      {
+        "stat": "Hâte",
+        "weight": 60
+      },
+      {
+        "stat": "Critique",
+        "weight": 51
+      }
+    ],
+    "tips": [
+      "Priorité calculée avec SimulationCraft sur le profil Tier 21 : un seul boss pour le raid, 4 cibles pour le Mythique+.",
+      "La stat principale reste la base : à niveau d'objet égal, prends toujours l'objet le plus haut en niveau.",
+      "Les écarts entre secondaires sont faibles : simule ton propre personnage pour affiner."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 198038,
+            "name": "Verdict final",
+            "icon": "spell_paladin_templarsverdict"
+          },
+          {
+            "id": 213757,
+            "name": "Execution Sentence",
+            "unsure": true
+          },
+          {
+            "id": 205228,
+            "name": "Consécration",
+            "icon": "spell_holy_innerfire"
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 203316,
+            "name": "Flammes de justice",
+            "icon": "spell_holy_crusaderstrike"
+          },
+          {
+            "id": 217020,
+            "name": "Zèle",
+            "icon": "spell_holy_sealofblood"
+          },
+          {
+            "id": 218178,
+            "name": "Jugement supérieur",
+            "icon": "spell_holy_righteousfury"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 234299,
+            "name": "Poing de la justice",
+            "icon": "spell_holy_fistofjustice"
+          },
+          {
+            "id": 20066,
+            "name": "Repentir",
+            "icon": "spell_holy_prayerofhealing"
+          },
+          {
+            "id": 115750,
+            "name": "Lumière aveuglante",
+            "icon": "ability_paladin_blindinglight"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 202271,
+            "name": "Virtue's Blade",
+            "unsure": true
+          },
+          {
+            "id": 231832,
+            "name": "Lame de courroux",
+            "icon": "ability_paladin_bladeofjustice"
+          },
+          {
+            "id": 198034,
+            "name": "Marteau divin",
+            "icon": "classicon_paladin"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 215661,
+            "name": "Vengeance du justicier",
+            "icon": "spell_holy_retributionaura"
+          },
+          {
+            "id": 205191,
+            "name": "Œil pour œil",
+            "icon": "spell_holy_weaponmastery"
+          },
+          {
+            "id": 210191,
+            "name": "Word of Glory",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 213313,
+            "name": "Divine Intervention",
+            "unsure": true
+          },
+          {
+            "id": 230332,
+            "name": "Cavalier",
+            "icon": "ability_paladin_divinesteed"
+          },
+          {
+            "id": 183778,
+            "name": "Jugement de lumière",
+            "icon": "spell_holy_divineprovidence"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 223817,
+            "name": "Dessein divin",
+            "icon": "spell_holy_divinepurpose"
+          },
+          {
+            "id": 231895,
+            "name": "Croisade",
+            "unsure": true
+          },
+          {
+            "id": 210220,
+            "name": "Holy Wrath",
+            "unsure": true
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          0,
+          2,
+          -1,
+          1,
+          -1,
+          -1,
+          1
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible. Les rangées sans coche sont au choix (contrôle, mobilité ou survie)."
+      },
+      "mm": {
+        "picks": [
+          0,
+          2,
+          -1,
+          1,
+          -1,
+          -1,
+          1
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs. Les rangées sans coche sont au choix."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Light's Vanguard Helm",
+        "id": 152151,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Chain of the Unmaker",
+        "id": 152283,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Épaules",
+        "item": "Light's Vanguard Shoulderplates",
+        "id": 152153,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Murmure des nathrezims",
+        "id": 137020,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_cape_pandaria_d_04"
+      },
+      {
+        "slot": "Torse",
+        "item": "Light's Vanguard Breastplate",
+        "id": 152148,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Vambraces of Life's Assurance",
+        "id": 152023,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Mains",
+        "item": "Light's Vanguard Gauntlets",
+        "id": 152150,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Grond-Father Girdle",
+        "id": 152022,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Jambes",
+        "item": "Cosmos-Culling Legplates",
+        "id": 152016,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Burning Coven Sabatons",
+        "id": 152010,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Sullied Seal of the Pantheon",
+        "id": 151972,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Soul of the Highlord",
+        "id": 151644,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Seeping Scourgewing",
+        "id": 151964,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Aman'Thul's Vision",
+        "id": 154172,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "unsure": true
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Porte-Cendres",
+    "id": 120978,
+    "icon": "inv_sword_2h_artifactashbringer_d_01",
+    "ability": "Traînée de cendres",
+    "abilityId": 205273,
+    "relics": [
+      "Sacré",
+      "Feu",
+      "Sacré"
+    ],
+    "relicPicks": [
+      {
+        "type": "Sacré",
+        "item": "Reorigination Spark",
+        "id": 155851,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Feu",
+        "item": "Pyretic Bronze Clasp",
+        "id": 152038,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Sacré",
+        "item": "Reorigination Spark",
+        "id": 155851,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Tourment des faibles",
+        "id": 252906,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Colère de Porte-Cendres",
+        "id": 186945,
+        "note": "Rang 3"
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

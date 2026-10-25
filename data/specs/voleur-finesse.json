@@ -1,0 +1,412 @@
+{
+  "status": "brouillon",
+  "icon": "ability_stealth",
+  "summary": "DPS mêlée des ombres. Danse de l'ombre ouvre tes fenêtres de dégâts, Éviscération les conclut.",
+  "sources": [
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Rogue_Subtlety.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Rogue_Subtlety.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Critique",
+        "weight": 90
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 82
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 63
+      },
+      {
+        "stat": "Hâte",
+        "weight": 57
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 90
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 67
+      },
+      {
+        "stat": "Critique",
+        "weight": 66
+      },
+      {
+        "stat": "Hâte",
+        "weight": 33
+      }
+    ],
+    "tips": [
+      "Priorité calculée avec SimulationCraft sur le profil Tier 21 : un seul boss pour le raid, 4 cibles pour le Mythique+.",
+      "La stat principale reste la base : à niveau d'objet égal, prends toujours l'objet le plus haut en niveau.",
+      "Les écarts entre secondaires sont faibles : simule ton propre personnage pour affiner."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 31223,
+            "name": "Maître de la discrétion",
+            "icon": "ability_rogue_masterofsubtlety"
+          },
+          {
+            "id": 193537,
+            "name": "Maître d'armes",
+            "icon": "ability_ironmaidens_bladerush"
+          },
+          {
+            "id": 200758,
+            "name": "Triste-lame",
+            "icon": "ability_ironmaidens_convulsiveshadows"
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 14062,
+            "name": "Traqueur nocturne",
+            "icon": "ability_stealth"
+          },
+          {
+            "id": 108208,
+            "name": "Subterfuge",
+            "icon": "rogue_subterfuge"
+          },
+          {
+            "id": 108209,
+            "name": "Focalisation de l'ombre",
+            "icon": "rogue_shadowfocus"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 193531,
+            "name": "Stratagème approfondi",
+            "icon": "archaeology_5_0_changkiboard"
+          },
+          {
+            "id": 114015,
+            "name": "Anticipation",
+            "icon": "ability_rogue_slaughterfromtheshadows"
+          },
+          {
+            "id": 14983,
+            "name": "Vigueur",
+            "icon": "ability_rogue_vigor"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 200759,
+            "name": "Ténèbres apaisantes",
+            "icon": "spell_shadow_twilight"
+          },
+          {
+            "id": 79008,
+            "name": "Insaisissable",
+            "icon": "ability_rogue_turnthetables"
+          },
+          {
+            "id": 31230,
+            "name": "Trompe-la-mort",
+            "icon": "ability_rogue_cheatdeath"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 196951,
+            "name": "Strike from the Shadows",
+            "unsure": true
+          },
+          {
+            "id": 131511,
+            "name": "Prey on the Weak",
+            "unsure": true
+          },
+          {
+            "id": 200778,
+            "name": "Ombres enchevêtrées",
+            "icon": "inv_misc_volatileshadow"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 245687,
+            "name": "Ombres noires",
+            "icon": "spell_warlock_demonsoul"
+          },
+          {
+            "id": 193539,
+            "name": "Empressement",
+            "icon": "ability_paladin_speedoflight"
+          },
+          {
+            "id": 238104,
+            "name": "Ombres enveloppantes",
+            "icon": "ability_rogue_envelopingshadows"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 196976,
+            "name": "Maître des Ombres",
+            "icon": "spell_shadow_charm"
+          },
+          {
+            "id": 137619,
+            "name": "Désigné pour mourir",
+            "icon": "achievement_bg_killingblow_berserker"
+          },
+          {
+            "id": 152150,
+            "name": "La mort venue d'en haut",
+            "icon": "spell_rogue_deathfromabove"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          2,
+          2,
+          0,
+          -1,
+          -1,
+          0,
+          1
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible. Les rangées sans coche sont au choix (contrôle, mobilité ou survie)."
+      },
+      "mm": {
+        "picks": [
+          2,
+          2,
+          0,
+          -1,
+          -1,
+          0,
+          1
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs. Les rangées sans coche sont au choix."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Cavalier Hat of the Dashing Scoundrel",
+        "id": 152163,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Vulcanarcore Pendant",
+        "id": 151965,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Épaules",
+        "item": "Fanged Slayer's Shoulderpads",
+        "id": 147174,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Cloak of the Dashing Scoundrel",
+        "id": 152161,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Vest of the Dashing Scoundrel",
+        "id": 152160,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Déni des demi-géants",
+        "id": 137100,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_bracer_leather_panda_b_02_crimson"
+      },
+      {
+        "slot": "Mains",
+        "item": "Fanged Slayer's Handguards",
+        "id": 147171,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Portal Keeper's Cincture",
+        "id": 151990,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Jambes",
+        "item": "Pants of the Dashing Scoundrel",
+        "id": 152164,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Life-Bearing Footpads",
+        "id": 151981,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Insigne de Ravenholdt",
+        "id": 137049,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_misc_epicring_a2"
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Band of the Sargerite Smith",
+        "id": 152064,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Seeping Scourgewing",
+        "id": 151964,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Golganneth's Vitality",
+        "id": 154174,
+        "source": "Argus l'Annihilateur (panthéon)",
+        "quality": "epic",
+        "unsure": true
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Crocs du Dévoreur",
+    "id": 128476,
+    "icon": "inv_knife_1h_artifactfangs_d_01",
+    "ability": "Morsure de Gueulétripe",
+    "abilityId": 209782,
+    "relics": [
+      "Gangrène",
+      "Ombre",
+      "Gangrène"
+    ],
+    "relicPicks": [
+      {
+        "type": "Gangrène",
+        "item": "Condensed Blight Orb",
+        "id": 155848,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Ombre",
+        "item": "Crepuscular Skitterer Egg",
+        "id": 152057,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Gangrène",
+        "item": "Condensed Blight Orb",
+        "id": 155848,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Tourment des faibles",
+        "id": 252906,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Coups de couteau énergiques",
+        "id": 197239,
+        "note": "Rang 3"
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

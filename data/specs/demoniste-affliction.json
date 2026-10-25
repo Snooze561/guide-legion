@@ -1,0 +1,416 @@
+{
+  "status": "brouillon",
+  "icon": "spell_shadow_deathcoil",
+  "summary": "DPS distance aux dégâts sur la durée. Affliction instable et les éclats d'âme montent tes dégâts.",
+  "sources": [
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Warlock_Affliction.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Warlock_Affliction.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 90
+      },
+      {
+        "stat": "Critique",
+        "weight": 87
+      },
+      {
+        "stat": "Hâte",
+        "weight": 86
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 75
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Hâte",
+        "weight": 90
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 73
+      },
+      {
+        "stat": "Critique",
+        "weight": 58
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 52
+      }
+    ],
+    "tips": [
+      "Priorité calculée avec SimulationCraft sur le profil Tier 21 : un seul boss pour le raid, 4 cibles pour le Mythique+.",
+      "La stat principale reste la base : à niveau d'objet égal, prends toujours l'objet le plus haut en niveau.",
+      "Les écarts entre secondaires sont faibles : simule ton propre personnage pour affiner."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 48181,
+            "name": "Hanter",
+            "icon": "ability_warlock_haunt"
+          },
+          {
+            "id": 196102,
+            "name": "Affres de l'agonie",
+            "icon": "spell_shadow_curseofsargeras"
+          },
+          {
+            "id": 235155,
+            "name": "Étreinte maléfique",
+            "icon": "ability_warlock_everlastingaffliction"
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 196105,
+            "name": "Contagion",
+            "icon": "ability_creature_disease_03"
+          },
+          {
+            "id": 196103,
+            "name": "Corruption absolue",
+            "icon": "ability_bossmannoroth_empoweredmannorothsgaze"
+          },
+          {
+            "id": 235157,
+            "name": "Connexion surpuissante",
+            "icon": "spell_shadow_manafeed"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 48018,
+            "name": "Cercle démoniaque",
+            "icon": "spell_shadow_demoniccirclesummon"
+          },
+          {
+            "id": 6789,
+            "name": "Voile de mort",
+            "icon": "ability_warlock_mortalcoil"
+          },
+          {
+            "id": 5484,
+            "name": "Hurlement de terreur",
+            "icon": "ability_warlock_howlofterror"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 205179,
+            "name": "Singularité fantomatique",
+            "icon": "inv_enchant_voidsphere"
+          },
+          {
+            "id": 196226,
+            "name": "Dissémination",
+            "icon": "spell_shadow_seedofdestruction"
+          },
+          {
+            "id": 196098,
+            "name": "Récolte d'âmes",
+            "icon": "spell_warlock_demonsoul"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 219272,
+            "name": "Peau de démon",
+            "icon": "spell_shadow_ragingscream"
+          },
+          {
+            "id": 111400,
+            "name": "Ruée ardente",
+            "icon": "ability_deathwing_sealarmorbreachtga"
+          },
+          {
+            "id": 108416,
+            "name": "Sombre pacte",
+            "icon": "spell_shadow_deathpact"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 152107,
+            "name": "Grimoire de suprématie",
+            "icon": "warlock_grimoireofcommand"
+          },
+          {
+            "id": 108501,
+            "name": "Grimoire de servitude",
+            "icon": "warlock_grimoireofservice"
+          },
+          {
+            "id": 108503,
+            "name": "Grimoire de sacrifice",
+            "icon": "warlock_grimoireofsacrifice"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 234876,
+            "name": "Caresse de la mort",
+            "icon": "spell_shadow_deathsembrace"
+          },
+          {
+            "id": 63106,
+            "name": "Siphon de vie",
+            "icon": "spell_shadow_requiem"
+          },
+          {
+            "id": 215941,
+            "name": "Conducteur d'âme",
+            "icon": "spell_shadow_soulleech_2"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          2,
+          0,
+          -1,
+          2,
+          -1,
+          0,
+          1
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible. Les rangées sans coche sont au choix (contrôle, mobilité ou survie)."
+      },
+      "mm": {
+        "picks": [
+          2,
+          0,
+          -1,
+          2,
+          -1,
+          0,
+          1
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs. Les rangées sans coche sont au choix."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Chaperon de dédain éternel",
+        "id": 132394,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_helmet_152"
+      },
+      {
+        "slot": "Cou",
+        "item": "Chain of the Unmaker",
+        "id": 152283,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Épaules",
+        "item": "Grim Inquisitor's Shoulderguards",
+        "id": 152177,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Grim Inquisitor's Cloak",
+        "id": 152172,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Grim Inquisitor's Robes",
+        "id": 152176,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Blood-Drenched Bindings",
+        "id": 151954,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Mains",
+        "item": "Handwraps of Inevitable Doom",
+        "id": 152680,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Corde de puissance de Lethtendris",
+        "id": 132457,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_belt_30"
+      },
+      {
+        "slot": "Jambes",
+        "item": "Grim Inquisitor's Leggings",
+        "id": 152175,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Sandals of the Reborn Colossus",
+        "id": 151940,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Zealous Tormentor's Ring",
+        "id": 152284,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Loop of the Life-Binder",
+        "id": 152688,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Acrid Catalyst Injector",
+        "id": 151955,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Aman'Thul's Vision",
+        "id": 154172,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "unsure": true
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Ulthalesh, la faux de Deuillevent",
+    "id": 128942,
+    "icon": "inv_staff_2h_artifactdeadwind_d_01",
+    "ability": "Fauchage d'âmes",
+    "abilityId": 216698,
+    "relics": [
+      "Ombre",
+      "Sang",
+      "Ombre"
+    ],
+    "relicPicks": [
+      {
+        "type": "Ombre",
+        "item": "Crepuscular Skitterer Egg",
+        "id": 152057,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Sang",
+        "item": "Nathrezim Incisor",
+        "id": 152092,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Ombre",
+        "item": "Crepuscular Skitterer Egg",
+        "id": 152057,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Vitesse de la Lumière",
+        "id": 252088,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Perdition",
+        "id": 199158,
+        "note": "Rang 2"
+      },
+      {
+        "name": "Incantations ténébreuses",
+        "id": 199163
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

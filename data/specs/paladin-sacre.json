@@ -1,0 +1,388 @@
+{
+  "status": "brouillon",
+  "icon": "spell_holy_holybolt",
+  "summary": "Soigneur de mêlée ou à distance. Ta balise de lumière copie tes soins sur la cible principale.",
+  "sources": [
+    {
+      "label": "Guías WoW, guide PvE 7.3.5",
+      "url": "https://fr.guiaswow.com/guide-du-jeu/holy-paladin-7-3-5.html"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Critique",
+        "weight": 85
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 70
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 55
+      },
+      {
+        "stat": "Hâte",
+        "weight": 40
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Critique",
+        "weight": 85
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 70
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 55
+      },
+      {
+        "stat": "Hâte",
+        "weight": 40
+      }
+    ],
+    "tips": [
+      "La même priorité s'applique en raid et en Mythique+, d'après le guide Guías WoW 7.3.5."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 223306,
+            "name": "Don de foi",
+            "icon": "ability_paladin_blessedmending"
+          },
+          {
+            "id": 114158,
+            "name": "Marteau de Lumière",
+            "icon": "spell_paladin_lightshammer"
+          },
+          {
+            "id": 196926,
+            "name": "Puissance du croisé",
+            "icon": "ability_paladin_swiftretribution"
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 230332,
+            "name": "Cavalier",
+            "icon": "ability_paladin_divinesteed"
+          },
+          {
+            "id": 114154,
+            "name": "Esprit inflexible",
+            "icon": "spell_holy_holyguidance"
+          },
+          {
+            "id": 214202,
+            "name": "Règne de la loi",
+            "icon": "ability_paladin_longarmofthelaw"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 198054,
+            "name": "Fist of Justice",
+            "unsure": true
+          },
+          {
+            "id": 20066,
+            "name": "Repentir",
+            "icon": "spell_holy_prayerofhealing"
+          },
+          {
+            "id": 115750,
+            "name": "Lumière aveuglante",
+            "icon": "ability_paladin_blindinglight"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 183425,
+            "name": "Devotion Aura",
+            "unsure": true
+          },
+          {
+            "id": 183416,
+            "name": "Aura de sacrifice",
+            "unsure": true
+          },
+          {
+            "id": 183415,
+            "name": "Auras miséricordieuses",
+            "icon": "spell_holy_blessedlife"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 197646,
+            "name": "Divine Purpose",
+            "unsure": true
+          },
+          {
+            "id": 105809,
+            "name": "Vengeur sacré",
+            "icon": "ability_paladin_holyavenger"
+          },
+          {
+            "id": 114165,
+            "name": "Prisme sacré",
+            "icon": "spell_paladin_holyprism"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 196923,
+            "name": "Martyr fervent",
+            "icon": "ability_paladin_selflesshealer"
+          },
+          {
+            "id": 53376,
+            "name": "Courroux sanctifié",
+            "icon": "ability_paladin_judgementsofthejust"
+          },
+          {
+            "id": 183778,
+            "name": "Jugement de lumière",
+            "icon": "spell_holy_divineprovidence"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 156910,
+            "name": "Guide de foi",
+            "icon": "ability_paladin_beaconsoflight"
+          },
+          {
+            "id": 197446,
+            "name": "Balise du Porteur de Lumière",
+            "icon": "spell_paladin_clarityofpurpose"
+          },
+          {
+            "id": 200025,
+            "name": "Guide de vertu",
+            "icon": "ability_paladin_beaconofinsight"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          0,
+          2,
+          0,
+          2,
+          0,
+          2,
+          0
+        ],
+        "note": "Build conseillé par le guide Guías WoW 7.3.5."
+      },
+      "mm": {
+        "picks": [
+          0,
+          2,
+          2,
+          0,
+          2,
+          1,
+          2
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Light's Vanguard Helm",
+        "id": 152151,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Prydaz, chef-d'œuvre de Xavaric",
+        "id": 132444,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_misc_necklace15"
+      },
+      {
+        "slot": "Épaules",
+        "item": "Light's Vanguard Shoulderplates",
+        "id": 152153,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Light's Vanguard Greatcloak",
+        "id": 152149,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Light's Vanguard Breastplate",
+        "id": 152148,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Wristguards of the Dark Keepers",
+        "id": 152091,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Mains",
+        "item": "Light's Vanguard Gauntlets",
+        "id": 152150,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Nathrezim Battle Girdle",
+        "id": 152020,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Jambes",
+        "item": "Light's Vanguard Legplates",
+        "id": 152152,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Doomwalker Warboots",
+        "id": 152009,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Zealous Tormentor's Ring",
+        "id": 152284,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Band of the Sargerite Smith",
+        "id": 152064,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Aman'Thul's Vision",
+        "id": 154172,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Vision future de Velen",
+        "id": 144258,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "spell_holy_healingfocus"
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du guide Guías WoW 7.3.5 (Antorus).",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Main-d'Argent",
+    "id": 128823,
+    "icon": "inv_mace_2h_artifactsilverhand_d_01",
+    "ability": "Délivrance de Tyr",
+    "abilityId": 200652,
+    "relics": [
+      "Vie",
+      "Sacré"
+    ],
+    "relicPicks": [
+      {
+        "type": "Vie",
+        "item": "Mysterious Petrified Egg",
+        "id": 152050,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Sacré",
+        "item": "Venerated Puresoul Idol",
+        "id": 152045,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": []
+  }
+}

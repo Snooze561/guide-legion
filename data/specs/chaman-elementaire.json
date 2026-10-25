@@ -1,0 +1,411 @@
+{
+  "status": "brouillon",
+  "icon": "spell_nature_lightning",
+  "summary": "DPS distance des éléments. Horion de flammes, Explosion de lave et Horion de terre avec la malestrom.",
+  "sources": [
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Shaman_Elemental.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Shaman_Elemental.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Critique",
+        "weight": 90
+      },
+      {
+        "stat": "Hâte",
+        "weight": 88
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 81
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 77
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Critique",
+        "weight": 90
+      },
+      {
+        "stat": "Hâte",
+        "weight": 58
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 56
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 38
+      }
+    ],
+    "tips": [
+      "Priorité calculée avec SimulationCraft sur le profil Tier 21 : un seul boss pour le raid, 4 cibles pour le Mythique+.",
+      "La stat principale reste la base : à niveau d'objet égal, prends toujours l'objet le plus haut en niveau.",
+      "Les écarts entre secondaires sont faibles : simule ton propre personnage pour affiner."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 201909,
+            "name": "Voie de la flamme",
+            "icon": "spell_mage_flameorb"
+          },
+          {
+            "id": 170374,
+            "name": "Rage terrestre",
+            "icon": "ability_earthen_pillar"
+          },
+          {
+            "id": 210643,
+            "name": "Maîtrise des totems",
+            "icon": "spell_nature_wrathofair_totem"
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 192063,
+            "name": "Bourrasque",
+            "icon": "inv_misc_volatileair"
+          },
+          {
+            "id": 108281,
+            "name": "Soutien ancestral",
+            "icon": "ability_shaman_ancestralguidance"
+          },
+          {
+            "id": 192077,
+            "name": "Totem de bouffée de vent",
+            "icon": "ability_shaman_windwalktotem"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 192058,
+            "name": "Totem condensateur",
+            "icon": "spell_nature_brilliance"
+          },
+          {
+            "id": 51485,
+            "name": "Totem de poigne de terre",
+            "icon": "spell_nature_stranglevines"
+          },
+          {
+            "id": 196932,
+            "name": "Totem vaudou",
+            "icon": "spell_totem_wardofdraining"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 210707,
+            "name": "Aftershock",
+            "unsure": true
+          },
+          {
+            "id": 192087,
+            "name": "Ancestral Swiftness",
+            "unsure": true
+          },
+          {
+            "id": 16166,
+            "name": "Maître des éléments",
+            "icon": "spell_nature_elementalabsorption"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 192235,
+            "name": "Fusion élémentaire",
+            "icon": "spell_shaman_shockinglava"
+          },
+          {
+            "id": 117013,
+            "name": "Élémentaliste primordial",
+            "icon": "shaman_talent_primalelementalist"
+          },
+          {
+            "id": 117014,
+            "name": "Explosion élémentaire",
+            "icon": "shaman_talent_elementalblast"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 192222,
+            "name": "Totem de magma liquide",
+            "icon": "spell_shaman_spewlava"
+          },
+          {
+            "id": 192249,
+            "name": "Élémentaire de tempête",
+            "icon": "inv_stormelemental"
+          },
+          {
+            "id": 108283,
+            "name": "Écho des éléments",
+            "icon": "ability_shaman_echooftheelements"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 114050,
+            "name": "Ascendance"
+          },
+          {
+            "id": 210689,
+            "name": "Paratonnerre",
+            "icon": "inv_rod_enchantedcobalt"
+          },
+          {
+            "id": 210714,
+            "name": "Furie-de-glace",
+            "icon": "spell_frost_iceshard"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          2,
+          -1,
+          -1,
+          0,
+          2,
+          2,
+          0
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible. Les rangées sans coche sont au choix (contrôle, mobilité ou survie)."
+      },
+      "mm": {
+        "picks": [
+          2,
+          -1,
+          -1,
+          0,
+          2,
+          2,
+          0
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs. Les rangées sans coche sont au choix."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Helm of the Awakened Soul",
+        "id": 152423,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Chain of the Unmaker",
+        "id": 152283,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Épaules",
+        "item": "Pauldrons of Venerated Spirits",
+        "id": 152171,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Drape of Venerated Spirits",
+        "id": 152167,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Robes of Venerated Spirits",
+        "id": 152166,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Scalding Shatterguards",
+        "id": 152280,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Mains",
+        "item": "Smoldering Heart",
+        "id": 151819,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "unsure": true
+      },
+      {
+        "slot": "Taille",
+        "item": "World-Ravager Waistguard",
+        "id": 152683,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Jambes",
+        "item": "Leggings of Venerated Spirits",
+        "id": 152170,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Pacte de sang du Trompeur",
+        "id": 137035,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_boots_chain_07"
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Sullied Seal of the Pantheon",
+        "id": 151972,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Band of the Sargerite Smith",
+        "id": 152064,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Acrid Catalyst Injector",
+        "id": 151955,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Aman'Thul's Vision",
+        "id": 154172,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "unsure": true
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Poing de Ra Den",
+    "id": 128935,
+    "icon": "inv_hand_1h_artifactstormfist_d_01",
+    "ability": "Gardien des tempêtes",
+    "abilityId": 205495,
+    "relics": [
+      "Tempête",
+      "Givre",
+      "Tempête"
+    ],
+    "relicPicks": [
+      {
+        "type": "Tempête",
+        "item": "Conch of the Thunderer",
+        "id": 155853,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Givre",
+        "item": "Rime of the Spirit Realm",
+        "id": 155850,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Tempête",
+        "item": "Conch of the Thunderer",
+        "id": 155853,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Lumière foudroyante",
+        "id": 252799,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Déstabilisation élémentaire",
+        "id": 238069,
+        "note": "Rang 3"
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

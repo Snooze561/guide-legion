@@ -1,0 +1,414 @@
+{
+  "status": "brouillon",
+  "icon": "spell_nature_starfall",
+  "summary": "DPS distance astral. Alterne Colère et Feu stellaire, dépense la puissance astrale en Météores.",
+  "sources": [
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Druid_Balance.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Druid_Balance.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 90
+      },
+      {
+        "stat": "Hâte",
+        "weight": 86
+      },
+      {
+        "stat": "Critique",
+        "weight": 80
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 79
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Hâte",
+        "weight": 90
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 83
+      },
+      {
+        "stat": "Critique",
+        "weight": 74
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 71
+      }
+    ],
+    "tips": [
+      "Priorité calculée avec SimulationCraft sur le profil Tier 21 : un seul boss pour le raid, 4 cibles pour le Mythique+.",
+      "La stat principale reste la base : à niveau d'objet égal, prends toujours l'objet le plus haut en niveau.",
+      "Les écarts entre secondaires sont faibles : simule ton propre personnage pour affiner."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 205636,
+            "name": "Force de la nature",
+            "icon": "ability_druid_forceofnature"
+          },
+          {
+            "id": 202425,
+            "name": "Guerrier d'Elune",
+            "icon": "spell_holy_elunesgrace"
+          },
+          {
+            "id": 202345,
+            "name": "Seigneur des étoiles",
+            "icon": "spell_shaman_measuredinsight"
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 108238,
+            "name": "Renouveau",
+            "icon": "spell_nature_natureblessing"
+          },
+          {
+            "id": 102280,
+            "name": "Transfert bestial",
+            "icon": "spell_druid_displacement"
+          },
+          {
+            "id": 102401,
+            "name": "Charge sauvage",
+            "icon": "spell_druid_wildcharge"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 202157,
+            "name": "Affinité farouche",
+            "icon": "talentspec_druid_feral_cat"
+          },
+          {
+            "id": 197491,
+            "name": "Affinité du gardien",
+            "icon": "talentspec_druid_feral_bear"
+          },
+          {
+            "id": 197492,
+            "name": "Affinité avec la restauration",
+            "icon": "ability_druid_improvedtreeform"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 5211,
+            "name": "Rossée puissante",
+            "icon": "ability_druid_bash"
+          },
+          {
+            "id": 102359,
+            "name": "Enchevêtrement de masse",
+            "icon": "spell_druid_massentanglement"
+          },
+          {
+            "id": 132469,
+            "name": "Typhon",
+            "icon": "ability_druid_typhoon"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 114107,
+            "name": "Ame de la forêt",
+            "icon": "ability_druid_manatree"
+          },
+          {
+            "id": 102560,
+            "name": "Incarnation : Appelé d'Élune",
+            "icon": "spell_druid_incarnation"
+          },
+          {
+            "id": 202347,
+            "name": "Flamboiement stellaire",
+            "icon": "ability_druid_stellarflare"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 202342,
+            "name": "Etoiles filantes",
+            "icon": "spell_priest_divinestar_shadow2"
+          },
+          {
+            "id": 202359,
+            "name": "Communion astrale",
+            "icon": "talentspec_druid_balance"
+          },
+          {
+            "id": 202360,
+            "name": "Bénédiction des anciens",
+            "icon": "inv_pet_ancientprotector"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 202770,
+            "name": "Fureur d'Élune",
+            "icon": "ability_druid_dreamstate"
+          },
+          {
+            "id": 202354,
+            "name": "Stellar Drift",
+            "unsure": true
+          },
+          {
+            "id": 202430,
+            "name": "Équilibre naturel",
+            "icon": "ability_druid_balanceofpower"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          2,
+          2,
+          1,
+          2,
+          1,
+          2,
+          2
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible."
+      },
+      "mm": {
+        "picks": [
+          2,
+          2,
+          1,
+          2,
+          1,
+          2,
+          2
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Bearmantle Headdress",
+        "id": 152127,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Riveted Choker of Delirium",
+        "id": 151966,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Épaules",
+        "item": "Mantelet cœur-de-tempête",
+        "id": 147138,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_shoulder_leather_raiddruidmythic_r_01"
+      },
+      {
+        "slot": "Dos",
+        "item": "Drapé cœur-de-tempête",
+        "id": 147134,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_cape_leather_raiddruidmythic_r_01"
+      },
+      {
+        "slot": "Torse",
+        "item": "Bearmantle Harness",
+        "id": 152124,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Intuition d'Oneth",
+        "id": 137092,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_bracer_40"
+      },
+      {
+        "slot": "Mains",
+        "item": "Gants cœur-de-tempête",
+        "id": 147135,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_glove_leather_raiddruidmythic_r_01"
+      },
+      {
+        "slot": "Taille",
+        "item": "Death-Enveloping Cincture",
+        "id": 151986,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Jambes",
+        "item": "Stormheart Legguards",
+        "id": 147137,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Vicious Flamepaws",
+        "id": 151983,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Gangressence impeccable",
+        "id": 137039,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_misc_ring_mop13"
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Sullied Seal of the Pantheon",
+        "id": 151972,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Acrid Catalyst Injector",
+        "id": 151955,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Aman'Thul's Vision",
+        "id": 154172,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "unsure": true
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Faux d'Elune",
+    "id": 128858,
+    "icon": "inv_staff_2h_artifactelune_d_01",
+    "ability": "Nouvelle lune",
+    "abilityId": 202767,
+    "relics": [
+      "Arcanes",
+      "Vie",
+      "Arcanes"
+    ],
+    "relicPicks": [
+      {
+        "type": "Arcanes",
+        "item": "Miniaturized Cosmic Beacon",
+        "id": 155846,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Vie",
+        "item": "Root of the Lifebinder",
+        "id": 155854,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Arcanes",
+        "item": "Miniaturized Cosmic Beacon",
+        "id": 155846,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Tourment des faibles",
+        "id": 252906,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Face cachée de la lune",
+        "id": 202384,
+        "note": "Rang 2"
+      },
+      {
+        "name": "Faux des étoiles",
+        "id": 202433
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

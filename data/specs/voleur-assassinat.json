@@ -1,0 +1,416 @@
+{
+  "status": "brouillon",
+  "icon": "ability_rogue_deadlybrew",
+  "summary": "DPS mêlée aux poisons. Garrot et Rupture saignent la cible, Envenimer consomme tes points de combo.",
+  "sources": [
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Rogue_Assassination.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Rogue_Assassination.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 90
+      },
+      {
+        "stat": "Critique",
+        "weight": 81
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 70
+      },
+      {
+        "stat": "Hâte",
+        "weight": 44
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Critique",
+        "weight": 90
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 88
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 68
+      },
+      {
+        "stat": "Hâte",
+        "weight": 20
+      }
+    ],
+    "tips": [
+      "Priorité calculée avec SimulationCraft sur le profil Tier 21 : un seul boss pour le raid, 4 cibles pour le Mythique+.",
+      "La stat principale reste la base : à niveau d'objet égal, prends toujours l'objet le plus haut en niveau.",
+      "Les écarts entre secondaires sont faibles : simule ton propre personnage pour affiner."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 196864,
+            "name": "Maître empoisonneur",
+            "icon": "ability_creature_poison_06"
+          },
+          {
+            "id": 193640,
+            "name": "Plan élaboré",
+            "icon": "inv_misc_map08"
+          },
+          {
+            "id": 16511,
+            "name": "Hémorragie",
+            "icon": "spell_shadow_lifedrain"
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 14062,
+            "name": "Traqueur nocturne",
+            "icon": "ability_stealth"
+          },
+          {
+            "id": 108208,
+            "name": "Subterfuge",
+            "icon": "rogue_subterfuge"
+          },
+          {
+            "id": 108209,
+            "name": "Focalisation de l'ombre",
+            "icon": "rogue_shadowfocus"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 193531,
+            "name": "Stratagème approfondi",
+            "icon": "archaeology_5_0_changkiboard"
+          },
+          {
+            "id": 114015,
+            "name": "Anticipation",
+            "icon": "ability_rogue_slaughterfromtheshadows"
+          },
+          {
+            "id": 14983,
+            "name": "Vigueur",
+            "icon": "ability_rogue_vigor"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 108211,
+            "name": "Poison sangsue",
+            "icon": "rogue_leeching_poison"
+          },
+          {
+            "id": 79008,
+            "name": "Insaisissable",
+            "icon": "ability_rogue_turnthetables"
+          },
+          {
+            "id": 31230,
+            "name": "Trompe-la-mort",
+            "icon": "ability_rogue_cheatdeath"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 196861,
+            "name": "Thuggee",
+            "unsure": true
+          },
+          {
+            "id": 131511,
+            "name": "Prey on the Weak",
+            "unsure": true
+          },
+          {
+            "id": 154904,
+            "name": "Internal Bleeding",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 245388,
+            "name": "Lame toxique",
+            "icon": "inv_weapon_shortblade_62"
+          },
+          {
+            "id": 193539,
+            "name": "Empressement",
+            "icon": "ability_paladin_speedoflight"
+          },
+          {
+            "id": 200806,
+            "name": "Exsanguinate",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 152152,
+            "name": "Afflux de venin",
+            "icon": "rogue_venomzest"
+          },
+          {
+            "id": 137619,
+            "name": "Désigné pour mourir",
+            "icon": "achievement_bg_killingblow_berserker"
+          },
+          {
+            "id": 152150,
+            "name": "La mort venue d'en haut",
+            "icon": "spell_rogue_deathfromabove"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          0,
+          0,
+          2,
+          -1,
+          0,
+          0,
+          0
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible. Les rangées sans coche sont au choix (contrôle, mobilité ou survie)."
+      },
+      "mm": {
+        "picks": [
+          0,
+          0,
+          2,
+          -1,
+          0,
+          0,
+          0
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs. Les rangées sans coche sont au choix."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Cavalier Hat of the Dashing Scoundrel",
+        "id": 152163,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Collar of Null-Flame",
+        "id": 151973,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Épaules",
+        "item": "Mantelet du maître assassin",
+        "id": 144236,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_shoulder_leather_raidrogue_k_01"
+      },
+      {
+        "slot": "Dos",
+        "item": "Cloak of the Dashing Scoundrel",
+        "id": 152161,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Vest of Waning Life",
+        "id": 151982,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Entraves d'exercice de la famille Zoldyck",
+        "id": 137098,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_bracer_leather_raiddruid_i_01"
+      },
+      {
+        "slot": "Mains",
+        "item": "Gloves of the Dashing Scoundrel",
+        "id": 152162,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Portal Keeper's Cincture",
+        "id": 151990,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Jambes",
+        "item": "Pants of the Dashing Scoundrel",
+        "id": 152164,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Vicious Flamepaws",
+        "id": 151983,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Band of the Sargerite Smith",
+        "id": 152064,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Sullied Seal of the Pantheon",
+        "id": 151972,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Shadow-Singed Fang",
+        "id": 151968,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Golganneth's Vitality",
+        "id": 154174,
+        "source": "Argus l'Annihilateur (panthéon)",
+        "quality": "epic",
+        "unsure": true
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Les Régicides",
+    "id": 128870,
+    "icon": "inv_knife_1h_artifactgarona_d_01",
+    "ability": "Plaie des rois",
+    "abilityId": 192759,
+    "relics": [
+      "Ombre",
+      "Fer",
+      "Sang"
+    ],
+    "relicPicks": [
+      {
+        "type": "Ombre",
+        "item": "Kin'garoth's Oil-Sump",
+        "id": 152055,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Fer",
+        "item": "Fasces of the Endless Legions",
+        "id": 152293,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Sang",
+        "item": "Nathrezim Incisor",
+        "id": 152092,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Maître des Ombres",
+        "id": 252091,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Maître assassin",
+        "id": 192349
+      },
+      {
+        "name": "Maître alchimiste",
+        "id": 192318,
+        "note": "Rang 2"
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

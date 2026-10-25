@@ -1,0 +1,415 @@
+{
+  "status": "brouillon",
+  "icon": "spell_monk_brewmaster_spec",
+  "summary": "Tank brasseur. Report échelonne les dégâts, Breuvage purificateur les efface.",
+  "sources": [
+    {
+      "label": "Guías WoW, guide PvE 7.3.5 (stats)",
+      "url": "https://en.guiaswow.com/game-guide/monk-brewmaster-guide-pve-patch-7-3-5.html"
+    },
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Monk_Brewmaster.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Monk_Brewmaster.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Critique",
+        "weight": 85
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 70
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 55
+      },
+      {
+        "stat": "Hâte",
+        "weight": 40
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Critique",
+        "weight": 85
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 70
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 55
+      },
+      {
+        "stat": "Hâte",
+        "weight": 40
+      }
+    ],
+    "tips": [
+      "Priorité orientée survie, d'après le guide Guías WoW 7.3.5.",
+      "La même priorité s'applique en raid et en Mythique+."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 123986,
+            "name": "Explosion de chi",
+            "icon": "spell_arcane_arcanetorrent"
+          },
+          {
+            "id": 196607,
+            "name": "Œil du tigre",
+            "icon": "ability_druid_primalprecision"
+          },
+          {
+            "id": 115098,
+            "name": "Onde de chi",
+            "icon": "ability_monk_chiwave"
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 115008,
+            "name": "Torpille de chi",
+            "icon": "ability_monk_quitornado"
+          },
+          {
+            "id": 116841,
+            "name": "Soif du tigre",
+            "icon": "ability_monk_tigerslust"
+          },
+          {
+            "id": 115173,
+            "name": "Vélocité",
+            "icon": "ability_monk_quipunch"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 196721,
+            "name": "Infusion légère",
+            "icon": "spell_brew_wheat"
+          },
+          {
+            "id": 115399,
+            "name": "Breuvage du Buffle noir",
+            "icon": "ability_monk_chibrew"
+          },
+          {
+            "id": 196719,
+            "name": "Gift of the Mists",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 116844,
+            "name": "Anneau de paix",
+            "icon": "spell_monk_ringofpeace"
+          },
+          {
+            "id": 115315,
+            "name": "Invocation d'une statue du Buffle noir",
+            "icon": "monk_ability_summonoxstatue"
+          },
+          {
+            "id": 119381,
+            "name": "Balayement de jambe",
+            "icon": "ability_monk_legsweep"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 122281,
+            "name": "Élixir de soins",
+            "icon": "ability_monk_jasmineforcetea"
+          },
+          {
+            "id": 237076,
+            "name": "Vitalité mystique",
+            "icon": "ability_monk_forcesphere"
+          },
+          {
+            "id": 122278,
+            "name": "Atténuation du mal",
+            "icon": "ability_monk_dampenharm"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 116847,
+            "name": "Vent de jade fulgurant",
+            "icon": "ability_monk_rushingjadewind"
+          },
+          {
+            "id": 132578,
+            "name": "Invocation de Niuzao, le Buffle noir",
+            "icon": "spell_monk_brewmaster_spec"
+          },
+          {
+            "id": 196730,
+            "name": "Livraison spéciale",
+            "icon": "achievement_brewery_2"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 196738,
+            "name": "Elusive Dance",
+            "unsure": true
+          },
+          {
+            "id": 196736,
+            "name": "Combo aveuglant",
+            "icon": "ability_monk_blackoutkick"
+          },
+          {
+            "id": 196737,
+            "name": "Forte tolérance",
+            "icon": "monk_ability_avertharm"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          0,
+          1
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible. Les rangées sans coche sont au choix (contrôle, mobilité ou survie)."
+      },
+      "mm": {
+        "picks": [
+          1,
+          -1,
+          1,
+          -1,
+          1,
+          0,
+          1
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs. Les rangées sans coche sont au choix."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Douli of Chi'Ji",
+        "id": 152145,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Vulcanarcore Pendant",
+        "id": 151965,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Épaules",
+        "item": "Stormstout's Last Gasp",
+        "id": 151788,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "unsure": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Cloak of Chi'Ji",
+        "id": 152143,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Harness of Oppressing Dark",
+        "id": 151980,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Bracers of Wanton Morality",
+        "id": 152414,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Mains",
+        "item": "Grips of Chi'Ji",
+        "id": 152144,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Portal Keeper's Cincture",
+        "id": 151990,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Jambes",
+        "item": "Leggings of Chi'Ji",
+        "id": 152146,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Life-Bearing Footpads",
+        "id": 151981,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Sullied Seal of the Pantheon",
+        "id": 151972,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Band of the Sargerite Smith",
+        "id": 152064,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Golganneth's Vitality",
+        "id": 154174,
+        "source": "Argus l'Annihilateur (panthéon)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Haine renouvelée d'Archimonde",
+        "id": 144249,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "spell_nature_elementalshields"
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Fu Zan, compagnon de l'explorateur",
+    "id": 128938,
+    "icon": "inv_staff_2h_artifactmonkeyking_d_01",
+    "ability": "Tonneau explosif",
+    "abilityId": 214326,
+    "relics": [
+      "Vie",
+      "Tempête",
+      "Fer"
+    ],
+    "relicPicks": [
+      {
+        "type": "Vie",
+        "item": "Sporemound Seedling",
+        "id": 152052,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Tempête",
+        "item": "Stormcaller's Fury",
+        "id": 152058,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Fer",
+        "item": "Ironvine Thorn",
+        "id": 152047,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Tourment des faibles",
+        "id": 252906,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Jeu de paume",
+        "id": 213116,
+        "note": "Rang 3"
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

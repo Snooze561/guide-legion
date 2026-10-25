@@ -1,0 +1,416 @@
+{
+  "status": "brouillon",
+  "icon": "spell_deathknight_unholypresence",
+  "summary": "DPS mêlée qui invoque des morts-vivants. Plaies purulentes et Apocalypse déchaînent ton armée.",
+  "sources": [
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Death_Knight_Unholy.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Death_Knight_Unholy.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Force",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 90
+      },
+      {
+        "stat": "Critique",
+        "weight": 89
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 74
+      },
+      {
+        "stat": "Hâte",
+        "weight": 74
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Force",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 90
+      },
+      {
+        "stat": "Critique",
+        "weight": 79
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 72
+      },
+      {
+        "stat": "Hâte",
+        "weight": 51
+      }
+    ],
+    "tips": [
+      "Priorité calculée avec SimulationCraft sur le profil Tier 21 : un seul boss pour le raid, 4 cibles pour le Mythique+.",
+      "La stat principale reste la base : à niveau d'objet égal, prends toujours l'objet le plus haut en niveau.",
+      "Les écarts entre secondaires sont faibles : simule ton propre personnage pour affiner."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 56,
+        "options": [
+          {
+            "id": 194916,
+            "name": "Tous serviront",
+            "icon": "ability_fiegndead"
+          },
+          {
+            "id": 207264,
+            "name": "Plaies purulentes",
+            "icon": "ability_druid_infectedwound"
+          },
+          {
+            "id": 207269,
+            "name": "Fièvre d'ébène",
+            "icon": "spell_shadow_creepingplague"
+          }
+        ]
+      },
+      {
+        "level": 57,
+        "options": [
+          {
+            "id": 207317,
+            "name": "Epidémie",
+            "icon": "spell_nature_nullifydisease"
+          },
+          {
+            "id": 194917,
+            "name": "Pustules pestilentielles",
+            "icon": "ability_creature_disease_03"
+          },
+          {
+            "id": 194918,
+            "name": "Arme runique chancreuse",
+            "icon": "spell_deathknight_plaguestrike"
+          }
+        ]
+      },
+      {
+        "level": 58,
+        "options": [
+          {
+            "id": 207289,
+            "name": "Assaut impie",
+            "icon": "spell_shadow_unholyfrenzy"
+          },
+          {
+            "id": 207305,
+            "name": "Fustigateur",
+            "icon": "spell_shadow_fumble"
+          },
+          {
+            "id": 207311,
+            "name": "Griffes des ombres",
+            "icon": "warlock_curse_shadow"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 207313,
+            "name": "Crache-vase",
+            "icon": "achievement_boss_patchwerk"
+          },
+          {
+            "id": 108194,
+            "name": "Asphyxier",
+            "icon": "ability_deathknight_asphixiate"
+          },
+          {
+            "id": 207316,
+            "name": "Debilitating Infestation",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 207321,
+            "name": "Dévoreur de sorts",
+            "icon": "ability_creature_cursed_03"
+          },
+          {
+            "id": 207319,
+            "name": "Bouclier cadavérique",
+            "icon": "inv_ghoulnorthrend"
+          },
+          {
+            "id": 212763,
+            "name": "Lingering Apparition",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 198943,
+            "name": "Sombre infusion",
+            "icon": "spell_shadow_requiem"
+          },
+          {
+            "id": 207346,
+            "name": "Nécrose",
+            "icon": "inv_weapon_shortblade_60"
+          },
+          {
+            "id": 207272,
+            "name": "Griffes infectées",
+            "icon": "ability_creature_disease_05"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 207349,
+            "name": "Sombre médiateur",
+            "icon": "achievement_boss_svalasorrowgrave"
+          },
+          {
+            "id": 152280,
+            "name": "Profanation",
+            "icon": "spell_deathknight_defile"
+          },
+          {
+            "id": 130736,
+            "name": "Faucheur d'âme",
+            "icon": "ability_deathknight_soulreaper"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          2,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible. Les rangées sans coche sont au choix (contrôle, mobilité ou survie)."
+      },
+      "mm": {
+        "picks": [
+          2,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs. Les rangées sans coche sont au choix."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Dreadwake Helm",
+        "id": 152115,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Riveted Choker of Delirium",
+        "id": 151966,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Épaules",
+        "item": "Protège-épaules de Tak'theritrix",
+        "id": 137075,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_shoulder_plate_deathknight_m_01"
+      },
+      {
+        "slot": "Dos",
+        "item": "Dreadwake Greatcloak",
+        "id": 152113,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Cold Heart",
+        "id": 151796,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "unsure": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Vambraces of Life's Assurance",
+        "id": 152023,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Mains",
+        "item": "Dreadwake Gauntlets",
+        "id": 152114,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Nathrezim Battle Girdle",
+        "id": 152020,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Jambes",
+        "item": "Dreadwake Legplates",
+        "id": 152116,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Burning Coven Sabatons",
+        "id": 152010,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Loop of the Life-Binder",
+        "id": 152688,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Sullied Seal of the Pantheon",
+        "id": 151972,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Khaz'goroth's Courage",
+        "id": 154176,
+        "source": "Argus l'Annihilateur (panthéon)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Seeping Scourgewing",
+        "id": 151964,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Apocalypse",
+    "id": 128403,
+    "icon": "inv_sword_2h_artifactsoulrend_d_01",
+    "ability": "Apocalypse",
+    "abilityId": 220143,
+    "relics": [
+      "Feu",
+      "Ombre",
+      "Sang"
+    ],
+    "relicPicks": [
+      {
+        "type": "Feu",
+        "item": "Flickering Ember of Rage",
+        "id": 155849,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Ombre",
+        "item": "Corrupting Dewclaw",
+        "id": 152056,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Sang",
+        "item": "Cruor of the Avenger",
+        "id": 155847,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Ombrelien",
+        "id": 252875,
+        "note": "Rang 3"
+      },
+      {
+        "name": "La croisade enténébrée",
+        "id": 191488,
+        "note": "Rang 2"
+      },
+      {
+        "name": "Voile fatal",
+        "id": 191419
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

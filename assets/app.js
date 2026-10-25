@@ -38,7 +38,7 @@
   };
   const RELIC_COLORS = {
     'Sacré': '#f6d365', 'Vie': '#3ecf8e', 'Ombre': '#8e5cff', 'Feu': '#ff7a3d', 'Givre': '#6fd3ff',
-    'Arcanes': '#ff7ad9', 'Fer': '#a7adb8', 'Sang': '#e0314b', 'Tempête': '#4c8dff', 'Gangrène': '#9be22d'
+    'Arcanes': '#ff7ad9', 'Fer': '#a7adb8', 'Sang': '#e0314b', 'Tempête': '#4c8dff', 'Gangrène': '#9be22d', 'Eau': '#2fb7c4'
   };
 
   let classes = null;
@@ -180,8 +180,8 @@
       <h2 class="panel-title">${svg('talents')}Template de talents</h2>
       <div class="talents">
         ${data.talents.tiers.map((t, i) => `
-          <div class="tier">
-            <span class="tier-level">${t.level}</span>
+          <div class="tier${build.picks[i] < 0 ? ' free' : ''}">
+            <span class="tier-level">${t.level}${build.picks[i] < 0 ? '<small>au choix</small>' : ''}</span>
             ${t.options.map((o, j) => {
               const picked = build.picks[i] === j;
               return `<div class="talent${picked ? ' picked' : ''}">

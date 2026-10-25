@@ -1,0 +1,416 @@
+{
+  "status": "brouillon",
+  "icon": "spell_holy_magicalsentry",
+  "summary": "DPS distance des arcanes. Charges arcaniques et gestion du mana rythment ta rotation.",
+  "sources": [
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Mage_Arcane.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Mage_Arcane.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 90
+      },
+      {
+        "stat": "Critique",
+        "weight": 81
+      },
+      {
+        "stat": "Hâte",
+        "weight": 76
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 73
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 90
+      },
+      {
+        "stat": "Critique",
+        "weight": 78
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 75
+      },
+      {
+        "stat": "Hâte",
+        "weight": 58
+      }
+    ],
+    "tips": [
+      "Priorité calculée avec SimulationCraft sur le profil Tier 21 : un seul boss pour le raid, 4 cibles pour le Mythique+.",
+      "La stat principale reste la base : à niveau d'objet égal, prends toujours l'objet le plus haut en niveau.",
+      "Les écarts entre secondaires sont faibles : simule ton propre personnage pour affiner."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 205022,
+            "name": "Familier arcanique",
+            "icon": "ability_socererking_arcanemines"
+          },
+          {
+            "id": 236628,
+            "name": "Amplification",
+            "icon": "spell_arcane_invocation"
+          },
+          {
+            "id": 205035,
+            "name": "Words of Power",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 212653,
+            "name": "Chatoiement",
+            "icon": "spell_arcane_massdispel"
+          },
+          {
+            "id": 236457,
+            "name": "Sillage",
+            "icon": "spell_holy_mindsooth"
+          },
+          {
+            "id": 235463,
+            "name": "Bouclier de mana",
+            "icon": "spell_shadow_detectlesserinvisibility"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 55342,
+            "name": "Image miroir",
+            "icon": "spell_magic_lesserinvisibilty"
+          },
+          {
+            "id": 116011,
+            "name": "Rune de puissance",
+            "icon": "spell_mage_runeofpower"
+          },
+          {
+            "id": 1463,
+            "name": "Flux de l'incantateur",
+            "icon": "ability_mage_incantersabsorbtion"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 157980,
+            "name": "Supernova",
+            "icon": "spell_mage_supernova"
+          },
+          {
+            "id": 205032,
+            "name": "Chargé à bloc",
+            "icon": "ability_thunderking_overcharge"
+          },
+          {
+            "id": 205028,
+            "name": "Résonance",
+            "icon": "spell_arcane_arcane01"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 235711,
+            "name": "Translation temporelle",
+            "icon": "ability_monk_deadlyreach"
+          },
+          {
+            "id": 113724,
+            "name": "Anneau de givre",
+            "icon": "spell_frost_ring-of-frost"
+          },
+          {
+            "id": 205036,
+            "name": "Garde glaciale",
+            "icon": "spell_frost_frostward"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 114923,
+            "name": "Tempête du Néant",
+            "icon": "spell_mage_nethertempest"
+          },
+          {
+            "id": 157976,
+            "name": "Magie instable",
+            "icon": "spell_mage_unstablemagic"
+          },
+          {
+            "id": 205039,
+            "name": "Erosion",
+            "icon": "ability_mage_missilebarrage"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 155147,
+            "name": "Surpuissance",
+            "icon": "spell_mage_overpowered"
+          },
+          {
+            "id": 234302,
+            "name": "Flux temporel",
+            "icon": "spell_arcane_arcanetorrent"
+          },
+          {
+            "id": 153626,
+            "name": "Orbe arcanique",
+            "icon": "spell_mage_arcaneorb"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          1,
+          -1,
+          1,
+          2,
+          -1,
+          2,
+          0
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible. Les rangées sans coche sont au choix (contrôle, mobilité ou survie)."
+      },
+      "mm": {
+        "picks": [
+          1,
+          -1,
+          1,
+          2,
+          -1,
+          2,
+          0
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs. Les rangées sans coche sont au choix."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Runebound Collar",
+        "id": 152138,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Chain of the Unmaker",
+        "id": 152283,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Épaules",
+        "item": "Runebound Mantle",
+        "id": 152141,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Drape of the Arcane Tempest",
+        "id": 147145,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Runebound Tunic",
+        "id": 152140,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Blood-Drenched Bindings",
+        "id": 151954,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Mains",
+        "item": "Gloves of the Arcane Tempest",
+        "id": 147146,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Cord of Blossoming Petals",
+        "id": 151952,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Jambes",
+        "item": "Runebound Leggings",
+        "id": 152139,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Lady Dacidion's Silk Slippers",
+        "id": 151945,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Soul of the Archmage",
+        "id": 151642,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Fragment de l'Exodar",
+        "id": 132410,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_6_2raid_ring_2a"
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Médaillon de sentinelle terni",
+        "id": 147017,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_jewelcrafting_purpleowl"
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Aman'Thul's Vision",
+        "id": 154172,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "unsure": true
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Aluneth",
+    "id": 127857,
+    "icon": "inv_staff_2h_artifactaegwynsstaff_d_01",
+    "ability": "Marque d'Aluneth",
+    "abilityId": 224968,
+    "relics": [
+      "Arcanes",
+      "Givre",
+      "Arcanes"
+    ],
+    "relicPicks": [
+      {
+        "type": "Arcanes",
+        "item": "Miniaturized Cosmic Beacon",
+        "id": 155846,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Givre",
+        "item": "Rime of the Spirit Realm",
+        "id": 155850,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Arcanes",
+        "item": "Miniaturized Cosmic Beacon",
+        "id": 155846,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Tourment des faibles",
+        "id": 252906,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Sensibilité éthérienne",
+        "id": 187276,
+        "note": "Rang 2"
+      },
+      {
+        "name": "Obligation d'Aegwynn",
+        "id": 187264
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

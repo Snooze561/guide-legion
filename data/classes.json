@@ -10,19 +10,22 @@
           "id": "armes",
           "name": "Armes",
           "role": "dps",
-          "icon": "ability_warrior_savageblow"
+          "icon": "ability_warrior_savageblow",
+          "ready": true
         },
         {
           "id": "fureur",
           "name": "Fureur",
           "role": "dps",
-          "icon": "ability_warrior_innerrage"
+          "icon": "ability_warrior_innerrage",
+          "ready": true
         },
         {
           "id": "protection",
           "name": "Protection",
           "role": "tank",
-          "icon": "ability_warrior_defensivestance"
+          "icon": "ability_warrior_defensivestance",
+          "ready": true
         }
       ],
       "icon": "classicon_warrior"
@@ -36,19 +39,22 @@
           "id": "sacre",
           "name": "Sacré",
           "role": "heal",
-          "icon": "spell_holy_holybolt"
+          "icon": "spell_holy_holybolt",
+          "ready": true
         },
         {
           "id": "protection",
           "name": "Protection",
           "role": "tank",
-          "icon": "ability_paladin_shieldofthetemplar"
+          "icon": "ability_paladin_shieldofthetemplar",
+          "ready": true
         },
         {
           "id": "vindicte",
           "name": "Vindicte",
           "role": "dps",
-          "icon": "spell_holy_auraoflight"
+          "icon": "spell_holy_auraoflight",
+          "ready": true
         }
       ],
       "icon": "classicon_paladin"
@@ -62,19 +68,22 @@
           "id": "maitrise-des-betes",
           "name": "Maîtrise des bêtes",
           "role": "dps",
-          "icon": "ability_hunter_bestialdiscipline"
+          "icon": "ability_hunter_bestialdiscipline",
+          "ready": true
         },
         {
           "id": "precision",
           "name": "Précision",
           "role": "dps",
-          "icon": "ability_hunter_focusedaim"
+          "icon": "ability_hunter_focusedaim",
+          "ready": true
         },
         {
           "id": "survie",
           "name": "Survie",
           "role": "dps",
-          "icon": "ability_hunter_camouflage"
+          "icon": "ability_hunter_camouflage",
+          "ready": true
         }
       ],
       "icon": "classicon_hunter"
@@ -88,19 +97,22 @@
           "id": "assassinat",
           "name": "Assassinat",
           "role": "dps",
-          "icon": "ability_rogue_deadlybrew"
+          "icon": "ability_rogue_deadlybrew",
+          "ready": true
         },
         {
           "id": "hors-la-loi",
           "name": "Hors-la-loi",
           "role": "dps",
-          "icon": "inv_sword_30"
+          "icon": "inv_sword_30",
+          "ready": true
         },
         {
           "id": "finesse",
           "name": "Finesse",
           "role": "dps",
-          "icon": "ability_stealth"
+          "icon": "ability_stealth",
+          "ready": true
         }
       ],
       "icon": "classicon_rogue"
@@ -143,19 +155,22 @@
           "id": "sang",
           "name": "Sang",
           "role": "tank",
-          "icon": "spell_deathknight_bloodpresence"
+          "icon": "spell_deathknight_bloodpresence",
+          "ready": true
         },
         {
           "id": "givre",
           "name": "Givre",
           "role": "dps",
-          "icon": "spell_deathknight_frostpresence"
+          "icon": "spell_deathknight_frostpresence",
+          "ready": true
         },
         {
           "id": "impie",
           "name": "Impie",
           "role": "dps",
-          "icon": "spell_deathknight_unholypresence"
+          "icon": "spell_deathknight_unholypresence",
+          "ready": true
         }
       ],
       "icon": "classicon_deathknight"
@@ -169,19 +184,22 @@
           "id": "elementaire",
           "name": "Élémentaire",
           "role": "dps",
-          "icon": "spell_nature_lightning"
+          "icon": "spell_nature_lightning",
+          "ready": true
         },
         {
           "id": "amelioration",
           "name": "Amélioration",
           "role": "dps",
-          "icon": "spell_shaman_improvedstormstrike"
+          "icon": "spell_shaman_improvedstormstrike",
+          "ready": true
         },
         {
           "id": "restauration",
           "name": "Restauration",
           "role": "heal",
-          "icon": "spell_nature_magicimmunity"
+          "icon": "spell_nature_magicimmunity",
+          "ready": true
         }
       ],
       "icon": "classicon_shaman"
@@ -195,19 +213,22 @@
           "id": "arcanes",
           "name": "Arcanes",
           "role": "dps",
-          "icon": "spell_holy_magicalsentry"
+          "icon": "spell_holy_magicalsentry",
+          "ready": true
         },
         {
           "id": "feu",
           "name": "Feu",
           "role": "dps",
-          "icon": "spell_fire_firebolt02"
+          "icon": "spell_fire_firebolt02",
+          "ready": true
         },
         {
           "id": "givre",
           "name": "Givre",
           "role": "dps",
-          "icon": "spell_frost_frostbolt02"
+          "icon": "spell_frost_frostbolt02",
+          "ready": true
         }
       ],
       "icon": "classicon_mage"
@@ -221,19 +242,22 @@
           "id": "affliction",
           "name": "Affliction",
           "role": "dps",
-          "icon": "spell_shadow_deathcoil"
+          "icon": "spell_shadow_deathcoil",
+          "ready": true
         },
         {
           "id": "demonologie",
           "name": "Démonologie",
           "role": "dps",
-          "icon": "spell_shadow_metamorphosis"
+          "icon": "spell_shadow_metamorphosis",
+          "ready": true
         },
         {
           "id": "destruction",
           "name": "Destruction",
           "role": "dps",
-          "icon": "spell_shadow_rainoffire"
+          "icon": "spell_shadow_rainoffire",
+          "ready": true
         }
       ],
       "icon": "classicon_warlock"
@@ -247,19 +271,22 @@
           "id": "maitre-brasseur",
           "name": "Maître brasseur",
           "role": "tank",
-          "icon": "spell_monk_brewmaster_spec"
+          "icon": "spell_monk_brewmaster_spec",
+          "ready": true
         },
         {
           "id": "tisse-brume",
           "name": "Tisse-brume",
           "role": "heal",
-          "icon": "spell_monk_mistweaver_spec"
+          "icon": "spell_monk_mistweaver_spec",
+          "ready": true
         },
         {
           "id": "marche-vent",
           "name": "Marche-vent",
           "role": "dps",
-          "icon": "spell_monk_windwalker_spec"
+          "icon": "spell_monk_windwalker_spec",
+          "ready": true
         }
       ],
       "icon": "classicon_monk"
@@ -273,25 +300,29 @@
           "id": "equilibre",
           "name": "Équilibre",
           "role": "dps",
-          "icon": "spell_nature_starfall"
+          "icon": "spell_nature_starfall",
+          "ready": true
         },
         {
           "id": "farouche",
           "name": "Farouche",
           "role": "dps",
-          "icon": "ability_druid_catform"
+          "icon": "ability_druid_catform",
+          "ready": true
         },
         {
           "id": "gardien",
           "name": "Gardien",
           "role": "tank",
-          "icon": "ability_racial_bearform"
+          "icon": "ability_racial_bearform",
+          "ready": true
         },
         {
           "id": "restauration",
           "name": "Restauration",
           "role": "heal",
-          "icon": "spell_nature_healingtouch"
+          "icon": "spell_nature_healingtouch",
+          "ready": true
         }
       ],
       "icon": "classicon_druid"
@@ -305,13 +336,15 @@
           "id": "devastation",
           "name": "Dévastation",
           "role": "dps",
-          "icon": "ability_demonhunter_specdps"
+          "icon": "ability_demonhunter_specdps",
+          "ready": true
         },
         {
           "id": "vengeance",
           "name": "Vengeance",
           "role": "tank",
-          "icon": "ability_demonhunter_spectank"
+          "icon": "ability_demonhunter_spectank",
+          "ready": true
         }
       ],
       "icon": "classicon_demonhunter"

@@ -1,0 +1,416 @@
+{
+  "status": "brouillon",
+  "icon": "spell_fire_firebolt02",
+  "summary": "DPS distance de feu. Enchaîne les Échauffements pour lancer des Explosions pyrotechniques instantanées.",
+  "sources": [
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Mage_Fire.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Mage_Fire.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Critique",
+        "weight": 90
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 78
+      },
+      {
+        "stat": "Hâte",
+        "weight": 74
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 72
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 90
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 61
+      },
+      {
+        "stat": "Critique",
+        "weight": 59
+      },
+      {
+        "stat": "Hâte",
+        "weight": 48
+      }
+    ],
+    "tips": [
+      "Priorité calculée avec SimulationCraft sur le profil Tier 21 : un seul boss pour le raid, 4 cibles pour le Mythique+.",
+      "La stat principale reste la base : à niveau d'objet égal, prends toujours l'objet le plus haut en niveau.",
+      "Les écarts entre secondaires sont faibles : simule ton propre personnage pour affiner."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 205020,
+            "name": "Pyromane",
+            "icon": "inv_misc_volatilefire"
+          },
+          {
+            "id": 205023,
+            "name": "Déflagration",
+            "icon": "spell_shaman_firenova"
+          },
+          {
+            "id": 205026,
+            "name": "Boute-flammes",
+            "icon": "spell_fire_fire"
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 212653,
+            "name": "Chatoiement",
+            "icon": "spell_arcane_massdispel"
+          },
+          {
+            "id": 157981,
+            "name": "Vague explosive",
+            "icon": "spell_holy_excorcism_02"
+          },
+          {
+            "id": 235365,
+            "name": "Ame flamboyante",
+            "icon": "ability_mage_fierypayback"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 55342,
+            "name": "Image miroir",
+            "icon": "spell_magic_lesserinvisibilty"
+          },
+          {
+            "id": 116011,
+            "name": "Rune de puissance",
+            "icon": "spell_mage_runeofpower"
+          },
+          {
+            "id": 1463,
+            "name": "Flux de l'incantateur",
+            "icon": "ability_mage_incantersabsorbtion"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 235870,
+            "name": "Fureur d'Alexstrasza",
+            "icon": "spell_warrior_dragoncharge"
+          },
+          {
+            "id": 205029,
+            "name": "Enflammé",
+            "icon": "inv_helm_circlet_firelands_d_01"
+          },
+          {
+            "id": 205033,
+            "name": "Brûlure contrôlée",
+            "icon": "inv_trinket_firelands_02"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 236058,
+            "name": "Vitesse frénétique",
+            "icon": "spell_fire_burningspeed"
+          },
+          {
+            "id": 113724,
+            "name": "Anneau de givre",
+            "icon": "spell_frost_ring-of-frost"
+          },
+          {
+            "id": 205036,
+            "name": "Garde glaciale",
+            "icon": "spell_frost_frostward"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 44457,
+            "name": "Bombe vivante",
+            "icon": "ability_mage_livingbomb"
+          },
+          {
+            "id": 157976,
+            "name": "Magie instable",
+            "icon": "spell_mage_unstablemagic"
+          },
+          {
+            "id": 205037,
+            "name": "Gerbe de flammes",
+            "icon": "spell_mage_flameorb"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 155148,
+            "name": "Petit bois",
+            "icon": "spell_mage_kindling"
+          },
+          {
+            "id": 198929,
+            "name": "Tempête de cendres",
+            "icon": "spell_fire_flare"
+          },
+          {
+            "id": 153561,
+            "name": "Météore",
+            "icon": "spell_mage_meteor"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          0,
+          -1,
+          1,
+          1,
+          -1,
+          1,
+          0
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible. Les rangées sans coche sont au choix (contrôle, mobilité ou survie)."
+      },
+      "mm": {
+        "picks": [
+          0,
+          -1,
+          1,
+          1,
+          -1,
+          1,
+          0
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs. Les rangées sans coche sont au choix."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Runebound Collar",
+        "id": 152138,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Chain of the Unmaker",
+        "id": 152283,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Épaules",
+        "item": "Runebound Mantle",
+        "id": 152141,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Runebound Cape",
+        "id": 152136,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Gambeson of Sargeras' Corruption",
+        "id": 152679,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Banderoles du roi-soleil",
+        "id": 132406,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_bracer_robe_raidwarlock_j_01"
+      },
+      {
+        "slot": "Mains",
+        "item": "Handwraps of Inevitable Doom",
+        "id": 152680,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Cord of Blossoming Petals",
+        "id": 151952,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Jambes",
+        "item": "Runebound Leggings",
+        "id": 152139,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "tier": true,
+        "unsure": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Whisperstep Runners",
+        "id": 151939,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Band of the Sargerite Smith",
+        "id": 152064,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Fragment de l'Exodar",
+        "id": 132410,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_6_2raid_ring_2a"
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Acrid Catalyst Injector",
+        "id": 151955,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "unsure": true
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Aman'Thul's Vision",
+        "id": 154172,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "unsure": true
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Felo'melorn",
+    "id": 128820,
+    "icon": "inv_sword_1h_artifactfelomelorn_d_01",
+    "ability": "Flammes de phénix",
+    "abilityId": 194466,
+    "relics": [
+      "Feu",
+      "Arcanes",
+      "Feu"
+    ],
+    "relicPicks": [
+      {
+        "type": "Feu",
+        "item": "Flickering Ember of Rage",
+        "id": 155849,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Arcanes",
+        "item": "Prototype Titan-Disc",
+        "id": 152026,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Feu",
+        "item": "Flickering Ember of Rage",
+        "id": 155849,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Tourment des faibles",
+        "id": 252906,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Paranoïa pyroclastique",
+        "id": 194239,
+        "note": "Rang 2"
+      },
+      {
+        "name": "Pré-embrasement",
+        "id": 238055
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}
