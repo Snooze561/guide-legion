@@ -1,0 +1,416 @@
+{
+  "status": "brouillon",
+  "icon": "ability_hunter_bestialdiscipline",
+  "summary": "DPS distance qui laisse les familiers taper. Ordre de tuer et la Furie des bêtes font l'essentiel.",
+  "sources": [
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Hunter_Beast_Mastery.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Hunter_Beast_Mastery.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 90
+      },
+      {
+        "stat": "Critique",
+        "weight": 88
+      },
+      {
+        "stat": "Hâte",
+        "weight": 86
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 84
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 90
+      },
+      {
+        "stat": "Hâte",
+        "weight": 86
+      },
+      {
+        "stat": "Critique",
+        "weight": 83
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 66
+      }
+    ],
+    "tips": [
+      "Priorité calculée avec SimulationCraft sur le profil Tier 21 : un seul boss pour le raid, 4 cibles pour le Mythique+.",
+      "La stat principale reste la base : à niveau d'objet égal, prends toujours l'objet le plus haut en niveau.",
+      "Les écarts entre secondaires sont faibles : simule ton propre personnage pour affiner."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 204308,
+            "name": "Chasseur de gros gibier",
+            "icon": "ability_hunter_efficiency"
+          },
+          {
+            "id": 194397,
+            "name": "Voie du cobra",
+            "icon": "ability_hunter_cobrastrikes"
+          },
+          {
+            "id": 193532,
+            "name": "Dire Stable",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 199530,
+            "name": "Piétinement",
+            "icon": "warrior_talent_icon_thunderstruck"
+          },
+          {
+            "id": 217200,
+            "name": "Tir acéré",
+            "icon": "ability_hunter_barbedshot"
+          },
+          {
+            "id": 53209,
+            "name": "Tir de la chimère",
+            "icon": "ability_hunter_chimerashot2"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 109215,
+            "name": "A toute allure",
+            "icon": "ability_hunter_posthaste"
+          },
+          {
+            "id": 199523,
+            "name": "Pérégrin",
+            "icon": "ability_hunter_pet_chimera"
+          },
+          {
+            "id": 199921,
+            "name": "Pisteur véloce",
+            "icon": "ability_hunter_aspectmastery"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 199528,
+            "name": "Communion avec la meute",
+            "icon": "icon_upgradestone_beast_uncommon"
+          },
+          {
+            "id": 194306,
+            "name": "Fureur bestiale",
+            "icon": "ability_hunter_fervor"
+          },
+          {
+            "id": 130392,
+            "name": "Frappes de transfert",
+            "icon": "spell_arcane_arcane04"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 109248,
+            "name": "Tir de lien",
+            "icon": "spell_shaman_bindelemental"
+          },
+          {
+            "id": 19386,
+            "name": "Piqûre de wyverne",
+            "icon": "inv_spear_02"
+          },
+          {
+            "id": 19577,
+            "name": "Intimidation",
+            "icon": "ability_devour"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 131894,
+            "name": "Corbeaux hargneux",
+            "icon": "ability_hunter_murderofcrows"
+          },
+          {
+            "id": 120360,
+            "name": "Barrage",
+            "icon": "ability_hunter_rapidregeneration"
+          },
+          {
+            "id": 194386,
+            "name": "Volley",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 201430,
+            "name": "Ruée",
+            "icon": "ability_hunter_bestialdiscipline"
+          },
+          {
+            "id": 199532,
+            "name": "Cobra tueur",
+            "icon": "ability_hunter_snaketrap"
+          },
+          {
+            "id": 191384,
+            "name": "Aspect de la bête",
+            "icon": "ability_deathwing_assualtaspects"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible."
+      },
+      "mm": {
+        "picks": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Casque de l'âme éveillée",
+        "id": 152423,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_helm_mail_raidshamanmythic_s_01"
+      },
+      {
+        "slot": "Cou",
+        "item": "Chaîne de l'Annihilateur",
+        "id": 152283,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_7_0raid_necklace_18a"
+      },
+      {
+        "slot": "Épaules",
+        "item": "Mantelet du traqueur de serpent",
+        "id": 152135,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_shoulder_mail_raidhuntermythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Drapé du traqueur de serpent",
+        "id": 152131,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_cape_raidhuntermythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Fourche-langue",
+        "id": 151805,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_chest_mail_dungeonmail_c_03"
+      },
+      {
+        "slot": "Poignets",
+        "item": "Appel de la Nature",
+        "id": 137101,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_bracer_36b"
+      },
+      {
+        "slot": "Mains",
+        "item": "Poignes du traqueur de serpent",
+        "id": 152132,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_glove_mail_raidhuntermythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Sangle du tacticien dépravé",
+        "id": 152006,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_belt_mail_raidshamanmythic_s_01"
+      },
+      {
+        "slot": "Jambes",
+        "item": "Garde-jambes du traqueur de serpent",
+        "id": 152134,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_pant_mail_raidhuntermythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Grandes bottes de la tempête incendiaire",
+        "id": 152684,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_boot_mail_raidshamanmythic_s_01"
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Jonc de la Lieuse-de-Vie",
+        "id": 152688,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_70_raid_ring7d"
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Sceau du Panthéon souillé",
+        "id": 151972,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_70_raid_ring3a"
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Vitalité de Golganneth",
+        "id": 154174,
+        "source": "Argus l'Annihilateur (panthéon)",
+        "quality": "epic",
+        "icon": "inv_antorus_grey"
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Convergence des destins",
+        "id": 140806,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "ability_bossmagistrix_timewarp1"
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Choc des Titans",
+    "id": 128861,
+    "icon": "inv_firearm_2h_artifactlegion_d_01",
+    "ability": "Lien de Hati",
+    "abilityId": 197344,
+    "relics": [
+      "Tempête",
+      "Arcanes",
+      "Fer"
+    ],
+    "relicPicks": [
+      {
+        "type": "Tempête",
+        "item": "Conque du foudroyeur",
+        "id": 155853,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Arcanes",
+        "item": "Prototype de disque des Titans",
+        "id": 152026,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Fer",
+        "item": "Faisceau des légions sans fin",
+        "id": 152293,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Maître des Ombres",
+        "id": 252091,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Pack Leader",
+        "id": 197080,
+        "note": "Rang 2"
+      },
+      {
+        "name": "Gueule du tonnerre",
+        "id": 197162
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

@@ -1,0 +1,416 @@
+{
+  "status": "brouillon",
+  "icon": "ability_druid_catform",
+  "summary": "DPS mêlée félin. Saignements à garder actifs et Morsure féroce pour finir.",
+  "sources": [
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Druid_Feral.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Druid_Feral.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Critique",
+        "weight": 90
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 88
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 75
+      },
+      {
+        "stat": "Hâte",
+        "weight": 69
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 90
+      },
+      {
+        "stat": "Critique",
+        "weight": 78
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 71
+      },
+      {
+        "stat": "Hâte",
+        "weight": 57
+      }
+    ],
+    "tips": [
+      "Priorité calculée avec SimulationCraft sur le profil Tier 21 : un seul boss pour le raid, 4 cibles pour le Mythique+.",
+      "La stat principale reste la base : à niveau d'objet égal, prends toujours l'objet le plus haut en niveau.",
+      "Les écarts entre secondaires sont faibles : simule ton propre personnage pour affiner."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 202021,
+            "name": "Prédateur",
+            "icon": "ability_hunter_catlikereflexes"
+          },
+          {
+            "id": 202022,
+            "name": "Blood Scent",
+            "unsure": true
+          },
+          {
+            "id": 155580,
+            "name": "Inspiration lunaire",
+            "icon": "spell_druid_lunarinspiration"
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 108238,
+            "name": "Renouveau",
+            "icon": "spell_nature_natureblessing"
+          },
+          {
+            "id": 102280,
+            "name": "Transfert bestial",
+            "icon": "spell_druid_displacement"
+          },
+          {
+            "id": 102401,
+            "name": "Charge sauvage",
+            "icon": "spell_druid_wildcharge"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 197488,
+            "name": "Affinité avec l'équilibre",
+            "icon": "ability_druid_improvedmoonkinform"
+          },
+          {
+            "id": 217615,
+            "name": "Affinité du gardien",
+            "icon": "talentspec_druid_feral_bear"
+          },
+          {
+            "id": 197492,
+            "name": "Affinité avec la restauration",
+            "icon": "ability_druid_improvedtreeform"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 5211,
+            "name": "Rossée puissante",
+            "icon": "ability_druid_bash"
+          },
+          {
+            "id": 102359,
+            "name": "Enchevêtrement de masse",
+            "icon": "spell_druid_massentanglement"
+          },
+          {
+            "id": 132469,
+            "name": "Typhon",
+            "icon": "ability_druid_typhoon"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 158476,
+            "name": "Ame de la forêt",
+            "icon": "ability_druid_manatree"
+          },
+          {
+            "id": 102543,
+            "name": "Incarnation : avatar d'Ashamane",
+            "icon": "spell_druid_incarnation"
+          },
+          {
+            "id": 202032,
+            "name": "Blessures sanguinolentes",
+            "icon": "ability_druid_disembowel"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 202031,
+            "name": "Dent de sabre",
+            "icon": "inv_misc_monsterfang_01"
+          },
+          {
+            "id": 202028,
+            "name": "Entaille brutale",
+            "icon": "ability_druid_ravage"
+          },
+          {
+            "id": 52610,
+            "name": "Rugissement sauvage",
+            "icon": "ability_druid_skinteeth"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 236068,
+            "name": "Instant de clarté",
+            "icon": "spell_druid_momentofclarity"
+          },
+          {
+            "id": 155672,
+            "name": "Bloodtalons",
+            "unsure": true
+          },
+          {
+            "id": 202060,
+            "name": "Soutien d'Élune",
+            "icon": "spell_holy_elunesgrace"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          1,
+          2,
+          2,
+          0,
+          1,
+          2,
+          1
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible."
+      },
+      "mm": {
+        "picks": [
+          1,
+          2,
+          2,
+          0,
+          1,
+          2,
+          1
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Coiffure de béhémoth",
+        "id": 151801,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_helmet_leather_draenorhonors2_c_01"
+      },
+      {
+        "slot": "Cou",
+        "item": "Pendentif du noyau de Vulcanar",
+        "id": 151965,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_7_0raid_necklace_14b"
+      },
+      {
+        "slot": "Épaules",
+        "item": "Épaulières de Mantelours",
+        "id": 152129,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_shoulder_leather_raiddruidmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Cape de Mantelours",
+        "id": 152125,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_cape_leather_raiddruidmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Gilet de vie déclinante",
+        "id": 151982,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_chest__inv_leather_raidmonkmythic_s_01"
+      },
+      {
+        "slot": "Poignets",
+        "item": "Manchettes de kéraptéron sinueux",
+        "id": 152087,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_bracer_leather_raiddruidmythic_s_01"
+      },
+      {
+        "slot": "Mains",
+        "item": "Pattes de Mantelours",
+        "id": 152126,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_glove_leather_raiddruidmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Ceinture de raison brisée",
+        "id": 151991,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_belt__inv_leather_raidmonkmythic_s_01"
+      },
+      {
+        "slot": "Jambes",
+        "item": "Garde-jambes de Mantelours",
+        "id": 152128,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_pant_leather_raiddruidmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Pattes-de-feu vicieuses",
+        "id": 151983,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_boot_leather_raiddruidmythic_s_01"
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Sceau du Panthéon souillé",
+        "id": 151972,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_70_raid_ring3a"
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Ame de l'archidruide",
+        "id": 151636,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_70_raid_ring6a"
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Vitalité de Golganneth",
+        "id": 154174,
+        "source": "Argus l'Annihilateur (panthéon)",
+        "quality": "epic",
+        "icon": "inv_antorus_grey"
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Aile du fléau suintante",
+        "id": 151964,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "ability_creature_poison_03"
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Crocs d'Ashamane",
+    "id": 128860,
+    "icon": "inv_knife_1h_artifactfrostsaber_d_01",
+    "ability": "Frénésie d'Ashamane",
+    "abilityId": 210722,
+    "relics": [
+      "Sang",
+      "Givre",
+      "Vie"
+    ],
+    "relicPicks": [
+      {
+        "type": "Sang",
+        "item": "Cruor du vengeur",
+        "id": 155847,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Givre",
+        "item": "Givre de portail sublimant",
+        "id": 152041,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Vie",
+        "item": "Racine de la Lieuse-de-Vie",
+        "id": 155854,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Tourment des faibles",
+        "id": 252906,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Instinct farouche",
+        "id": 210631
+      },
+      {
+        "name": "Lacérer les chairs",
+        "id": 210593,
+        "note": "Rang 2"
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

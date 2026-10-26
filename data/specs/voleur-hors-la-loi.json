@@ -1,0 +1,416 @@
+{
+  "status": "brouillon",
+  "icon": "inv_sword_30",
+  "summary": "DPS mêlée flibustier. Lancer les dés donne des bonus aléatoires, Riposte et Tir de pistolet remplissent ton combo.",
+  "sources": [
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Rogue_Outlaw.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Rogue_Outlaw.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 90
+      },
+      {
+        "stat": "Hâte",
+        "weight": 75
+      },
+      {
+        "stat": "Critique",
+        "weight": 69
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 55
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Hâte",
+        "weight": 90
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 83
+      },
+      {
+        "stat": "Critique",
+        "weight": 68
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 66
+      }
+    ],
+    "tips": [
+      "Priorité calculée avec SimulationCraft sur le profil Tier 21 : un seul boss pour le raid, 4 cibles pour le Mythique+.",
+      "La stat principale reste la base : à niveau d'objet égal, prends toujours l'objet le plus haut en niveau.",
+      "Les écarts entre secondaires sont faibles : simule ton propre personnage pour affiner."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 196937,
+            "name": "Ghostly Strike",
+            "unsure": true
+          },
+          {
+            "id": 200733,
+            "name": "Swordmaster",
+            "unsure": true
+          },
+          {
+            "id": 196938,
+            "name": "Tireur rapide",
+            "icon": "inv_weapon_rifle_40"
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 195457,
+            "name": "Grappin",
+            "icon": "ability_rogue_grapplinghook"
+          },
+          {
+            "id": 196924,
+            "name": "Acrobatic Strikes",
+            "unsure": true
+          },
+          {
+            "id": 196922,
+            "name": "Pas vu, pas pris",
+            "icon": "ability_rogue_fleetfooted"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 193531,
+            "name": "Stratagème approfondi",
+            "icon": "archaeology_5_0_changkiboard"
+          },
+          {
+            "id": 114015,
+            "name": "Anticipation",
+            "icon": "ability_rogue_slaughterfromtheshadows"
+          },
+          {
+            "id": 14983,
+            "name": "Vigueur",
+            "icon": "ability_rogue_vigor"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 193546,
+            "name": "Estomac de fer",
+            "icon": "inv_misc_organ_11"
+          },
+          {
+            "id": 79008,
+            "name": "Insaisissable",
+            "icon": "ability_rogue_turnthetables"
+          },
+          {
+            "id": 31230,
+            "name": "Trompe-la-mort",
+            "icon": "ability_rogue_cheatdeath"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 199743,
+            "name": "Pourparlers",
+            "icon": "achievement_character_human_male"
+          },
+          {
+            "id": 131511,
+            "name": "Prey on the Weak",
+            "unsure": true
+          },
+          {
+            "id": 108216,
+            "name": "Coup tordu",
+            "icon": "ability_rogue_dirtydeeds"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 185767,
+            "name": "Cannonball Barrage",
+            "unsure": true
+          },
+          {
+            "id": 193539,
+            "name": "Empressement",
+            "icon": "ability_paladin_speedoflight"
+          },
+          {
+            "id": 51690,
+            "name": "Série meurtrière",
+            "icon": "inv_112_rogue_betweentheeyes"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 5171,
+            "name": "Débiter",
+            "icon": "ability_rogue_slicedice"
+          },
+          {
+            "id": 137619,
+            "name": "Désigné pour mourir",
+            "icon": "achievement_bg_killingblow_berserker"
+          },
+          {
+            "id": 152150,
+            "name": "La mort venue d'en haut",
+            "icon": "spell_rogue_deathfromabove"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          2,
+          2,
+          0,
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible. Les rangées sans coche sont au choix (contrôle, mobilité ou survie)."
+      },
+      "mm": {
+        "picks": [
+          2,
+          2,
+          0,
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs. Les rangées sans coche sont au choix."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Chapeau de cavalier du brigand audacieux",
+        "id": 152163,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raidroguemythic_s_01_helm",
+        "tier": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Chaîne de l'Annihilateur",
+        "id": 152283,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_7_0raid_necklace_18a"
+      },
+      {
+        "slot": "Épaules",
+        "item": "Mantelet du maître assassin",
+        "id": 144236,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_shoulder_leather_raidrogue_k_01"
+      },
+      {
+        "slot": "Dos",
+        "item": "Cape du brigand audacieux",
+        "id": 152161,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raidroguemythic_s_01_cape",
+        "tier": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Gilet du brigand audacieux",
+        "id": 152160,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raidroguemythic_s_01_chest",
+        "tier": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Protège-poignets détrempés de Vertepeau",
+        "id": 137099,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_bracer_leather_raidrogue_k_01"
+      },
+      {
+        "slot": "Mains",
+        "item": "Poignes des ombres affamées",
+        "id": 152086,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raidroguemythic_s_01_glove"
+      },
+      {
+        "slot": "Taille",
+        "item": "Cordelette de l'étau de mort",
+        "id": 151986,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_buckle_leather_raiddemonhuntermythic_q_01"
+      },
+      {
+        "slot": "Jambes",
+        "item": "Pantalon du brigand audacieux",
+        "id": 152164,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raidroguemythic_s_01_pant",
+        "tier": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Souliers du machiniste dépravé",
+        "id": 152412,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raiddemonhuntermythic_q_01boots"
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Anneau du tourmenteur zélé",
+        "id": 152284,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_70_quest_ring7a"
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Sceau du maître de portail",
+        "id": 152063,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_70_raid_ring2c"
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Convergence des destins",
+        "id": 140806,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "ability_bossmagistrix_timewarp1"
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Vitalité de Golganneth",
+        "id": 154174,
+        "source": "Argus l'Annihilateur (panthéon)",
+        "quality": "epic",
+        "icon": "inv_antorus_grey"
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Les lames d'effroi",
+    "id": 128872,
+    "icon": "inv_sword_1h_artifactskywall_d_01",
+    "ability": "Malédiction des lames d'effroi",
+    "abilityId": 202665,
+    "relics": [
+      "Sang",
+      "Fer",
+      "Tempête"
+    ],
+    "relicPicks": [
+      {
+        "type": "Sang",
+        "item": "Cruor du vengeur",
+        "id": 155847,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Fer",
+        "item": "Particule du maître-forge",
+        "id": 155855,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Tempête",
+        "item": "Conque du foudroyeur",
+        "id": 155853,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Tourment des faibles",
+        "id": 252906,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Porte-destin",
+        "id": 202524
+      },
+      {
+        "name": "Aubaine de la fortune",
+        "id": 202907,
+        "note": "Rang 2"
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

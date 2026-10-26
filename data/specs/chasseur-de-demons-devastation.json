@@ -1,0 +1,416 @@
+{
+  "status": "brouillon",
+  "icon": "ability_demonhunter_specdps",
+  "summary": "DPS mêlée démoniaque très mobile. Frappe du chaos et Rayon accablant.",
+  "sources": [
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Demon_Hunter_Havoc.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Demon_Hunter_Havoc.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Critique",
+        "weight": 90
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 78
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 69
+      },
+      {
+        "stat": "Hâte",
+        "weight": 53
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 90
+      },
+      {
+        "stat": "Critique",
+        "weight": 77
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 70
+      },
+      {
+        "stat": "Hâte",
+        "weight": 26
+      }
+    ],
+    "tips": [
+      "Priorité calculée avec SimulationCraft sur le profil Tier 21 : un seul boss pour le raid, 4 cibles pour le Mythique+.",
+      "La stat principale reste la base : à niveau d'objet égal, prends toujours l'objet le plus haut en niveau.",
+      "Les écarts entre secondaires sont faibles : simule ton propre personnage pour affiner."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 99,
+        "options": [
+          {
+            "id": 192939,
+            "name": "Maîtrise de la corruption",
+            "icon": "ability_skyreach_piercing_rush"
+          },
+          {
+            "id": 232893,
+            "name": "Gangrelame",
+            "icon": "ability_demonhunter_felblade"
+          },
+          {
+            "id": 203550,
+            "name": "Furie aveugle",
+            "icon": "ability_bosskilrogg_deadeye"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 203551,
+            "name": "Prepared",
+            "unsure": true
+          },
+          {
+            "id": 203555,
+            "name": "Lames du démon",
+            "icon": "inv_weapon_shortblade_92"
+          },
+          {
+            "id": 206478,
+            "name": "Appétit démoniaque",
+            "icon": "ability_creature_poison_01_purple"
+          }
+        ]
+      },
+      {
+        "level": 102,
+        "options": [
+          {
+            "id": 206475,
+            "name": "Enchaînement du chaos",
+            "icon": "inv_weapon_shortblade_62"
+          },
+          {
+            "id": 206416,
+            "name": "Premier sang",
+            "icon": "ability_deathwing_bloodcorruption_death"
+          },
+          {
+            "id": 206473,
+            "name": "Suppuration",
+            "icon": "ability_demonhunter_bloodlet"
+          }
+        ]
+      },
+      {
+        "level": 104,
+        "options": [
+          {
+            "id": 196555,
+            "name": "Marche du Néant",
+            "icon": "spell_warlock_demonsoul"
+          },
+          {
+            "id": 205411,
+            "name": "Instinct désespéré",
+            "icon": "spell_shadow_manafeed"
+          },
+          {
+            "id": 204909,
+            "name": "Déchirement de l'âme",
+            "icon": "ability_demonhunter_soulcleave2"
+          }
+        ]
+      },
+      {
+        "level": 106,
+        "options": [
+          {
+            "id": 206476,
+            "name": "Momentum",
+            "unsure": true
+          },
+          {
+            "id": 211881,
+            "name": "Éruption gangrenée",
+            "icon": "ability_bossfellord_felspike"
+          },
+          {
+            "id": 206491,
+            "name": "Nemesis",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 108,
+        "options": [
+          {
+            "id": 203556,
+            "name": "Maître du glaive",
+            "icon": "inv_glaive_1h_demonhunter_a_01"
+          },
+          {
+            "id": 206477,
+            "name": "Puissance déchaînée",
+            "icon": "ability_demonhunter_chaosnova"
+          },
+          {
+            "id": 193897,
+            "name": "Renaissance démoniaque",
+            "icon": "ability_warlock_demonicempowerment"
+          }
+        ]
+      },
+      {
+        "level": 110,
+        "options": [
+          {
+            "id": 247938,
+            "name": "Lames du chaos",
+            "icon": "inv_glaive_1h_artifactaldrochi_d_03dual"
+          },
+          {
+            "id": 211053,
+            "name": "Barrage gangrené",
+            "icon": "ability_felarakkoa_feldetonation_green"
+          },
+          {
+            "id": 213410,
+            "name": "Démoniaque",
+            "icon": "spell_shadow_demonform"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          2,
+          2,
+          0,
+          -1,
+          2,
+          2,
+          2
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible. Les rangées sans coche sont au choix (contrôle, mobilité ou survie)."
+      },
+      "mm": {
+        "picks": [
+          2,
+          2,
+          0,
+          -1,
+          2,
+          2,
+          2
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs. Les rangées sans coche sont au choix."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Regard acéré de Raddon",
+        "id": 137061,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_misc_bandana_01"
+      },
+      {
+        "slot": "Cou",
+        "item": "Chaîne de l'Annihilateur",
+        "id": 152283,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_7_0raid_necklace_18a"
+      },
+      {
+        "slot": "Épaules",
+        "item": "Spallières du faucheur gangrené",
+        "id": 152123,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raiddemonhuntermythic_q_01shoulders",
+        "tier": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Drapé du faucheur gangrené",
+        "id": 152119,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_cape_leather_raiddemonhuntermythic_q_01",
+        "tier": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Gilet de vie déclinante",
+        "id": 151982,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_chest__inv_leather_raidmonkmythic_s_01"
+      },
+      {
+        "slot": "Poignets",
+        "item": "Bandelettes du logisticien démonique",
+        "id": 151992,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raiddemonhuntermythic_q_01bracer"
+      },
+      {
+        "slot": "Mains",
+        "item": "Gants du faucheur gangrené",
+        "id": 152120,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raiddemonhuntermythic_q_01glove",
+        "tier": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Cordelière de garde-portail",
+        "id": 151990,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raidroguemythic_s_01_belt"
+      },
+      {
+        "slot": "Jambes",
+        "item": "Jambières du faucheur gangrené",
+        "id": 152122,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raiddemonhuntermythic_q_01pants",
+        "tier": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Souliers porte-vie",
+        "id": 151981,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_boot__inv_leather_raidmonkmythic_s_01"
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Colère des demi-géants",
+        "id": 137038,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_60pvp_ring1a"
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Bague du forge-sargerite",
+        "id": 152064,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_70_raid_ring4a"
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Aile du fléau suintante",
+        "id": 151964,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "ability_creature_poison_03"
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Vitalité de Golganneth",
+        "id": 154174,
+        "source": "Argus l'Annihilateur (panthéon)",
+        "quality": "epic",
+        "icon": "inv_antorus_grey"
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Lames jumelles du Trompeur",
+    "id": 127829,
+    "icon": "inv_glaive_1h_artifactazgalor_d_01",
+    "ability": "Fureur des Illidari",
+    "abilityId": 201467,
+    "relics": [
+      "Gangrène",
+      "Ombre",
+      "Gangrène"
+    ],
+    "relicPicks": [
+      {
+        "type": "Gangrène",
+        "item": "Orbe chancreux condensé",
+        "id": 155848,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Ombre",
+        "item": "Fragment d'âme instable",
+        "id": 155852,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Gangrène",
+        "item": "Orbe chancreux condensé",
+        "id": 155848,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Lumière foudroyante",
+        "id": 252799,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Chaos critique",
+        "id": 201455,
+        "note": "Rang 2"
+      },
+      {
+        "name": "Vision du chaos",
+        "id": 201456
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

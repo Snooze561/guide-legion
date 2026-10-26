@@ -1,0 +1,392 @@
+{
+  "status": "brouillon",
+  "icon": "spell_monk_mistweaver_spec",
+  "summary": "Soigneur à brume. Brume de rénovation et Vivification, avec la statue du Serpent de jade.",
+  "sources": [
+    {
+      "label": "Guías WoW, guide PvE 7.3.5",
+      "url": "https://en.guiaswow.com/game-guide/mistweaver-monk-7-3-5.html"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Critique",
+        "weight": 85
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 70
+      },
+      {
+        "stat": "Hâte",
+        "weight": 55
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 40
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Critique",
+        "weight": 85
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 70
+      },
+      {
+        "stat": "Hâte",
+        "weight": 55
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 40
+      }
+    ],
+    "tips": [
+      "La même priorité s'applique en raid et en Mythique+, d'après le guide Guías WoW 7.3.5."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 123986,
+            "name": "Explosion de chi",
+            "icon": "spell_arcane_arcanetorrent"
+          },
+          {
+            "id": 124081,
+            "name": "Impulsion zen",
+            "icon": "ability_monk_forcesphere"
+          },
+          {
+            "id": 115098,
+            "name": "Onde de chi",
+            "icon": "ability_monk_chiwave"
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 115008,
+            "name": "Torpille de chi",
+            "icon": "ability_monk_quitornado"
+          },
+          {
+            "id": 116841,
+            "name": "Soif du tigre",
+            "icon": "ability_monk_tigerslust"
+          },
+          {
+            "id": 115173,
+            "name": "Vélocité",
+            "icon": "ability_monk_quipunch"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 197915,
+            "name": "Cycles de la vie",
+            "icon": "ability_monk_souldance"
+          },
+          {
+            "id": 210802,
+            "name": "Spirit of the Crane",
+            "unsure": true
+          },
+          {
+            "id": 197900,
+            "name": "Manteau de brume",
+            "icon": "ability_monk_pathofmists"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 116844,
+            "name": "Anneau de paix",
+            "icon": "spell_monk_ringofpeace"
+          },
+          {
+            "id": 198898,
+            "name": "Chant de Chi Ji",
+            "icon": "inv_chaos_orb"
+          },
+          {
+            "id": 119381,
+            "name": "Balayement de jambe",
+            "icon": "ability_monk_legsweep"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 122281,
+            "name": "Élixir de soins",
+            "icon": "ability_monk_jasmineforcetea"
+          },
+          {
+            "id": 122783,
+            "name": "Diffusion de la magie",
+            "icon": "spell_monk_diffusemagic"
+          },
+          {
+            "id": 122278,
+            "name": "Atténuation du mal",
+            "icon": "ability_monk_dampenharm"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 196725,
+            "name": "Vent de jade rafraîchissant",
+            "icon": "ability_monk_rushingjadewind"
+          },
+          {
+            "id": 198664,
+            "name": "Invoke Chi-Ji, the Red Crane",
+            "unsure": true
+          },
+          {
+            "id": 115313,
+            "name": "Invocation d'une statue du Serpent de jade",
+            "icon": "ability_monk_summonserpentstatue"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 197908,
+            "name": "Thé de mana",
+            "icon": "monk_ability_cherrymanatea"
+          },
+          {
+            "id": 197895,
+            "name": "Tonnerre focalisé",
+            "icon": "spell_monk_nimblebrew"
+          },
+          {
+            "id": 210804,
+            "name": "Tonnerre levant",
+            "icon": "ability_thunderking_lightningwhip"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          0,
+          1,
+          2,
+          2,
+          0,
+          1,
+          0
+        ],
+        "note": "Build conseillé par le guide Guías WoW 7.3.5."
+      },
+      "mm": {
+        "picks": [
+          0,
+          1,
+          2,
+          2,
+          0,
+          2,
+          0
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Douli de Chi Ji",
+        "id": 152145,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_helm__inv_leather_raidmonkmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Pendentif du noyau de Vulcanar",
+        "id": 151965,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_7_0raid_necklace_14b"
+      },
+      {
+        "slot": "Épaules",
+        "item": "Sphères de méditation de Chi Ji",
+        "id": 152147,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_shoulder__inv_leather_raidmonkmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Porte vers Nulle part",
+        "id": 151784,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_misc_cape_cataclysm_healer_b_01"
+      },
+      {
+        "slot": "Torse",
+        "item": "Gilet de vie déclinante",
+        "id": 151982,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_chest__inv_leather_raidmonkmythic_s_01"
+      },
+      {
+        "slot": "Poignets",
+        "item": "Bandelettes du logisticien démonique",
+        "id": 151992,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raiddemonhuntermythic_q_01bracer"
+      },
+      {
+        "slot": "Mains",
+        "item": "Poignes de Chi Ji",
+        "id": 152144,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_glove__inv_leather_raidmonkmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Ceinture de raison brisée",
+        "id": 151991,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_belt__inv_leather_raidmonkmythic_s_01"
+      },
+      {
+        "slot": "Jambes",
+        "item": "Garde-jambes de bloque-brèche",
+        "id": 151987,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_pant_leather_raiddruidmythic_s_01"
+      },
+      {
+        "slot": "Pieds",
+        "item": "Souliers du machiniste dépravé",
+        "id": 152412,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raiddemonhuntermythic_q_01boots"
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Sceau du maître de portail",
+        "id": 152063,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_70_raid_ring2c"
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Anneau du tourmenteur zélé",
+        "id": 152284,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_70_quest_ring7a"
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Vision d'Aman'Thul",
+        "id": 154172,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_antorus_turquoise"
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Vision future de Velen",
+        "id": 144258,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "spell_holy_healingfocus"
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du guide Guías WoW 7.3.5 (Antorus).",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Sheilun, bâton des brumes",
+    "id": 128937,
+    "icon": "inv_staff_2h_artifactshaohao_d_01",
+    "ability": "Don de Sheilun",
+    "abilityId": 205406,
+    "relics": [
+      "Vie",
+      "Tempête",
+      "Givre"
+    ],
+    "relicPicks": [
+      {
+        "type": "Vie",
+        "item": "Racine de la Lieuse-de-Vie",
+        "id": 155854,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Tempête",
+        "item": "Conque du foudroyeur",
+        "id": 155853,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Givre",
+        "item": "Pierre funèbre algide",
+        "id": 152040,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": []
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "status": "brouillon",
+  "icon": "spell_frost_frostbolt02",
+  "summary": "DPS distance de givre. Doigts de givre et Gel cérébral préparent Lance de glace et Éclair de givrefeu.",
+  "sources": [
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Mage_Frost.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Mage_Frost.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 90
+      },
+      {
+        "stat": "Hâte",
+        "weight": 90
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 56
+      },
+      {
+        "stat": "Critique",
+        "weight": 54
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Critique",
+        "weight": 90
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 84
+      },
+      {
+        "stat": "Hâte",
+        "weight": 76
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 31
+      }
+    ],
+    "tips": [
+      "Priorité calculée avec SimulationCraft sur le profil Tier 21 : un seul boss pour le raid, 4 cibles pour le Mythique+.",
+      "La stat principale reste la base : à niveau d'objet égal, prends toujours l'objet le plus haut en niveau.",
+      "Les écarts entre secondaires sont faibles : simule ton propre personnage pour affiner."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 205021,
+            "name": "Rayon de givre",
+            "icon": "ability_mage_rayoffrost"
+          },
+          {
+            "id": 205024,
+            "name": "Hiver solitaire",
+            "icon": "achievement_dungeon_frozenthrone"
+          },
+          {
+            "id": 205027,
+            "name": "A glacer le sang",
+            "icon": "ability_mage_chilledtothebone"
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 212653,
+            "name": "Chatoiement",
+            "icon": "spell_arcane_massdispel"
+          },
+          {
+            "id": 108839,
+            "name": "Iceberg",
+            "icon": "spell_mage_iceflows"
+          },
+          {
+            "id": 235297,
+            "name": "Isolation glaciale",
+            "icon": "ability_mage_coldasice"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 55342,
+            "name": "Image miroir",
+            "icon": "spell_magic_lesserinvisibilty"
+          },
+          {
+            "id": 116011,
+            "name": "Rune de puissance",
+            "icon": "spell_mage_runeofpower"
+          },
+          {
+            "id": 1463,
+            "name": "Flux de l'incantateur",
+            "icon": "ability_mage_incantersabsorbtion"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 157997,
+            "name": "Nova de glace",
+            "icon": "spell_mage_icenova"
+          },
+          {
+            "id": 205030,
+            "name": "Toucher gelé",
+            "icon": "ability_mage_burstofcold"
+          },
+          {
+            "id": 56377,
+            "name": "Bris de glace",
+            "icon": "spell_frost_ice-shards"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 235224,
+            "name": "Vents algides",
+            "icon": "ability_mage_deepfreeze"
+          },
+          {
+            "id": 113724,
+            "name": "Anneau de givre",
+            "icon": "spell_frost_ring-of-frost"
+          },
+          {
+            "id": 205036,
+            "name": "Garde glaciale",
+            "icon": "spell_frost_frostward"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 112948,
+            "name": "Bombe de givre",
+            "icon": "spell_mage_frostbomb"
+          },
+          {
+            "id": 157976,
+            "name": "Magie instable",
+            "icon": "spell_mage_unstablemagic"
+          },
+          {
+            "id": 205038,
+            "name": "Trombe arctique",
+            "icon": "spell_frost_arcticwinds"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 155149,
+            "name": "Vide thermique",
+            "icon": "spell_mage_thermalvoid"
+          },
+          {
+            "id": 199786,
+            "name": "Pointe glaciaire",
+            "icon": "ability_mage_glacialspike"
+          },
+          {
+            "id": 153595,
+            "name": "Tempête de comètes",
+            "icon": "spell_mage_cometstorm2"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          1,
+          -1,
+          2,
+          2,
+          -1,
+          1,
+          0
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible. Les rangées sans coche sont au choix (contrôle, mobilité ou survie)."
+      },
+      "mm": {
+        "picks": [
+          1,
+          -1,
+          2,
+          2,
+          -1,
+          1,
+          0
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs. Les rangées sans coche sont au choix."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Collerette runeliée",
+        "id": 152138,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_helm_cloth_raidmagemythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Chaîne de l'Annihilateur",
+        "id": 152283,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_7_0raid_necklace_18a"
+      },
+      {
+        "slot": "Épaules",
+        "item": "Mantelet runelié",
+        "id": 152141,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_shoulders_cloth_raidmagemythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Drapé de la tempête arcanique",
+        "id": 147145,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_cape_cloth_raidmage_r_01mythic"
+      },
+      {
+        "slot": "Torse",
+        "item": "Tunique runeliée",
+        "id": 152140,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_chest_cloth_raidmagemythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Brassards bannis de Magtheridon",
+        "id": 138140,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_bracer_64v1"
+      },
+      {
+        "slot": "Mains",
+        "item": "Gants de la tempête arcanique",
+        "id": 147146,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_glove_cloth_raidmage_r_01mythic"
+      },
+      {
+        "slot": "Taille",
+        "item": "Corde de pétales de fleurs",
+        "id": 151952,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_belt_cloth_raidpriestmythic_s_01"
+      },
+      {
+        "slot": "Jambes",
+        "item": "Jambières runeliées",
+        "id": 152139,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_pant_cloth_raidmagemythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Mules en soie de dame Dacidion",
+        "id": 151945,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_boot_cloth_raidwarlockmythic_s_01"
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Sceau du maître de portail",
+        "id": 152063,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_70_raid_ring2c"
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Fragment de l'Exodar",
+        "id": 132410,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_6_2raid_ring_2a"
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Injecteur de catalyseur âcre",
+        "id": 151955,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_7_0raid_trinket_01c"
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Vision d'Aman'Thul",
+        "id": 154172,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_antorus_turquoise"
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Frissébène",
+    "id": 128862,
+    "icon": "inv_staff_2h_artifactantonidas_d_01",
+    "ability": "Éclair d'ébène",
+    "abilityId": 214634,
+    "relics": [
+      "Givre",
+      "Arcanes",
+      "Givre"
+    ],
+    "relicPicks": [
+      {
+        "type": "Givre",
+        "item": "Frimas du monde des esprits",
+        "id": 155850,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Arcanes",
+        "item": "Balise cosmique miniaturisée",
+        "id": 155846,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Givre",
+        "item": "Frimas du monde des esprits",
+        "id": 155850,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Tourment des faibles",
+        "id": 252906,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Clarté de pensée",
+        "id": 195351,
+        "note": "Rang 3"
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

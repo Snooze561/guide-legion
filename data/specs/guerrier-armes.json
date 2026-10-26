@@ -1,0 +1,412 @@
+{
+  "status": "brouillon",
+  "icon": "ability_warrior_savageblow",
+  "summary": "DPS mêlée à arme à deux mains. Frappe mortelle et Frappe du colosse rythment tes dégâts, Exécution finit le travail sous 20 %.",
+  "sources": [
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Warrior_Arms.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Warrior_Arms.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Force",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 90
+      },
+      {
+        "stat": "Hâte",
+        "weight": 82
+      },
+      {
+        "stat": "Critique",
+        "weight": 79
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 77
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Force",
+        "weight": 100
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 90
+      },
+      {
+        "stat": "Hâte",
+        "weight": 79
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 74
+      },
+      {
+        "stat": "Critique",
+        "weight": 67
+      }
+    ],
+    "tips": [
+      "Priorité calculée avec SimulationCraft sur le profil Tier 21 : un seul boss pour le raid, 4 cibles pour le Mythique+.",
+      "La stat principale reste la base : à niveau d'objet égal, prends toujours l'objet le plus haut en niveau.",
+      "Les écarts entre secondaires sont faibles : simule ton propre personnage pour affiner."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 202297,
+            "name": "Audace",
+            "icon": "ability_warrior_unrelentingassault"
+          },
+          {
+            "id": 7384,
+            "name": "Fulgurance",
+            "icon": "ability_meleedamage"
+          },
+          {
+            "id": 202161,
+            "name": "Sweeping Strikes",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 46968,
+            "name": "Onde de choc",
+            "icon": "ability_warrior_shockwave"
+          },
+          {
+            "id": 107570,
+            "name": "Éclair de tempête",
+            "icon": "warrior_talent_icon_stormbolt"
+          },
+          {
+            "id": 103827,
+            "name": "Doublement",
+            "icon": "inv_misc_horn_04"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 215538,
+            "name": "Trauma",
+            "icon": "ability_warrior_trauma"
+          },
+          {
+            "id": 772,
+            "name": "Pourfendre",
+            "icon": "ability_gouge"
+          },
+          {
+            "id": 107574,
+            "name": "Avatar",
+            "icon": "warrior_talent_icon_avatar"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 29838,
+            "name": "Second souffle",
+            "icon": "ability_hunter_harass"
+          },
+          {
+            "id": 202163,
+            "name": "Marche bondissante",
+            "icon": "ability_heroicleap"
+          },
+          {
+            "id": 197690,
+            "name": "Defensive Stance",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 202316,
+            "name": "Ferveur du combat",
+            "icon": "ability_rogue_waylay"
+          },
+          {
+            "id": 202593,
+            "name": "Mortel combo",
+            "icon": "ability_warrior_savageblow"
+          },
+          {
+            "id": 202612,
+            "name": "Pouvoir titanesque",
+            "icon": "ability_warrior_colossussmash"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 227266,
+            "name": "Deadly Calm",
+            "unsure": true
+          },
+          {
+            "id": 248621,
+            "name": "Mise à mort",
+            "icon": "ability_blackhand_marked4death"
+          },
+          {
+            "id": 207982,
+            "name": "Rage concentrée",
+            "icon": "ability_warrior_focusedrage"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 152278,
+            "name": "Maîtrise de la rage",
+            "icon": "warrior_talent_icon_angermanagement"
+          },
+          {
+            "id": 203179,
+            "name": "Opportunity Strikes",
+            "unsure": true
+          },
+          {
+            "id": 152277,
+            "name": "Ravager",
+            "unsure": true
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          0,
+          2,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible."
+      },
+      "mm": {
+        "picks": [
+          0,
+          2,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Heaume du mastodonte",
+        "id": 152181,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_plate_raidwarriormythic_s_01helm",
+        "tier": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Sautoir riveté du délire",
+        "id": 151966,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_7_0raid_necklace_04b"
+      },
+      {
+        "slot": "Épaules",
+        "item": "Espauliers du mastodonte",
+        "id": 152183,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_plate_raidwarriormythic_s_01shoulders",
+        "tier": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Cape du mastodonte",
+        "id": 152179,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_plate_raidwarriormythic_s_01cape",
+        "tier": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Cuirasse du mastodonte",
+        "id": 152178,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_plate_raidwarriormythic_s_01chest",
+        "tier": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Protège-bras de rassérénement",
+        "id": 152023,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_bracer_plate_raidpaladinmythic_s_01"
+      },
+      {
+        "slot": "Mains",
+        "item": "Main lourde d'Archavon",
+        "id": 137060,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_gloves_plate_raidwarrior_m_01"
+      },
+      {
+        "slot": "Taille",
+        "item": "Ceinturon du Père Grond",
+        "id": 152022,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_plate_raidwarriormythic_s_01buckle"
+      },
+      {
+        "slot": "Jambes",
+        "item": "Cuissards de purge cosmique",
+        "id": 152016,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_pant_plate_raidpaladinmythic_s_01"
+      },
+      {
+        "slot": "Pieds",
+        "item": "Solerets du conseil de guerre érédar",
+        "id": 152011,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_boot_plate_raidpaladinmythic_s_01"
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Sceau du Panthéon souillé",
+        "id": 151972,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_70_raid_ring3a"
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Cœur de pierre d'Ayala",
+        "id": 137052,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_misc_ring_firelands_1"
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Héritage de Gorshalach",
+        "id": 152093,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_sword_1h_firelandsraid_d_01"
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Vision d'Aman'Thul",
+        "id": 154172,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_antorus_turquoise"
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Strom'kar, le Brise-Guerre",
+    "id": 128910,
+    "icon": "inv_sword_2h_artifactarathor_d_01",
+    "ability": "Brise-guerre",
+    "abilityId": 209577,
+    "relics": [
+      "Fer",
+      "Sang",
+      "Ombre"
+    ],
+    "relicPicks": [
+      {
+        "type": "Fer",
+        "item": "Faisceau des légions sans fin",
+        "id": 152293,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Sang",
+        "item": "Incisive de nathrezim",
+        "id": 152092,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Ombre",
+        "item": "Essence d'âme inébranlable",
+        "id": 152054,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Ombrelien",
+        "id": 252875,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Des morts comme s'il en pleuvait",
+        "id": 216274,
+        "note": "Rang 3"
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

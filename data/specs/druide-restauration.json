@@ -1,0 +1,386 @@
+{
+  "status": "brouillon",
+  "icon": "spell_nature_healingtouch",
+  "summary": "Soigneur des soins sur la durée. Récupération et Croissance sauvage couvrent le raid.",
+  "sources": [
+    {
+      "label": "Guías WoW, guide PvE 7.3.5",
+      "url": "https://en.guiaswow.com/game-guide/druid-restoration-guide-pve-patch-7-3-5.html"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 85
+      },
+      {
+        "stat": "Critique",
+        "weight": 70
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 55
+      },
+      {
+        "stat": "Hâte",
+        "weight": 40
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Intelligence",
+        "weight": 100
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 85
+      },
+      {
+        "stat": "Critique",
+        "weight": 70
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 55
+      },
+      {
+        "stat": "Hâte",
+        "weight": 40
+      }
+    ],
+    "tips": [
+      "La même priorité s'applique en raid et en Mythique+, d'après le guide Guías WoW 7.3.5."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 200383,
+            "name": "Prospérité",
+            "icon": "ability_druid_giftoftheearthmother"
+          },
+          {
+            "id": 102351,
+            "name": "Protection cénarienne",
+            "icon": "ability_druid_naturalperfection"
+          },
+          {
+            "id": 207383,
+            "name": "Abondance",
+            "icon": "ability_druid_empoweredrejuvination"
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 108238,
+            "name": "Renouveau",
+            "icon": "spell_nature_natureblessing"
+          },
+          {
+            "id": 102280,
+            "name": "Transfert bestial",
+            "icon": "spell_druid_displacement"
+          },
+          {
+            "id": 102401,
+            "name": "Charge sauvage",
+            "icon": "spell_druid_wildcharge"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 197632,
+            "name": "Affinité avec l'équilibre",
+            "icon": "ability_druid_improvedmoonkinform"
+          },
+          {
+            "id": 197490,
+            "name": "Affinité farouche",
+            "icon": "talentspec_druid_feral_cat"
+          },
+          {
+            "id": 197491,
+            "name": "Affinité du gardien",
+            "icon": "talentspec_druid_feral_bear"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 5211,
+            "name": "Rossée puissante",
+            "icon": "ability_druid_bash"
+          },
+          {
+            "id": 102359,
+            "name": "Enchevêtrement de masse",
+            "icon": "spell_druid_massentanglement"
+          },
+          {
+            "id": 132469,
+            "name": "Typhon",
+            "icon": "ability_druid_typhoon"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 158478,
+            "name": "Ame de la forêt",
+            "icon": "ability_druid_manatree"
+          },
+          {
+            "id": 33891,
+            "name": "Incarnation : Arbre de vie",
+            "icon": "ability_druid_improvedtreeform"
+          },
+          {
+            "id": 200390,
+            "name": "Culture",
+            "icon": "spell_nature_healingtouch"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 207385,
+            "name": "Floraison printanière",
+            "icon": "inv_misc_trailofflowers"
+          },
+          {
+            "id": 197073,
+            "name": "Paix intérieure",
+            "icon": "ability_druid_dreamstate"
+          },
+          {
+            "id": 155675,
+            "name": "Germination",
+            "icon": "spell_druid_germination"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 155577,
+            "name": "Moment of Clarity",
+            "unsure": true
+          },
+          {
+            "id": 197061,
+            "name": "Écorcepierre",
+            "icon": "archaeology_5_0_crackedmogurunestone"
+          },
+          {
+            "id": 197721,
+            "name": "Epanouissement",
+            "icon": "spell_druid_wildburst"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          1,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "note": "Build conseillé par le guide Guías WoW 7.3.5."
+      },
+      "mm": {
+        "picks": [
+          1,
+          0,
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Tricorne du général Erodus",
+        "id": 151985,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raidroguemythic_s_01_helm"
+      },
+      {
+        "slot": "Cou",
+        "item": "Prydaz, chef-d'œuvre de Xavaric",
+        "id": 132444,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_misc_necklace15"
+      },
+      {
+        "slot": "Épaules",
+        "item": "Spallières du pisteur implacable",
+        "id": 151989,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_shoulder_leather_raiddruidmythic_s_01"
+      },
+      {
+        "slot": "Dos",
+        "item": "Cape de Mantelours",
+        "id": 152125,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_cape_leather_raiddruidmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Harnais de Mantelours",
+        "id": 152124,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_chest_leather_raiddruidmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Brassards de moralité discutable",
+        "id": 152414,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raidroguemythic_s_01_bracer"
+      },
+      {
+        "slot": "Mains",
+        "item": "Pattes de Mantelours",
+        "id": 152126,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_glove_leather_raiddruidmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Cordelette de l'étau de mort",
+        "id": 151986,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_buckle_leather_raiddemonhuntermythic_q_01"
+      },
+      {
+        "slot": "Jambes",
+        "item": "Garde-jambes de Mantelours",
+        "id": 152128,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_pant_leather_raiddruidmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Souliers porte-vie",
+        "id": 151981,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_boot__inv_leather_raidmonkmythic_s_01"
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Sceau du maître de portail",
+        "id": 152063,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_70_raid_ring2c"
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Bague du forge-sargerite",
+        "id": 152064,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_70_raid_ring4a"
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Vision future de Velen",
+        "id": 144258,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "spell_holy_healingfocus"
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Vision d'Aman'Thul",
+        "id": 154172,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_antorus_turquoise"
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du guide Guías WoW 7.3.5 (Antorus).",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "G'Hanir, l'Arbre-Mère",
+    "id": 128306,
+    "icon": "inv_staff_2h_artifactnordrassil_d_01",
+    "ability": "Essence de G'Hanir",
+    "abilityId": 208253,
+    "relics": [
+      "Vie",
+      "Givre"
+    ],
+    "relicPicks": [
+      {
+        "type": "Vie",
+        "item": "Essence de la couvée émergente",
+        "id": 152053,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Givre",
+        "item": "Givre de portail sublimant",
+        "id": 152041,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": []
+  }
+}

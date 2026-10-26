@@ -1,0 +1,399 @@
+{
+  "status": "brouillon",
+  "icon": "ability_demonhunter_spectank",
+  "summary": "Tank démoniaque. Pointes démoniaques et Fragments d'âme te soignent.",
+  "sources": [
+    {
+      "label": "Guías WoW, guide PvE 7.3.5",
+      "url": "https://en.guiaswow.com/game-guide/demon-hunter-revenge-7-3-5.html"
+    },
+    {
+      "label": "SimulationCraft 7.3.5, profil PR_Demon_Hunter_Vengeance.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/PreRaids/PR_Demon_Hunter_Vengeance.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Hâte",
+        "weight": 85
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 70
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 55
+      },
+      {
+        "stat": "Critique",
+        "weight": 40
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Hâte",
+        "weight": 85
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 70
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 55
+      },
+      {
+        "stat": "Critique",
+        "weight": 40
+      }
+    ],
+    "tips": [
+      "Hâte jusqu'à 20 %, ensuite Maîtrise.",
+      "La même priorité s'applique en raid et en Mythique+, d'après le guide Guías WoW 7.3.5."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 99,
+        "options": [
+          {
+            "id": 207550,
+            "name": "Frappe abyssale",
+            "icon": "spell_warlock_summonabyssal"
+          },
+          {
+            "id": 207548,
+            "name": "Flammes déchirantes",
+            "icon": "achievment_raid_houroftwilight"
+          },
+          {
+            "id": 209400,
+            "name": "Razor Spikes",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 207697,
+            "name": "Festin d'âmes",
+            "icon": "spell_shadow_soulleech"
+          },
+          {
+            "id": 227174,
+            "name": "Retombées",
+            "icon": "spell_volatilefiregreen"
+          },
+          {
+            "id": 207739,
+            "name": "Brûlé vif",
+            "icon": "spell_fire_elementaldevastation"
+          }
+        ]
+      },
+      {
+        "level": 102,
+        "options": [
+          {
+            "id": 232893,
+            "name": "Gangrelame",
+            "icon": "ability_demonhunter_felblade"
+          },
+          {
+            "id": 227322,
+            "name": "Déferlante de flammes",
+            "icon": "spell_fire_felhellfire"
+          },
+          {
+            "id": 211881,
+            "name": "Éruption gangrenée",
+            "icon": "ability_bossfellord_felspike"
+          }
+        ]
+      },
+      {
+        "level": 104,
+        "options": [
+          {
+            "id": 218612,
+            "name": "Nourrir le démon",
+            "icon": "spell_warlock_demonicempowerment"
+          },
+          {
+            "id": 209795,
+            "name": "Fracture",
+            "unsure": true
+          },
+          {
+            "id": 217996,
+            "name": "Déchirement de l'âme",
+            "icon": "ability_demonhunter_soulcleave2"
+          }
+        ]
+      },
+      {
+        "level": 106,
+        "options": [
+          {
+            "id": 207666,
+            "name": "Sigils focalisés",
+            "icon": "ability_bossfelorcs_necromancer_red"
+          },
+          {
+            "id": 202138,
+            "name": "Sigil de chaînes",
+            "icon": "ability_demonhunter_sigilofchains"
+          },
+          {
+            "id": 209281,
+            "name": "Sigils accélérés",
+            "icon": "ability_demonhunter_concentratedsigils"
+          }
+        ]
+      },
+      {
+        "level": 108,
+        "options": [
+          {
+            "id": 212084,
+            "name": "Dévastation gangrenée",
+            "icon": "ability_demonhunter_feldevastation"
+          },
+          {
+            "id": 247254,
+            "name": "Déviation de lame",
+            "icon": "trade_archaeology_zinrokh-sword"
+          },
+          {
+            "id": 247454,
+            "name": "Bombe spirituelle",
+            "icon": "inv_icon_shadowcouncilorb_purple"
+          }
+        ]
+      },
+      {
+        "level": 110,
+        "options": [
+          {
+            "id": 209258,
+            "name": "Dernier recours",
+            "icon": "inv_glaive_1h_artifactaldorchi_d_06"
+          },
+          {
+            "id": 236189,
+            "name": "Infusion démoniaque",
+            "icon": "spell_warlock_demonsoul"
+          },
+          {
+            "id": 227225,
+            "name": "Soul Barrier",
+            "unsure": true
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          0,
+          2
+        ],
+        "note": "Build conseillé par le guide Guías WoW 7.3.5."
+      },
+      "mm": {
+        "picks": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          0,
+          2
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Chaperon du faucheur gangrené",
+        "id": 152121,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raiddemonhuntermythic_q_01helm",
+        "tier": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Collier d'annulation des flammes",
+        "id": 151973,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_7_0raid_necklace_07b"
+      },
+      {
+        "slot": "Épaules",
+        "item": "Spallières du faucheur gangrené",
+        "id": 152123,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raiddemonhuntermythic_q_01shoulders",
+        "tier": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Drapé du faucheur gangrené",
+        "id": 152119,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_cape_leather_raiddemonhuntermythic_q_01",
+        "tier": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Gilet du faucheur gangrené",
+        "id": 152118,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raiddemonhuntermythic_q_01chest",
+        "tier": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Brassards de moralité discutable",
+        "id": 152414,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raidroguemythic_s_01_bracer"
+      },
+      {
+        "slot": "Mains",
+        "item": "Gants du faucheur gangrené",
+        "id": 152120,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raiddemonhuntermythic_q_01glove",
+        "tier": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Cordelière de garde-portail",
+        "id": 151990,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raidroguemythic_s_01_belt"
+      },
+      {
+        "slot": "Jambes",
+        "item": "Étreinte de l'oubli",
+        "id": 151799,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_leather_raiddruid_m_01pant"
+      },
+      {
+        "slot": "Pieds",
+        "item": "Pattes-de-feu vicieuses",
+        "id": 151983,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_boot_leather_raiddruidmythic_s_01"
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Jonc de la Lieuse-de-Vie",
+        "id": 152688,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_70_raid_ring7d"
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Sceau du maître de portail",
+        "id": 152063,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_70_raid_ring2c"
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Vision d'Aman'Thul",
+        "id": 154172,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_antorus_turquoise"
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Haine renouvelée d'Archimonde",
+        "id": 144249,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "spell_nature_elementalshields"
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du guide Guías WoW 7.3.5 (Antorus).",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Lames de guerre des Aldrachi",
+    "id": 128832,
+    "icon": "inv_glaive_1h_artifactaldrochi_d_01",
+    "ability": "Déchirement d'âme",
+    "abilityId": 207407,
+    "relics": [
+      "Fer",
+      "Arcanes",
+      "Gangrène"
+    ],
+    "relicPicks": [
+      {
+        "type": "Fer",
+        "item": "Particule du maître-forge",
+        "id": 155855,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Arcanes",
+        "item": "Fouet de Thu'raya",
+        "id": 152025,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Gangrène",
+        "item": "Esquille de corruption",
+        "id": 152033,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": []
+  }
+}

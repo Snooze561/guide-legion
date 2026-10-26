@@ -1,0 +1,413 @@
+{
+  "status": "brouillon",
+  "icon": "spell_deathknight_bloodpresence",
+  "summary": "Tank qui se soigne. Frappe de mort rend la vie perdue, Bouclier d'os amortit les coups.",
+  "sources": [
+    {
+      "label": "Guías WoW, guide PvE 7.3.5 (stats)",
+      "url": "https://en.guiaswow.com/game-guide/death-knight-blood-7-3-5.html"
+    },
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Death_Knight_Blood.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Death_Knight_Blood.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Force",
+        "weight": 100
+      },
+      {
+        "stat": "Hâte",
+        "weight": 85
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 70
+      },
+      {
+        "stat": "Critique",
+        "weight": 55
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 40
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Force",
+        "weight": 100
+      },
+      {
+        "stat": "Hâte",
+        "weight": 85
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 70
+      },
+      {
+        "stat": "Critique",
+        "weight": 55
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 40
+      }
+    ],
+    "tips": [
+      "Priorité orientée survie, d'après le guide Guías WoW 7.3.5.",
+      "La même priorité s'applique en raid et en Mythique+."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 56,
+        "options": [
+          {
+            "id": 195679,
+            "name": "Vers de sang",
+            "icon": "spell_shadow_soulleech"
+          },
+          {
+            "id": 221536,
+            "name": "Bourreau des cœurs",
+            "icon": "spell_deathknight_deathstrike"
+          },
+          {
+            "id": 206931,
+            "name": "Buveur de sang",
+            "icon": "ability_animusdraw"
+          }
+        ]
+      },
+      {
+        "level": 57,
+        "options": [
+          {
+            "id": 194662,
+            "name": "Décomposition rapide",
+            "icon": "ability_deathknight_deathsiphon2"
+          },
+          {
+            "id": 246426,
+            "name": "Heart of Ice",
+            "unsure": true
+          },
+          {
+            "id": 211078,
+            "name": "Spectral Deflection",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 58,
+        "options": [
+          {
+            "id": 219786,
+            "name": "Ossuaire",
+            "icon": "ability_deathknight_brittlebones"
+          },
+          {
+            "id": 221699,
+            "name": "Drain sanglant",
+            "icon": "spell_deathknight_bloodtap"
+          },
+          {
+            "id": 205727,
+            "name": "Barrière anti-magie",
+            "icon": "spell_shadow_antimagicshell"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 206940,
+            "name": "Marque de sang",
+            "icon": "ability_hunter_rapidkilling"
+          },
+          {
+            "id": 205723,
+            "name": "Soif écarlate",
+            "icon": "spell_deathknight_bloodpresence"
+          },
+          {
+            "id": 219809,
+            "name": "Tombe",
+            "icon": "ability_fiegndead"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 206970,
+            "name": "Emprise implacable",
+            "icon": "spell_shadow_coneofsilence"
+          },
+          {
+            "id": 206960,
+            "name": "Tremble Before Me",
+            "unsure": true
+          },
+          {
+            "id": 219779,
+            "name": "Marche des damnés",
+            "icon": "spell_shadow_demonicempathy"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 206967,
+            "name": "Volonté de la nécropole",
+            "icon": "achievement_boss_kelthuzad_01"
+          },
+          {
+            "id": 194679,
+            "name": "Connexion runique",
+            "icon": "spell_deathknight_runetap"
+          },
+          {
+            "id": 206974,
+            "name": "Rempart infect",
+            "icon": "inv_armor_shield_naxxramas_d_02"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 194844,
+            "name": "Tempête d'os",
+            "icon": "achievement_boss_lordmarrowgar"
+          },
+          {
+            "id": 206977,
+            "name": "Miroir de sang",
+            "icon": "inv_misc_gem_bloodstone_01"
+          },
+          {
+            "id": 114556,
+            "name": "Purgatoire",
+            "icon": "inv_misc_shadowegg"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          2,
+          0,
+          0,
+          1,
+          -1,
+          2,
+          2
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible. Les rangées sans coche sont au choix (contrôle, mobilité ou survie)."
+      },
+      "mm": {
+        "picks": [
+          2,
+          0,
+          0,
+          1,
+          -1,
+          2,
+          2
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs. Les rangées sans coche sont au choix."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Heaume de Noirsillage",
+        "id": 152115,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_helm_plate_raiddeathknightmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Cou",
+        "item": "Chaîne de l'Annihilateur",
+        "id": 152283,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_7_0raid_necklace_18a"
+      },
+      {
+        "slot": "Épaules",
+        "item": "Hémostase de Florecrâne",
+        "id": 144281,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_shoulder_plate_raiddeathknight_l_01"
+      },
+      {
+        "slot": "Dos",
+        "item": "Cape de gardien de la tombe",
+        "id": 147122,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_cape_plate_raiddeathknightmythic_r_01"
+      },
+      {
+        "slot": "Torse",
+        "item": "Corruption de l'écorcheur d'âmes",
+        "id": 151795,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_plate_raidwarrior_o_01chest"
+      },
+      {
+        "slot": "Poignets",
+        "item": "Menottes brisées de Varimathras",
+        "id": 152281,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_plate_raidwarriormythic_s_01bracer"
+      },
+      {
+        "slot": "Mains",
+        "item": "Garde-mains de gardien de la tombe",
+        "id": 147123,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_glove_plate_raiddeathknightmythic_r_01"
+      },
+      {
+        "slot": "Taille",
+        "item": "Ceinturon léché par les flammes",
+        "id": 152021,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_belt_plate_raiddeathknightmythic_s_01"
+      },
+      {
+        "slot": "Jambes",
+        "item": "Cuissards de Noirsillage",
+        "id": 152116,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_pant_plate_raiddeathknightmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Bottes de guerre de marche-funeste",
+        "id": 152009,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_boot_plate_raiddeathknightmythic_s_01"
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Anneau du tourmenteur zélé",
+        "id": 152284,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_70_quest_ring7a"
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Bague du forge-sargerite",
+        "id": 152064,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_70_raid_ring4a"
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Conviction d'Aggramar",
+        "id": 154173,
+        "source": "Argus l'Annihilateur (panthéon)",
+        "quality": "epic",
+        "icon": "inv_antorus_orange"
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Pierre d'alchimiste astrale",
+        "id": 151607,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_alchemy_astralalchemiststone"
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Gueule-du-Damné",
+    "id": 128402,
+    "icon": "inv_axe_2h_artifactmaw_d_01",
+    "ability": "Consomption",
+    "abilityId": 205223,
+    "relics": [
+      "Sang",
+      "Fer",
+      "Ombre"
+    ],
+    "relicPicks": [
+      {
+        "type": "Sang",
+        "item": "Cruor du vengeur",
+        "id": 155847,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Fer",
+        "item": "Particule du maître-forge",
+        "id": 155855,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Ombre",
+        "item": "Fragment d'âme instable",
+        "id": 155852,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Ombrelien",
+        "id": 252875,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Trancheveine",
+        "id": 192457,
+        "note": "Rang 3"
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

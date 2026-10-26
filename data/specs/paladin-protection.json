@@ -1,0 +1,394 @@
+{
+  "status": "brouillon",
+  "icon": "ability_paladin_shieldofthetemplar",
+  "summary": "Tank à bouclier sacré. Bouclier du vertueux encaisse les coups, Bouclier du vengeur et Jugement font monter la menace.",
+  "sources": [
+    {
+      "label": "Guías WoW, guide PvE 7.3.5 (stats)",
+      "url": "https://en.guiaswow.com/game-guide/paladin-protection-7-3-5.html"
+    },
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Paladin_Protection.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Paladin_Protection.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Force",
+        "weight": 100
+      },
+      {
+        "stat": "Hâte",
+        "weight": 85
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 70
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 55
+      },
+      {
+        "stat": "Critique",
+        "weight": 40
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Force",
+        "weight": 100
+      },
+      {
+        "stat": "Hâte",
+        "weight": 85
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 70
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 55
+      },
+      {
+        "stat": "Critique",
+        "weight": 40
+      }
+    ],
+    "tips": [
+      "Priorité orientée survie, d'après le guide Guías WoW 7.3.5.",
+      "La même priorité s'applique en raid et en Mythique+."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 152261,
+            "name": "Bouclier sacré",
+            "icon": "inv_shield_1h_hyrja_d_01"
+          },
+          {
+            "id": 204019,
+            "name": "Marteau béni",
+            "icon": "paladin_retribution"
+          },
+          {
+            "id": 203785,
+            "name": "Consecrated Hammer",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 203776,
+            "name": "Premier vengeur",
+            "icon": "ability_skyreach_shielded"
+          },
+          {
+            "id": 204035,
+            "name": "Bastion of Light",
+            "unsure": true
+          },
+          {
+            "id": 204023,
+            "name": "Jugement du croisé",
+            "icon": "ability_paladin_enlightenedjudgements"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 198054,
+            "name": "Fist of Justice",
+            "unsure": true
+          },
+          {
+            "id": 20066,
+            "name": "Repentir",
+            "icon": "spell_holy_prayerofhealing"
+          },
+          {
+            "id": 115750,
+            "name": "Lumière aveuglante",
+            "icon": "ability_paladin_blindinglight"
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 204018,
+            "name": "Bénédiction de protection des sorts",
+            "icon": "spell_holy_blessingofprotection"
+          },
+          {
+            "id": 230332,
+            "name": "Cavalier",
+            "icon": "ability_paladin_divinesteed"
+          },
+          {
+            "id": 203797,
+            "name": "Retribution Aura",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 213652,
+            "name": "Hand of the Protector",
+            "unsure": true
+          },
+          {
+            "id": 204139,
+            "name": "Chevalier templier",
+            "icon": "ability_mount_charger"
+          },
+          {
+            "id": 204077,
+            "name": "Résistance finale",
+            "icon": "spell_holy_crusade"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 204150,
+            "name": "Égide de Lumière",
+            "icon": "spell_holy_greaterblessingoflight"
+          },
+          {
+            "id": 204054,
+            "name": "Terre consacrée",
+            "icon": "ability_paladin_righteousvengeance"
+          },
+          {
+            "id": 183778,
+            "name": "Jugement de lumière",
+            "icon": "spell_holy_divineprovidence"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 204074,
+            "name": "Protecteur vertueux",
+            "icon": "ability_paladin_shieldofthetemplar"
+          },
+          {
+            "id": 152262,
+            "name": "Seraphim",
+            "unsure": true
+          },
+          {
+            "id": 203791,
+            "name": "Dernier défenseur",
+            "icon": "spell_holy_divinepurpose"
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          1,
+          2,
+          -1,
+          -1,
+          0,
+          2,
+          0
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible. Les rangées sans coche sont au choix (contrôle, mobilité ou survie)."
+      },
+      "mm": {
+        "picks": [
+          1,
+          2,
+          -1,
+          -1,
+          0,
+          2,
+          0
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs. Les rangées sans coche sont au choix."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Visage du subjugateur de Titan",
+        "id": 152014,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_helm_plate_raiddeathknightmythic_s_01"
+      },
+      {
+        "slot": "Cou",
+        "item": "Sautoir riveté du délire",
+        "id": 151966,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_7_0raid_necklace_04b"
+      },
+      {
+        "slot": "Épaules",
+        "item": "Plaques d'épaules de l'avant-garde de la Lumière",
+        "id": 152153,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_shoulder_plate_raidpaladinmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Drapé de chasse fougueuse",
+        "id": 151938,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_cape_plate_raiddeathknight_s_01_long"
+      },
+      {
+        "slot": "Torse",
+        "item": "Cuirasse de l'avant-garde de la Lumière",
+        "id": 152148,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_chest_plate_raidpaladinmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Poignets",
+        "item": "Protège-bras de rassérénement",
+        "id": 152023,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_bracer_plate_raidpaladinmythic_s_01"
+      },
+      {
+        "slot": "Mains",
+        "item": "Garde-mains de morsure en fusion",
+        "id": 152012,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_glove_plate_raidpaladinmythic_s_01"
+      },
+      {
+        "slot": "Taille",
+        "item": "Courage perpétuel de Rethu",
+        "id": 146667,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_plate_draenorcrafted_d_01buckle"
+      },
+      {
+        "slot": "Jambes",
+        "item": "Cuissards de purge cosmique",
+        "id": 152016,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_pant_plate_raidpaladinmythic_s_01"
+      },
+      {
+        "slot": "Pieds",
+        "item": "Solerets du Sabbat ardent",
+        "id": 152010,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_plate_raidwarriormythic_s_01boots"
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Anneau du tourmenteur zélé",
+        "id": 152284,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_70_quest_ring7a"
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Immortalité de Heathcliff",
+        "id": 137047,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_jewelry_ring_72"
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Résolution apocalyptique",
+        "id": 151975,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_misc_enggizmos_11"
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Vision d'Aman'Thul",
+        "id": 154172,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_antorus_turquoise"
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Garde-Vérité",
+    "id": 128866,
+    "icon": "inv_shield_1h_artifactnorgannon_d_01",
+    "ability": "Œil de Tyr",
+    "abilityId": 209202,
+    "relics": [],
+    "relicPicks": [],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Étreinte de la Lumière",
+        "id": 253111,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Croisé vertueux",
+        "id": 209226
+      },
+      {
+        "name": "Armure de foi",
+        "id": 209225,
+        "note": "Rang 2"
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}

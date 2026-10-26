@@ -1,0 +1,416 @@
+{
+  "status": "brouillon",
+  "icon": "spell_monk_windwalker_spec",
+  "summary": "DPS mêlée à mains nues. Varie tes techniques pour la maîtrise Combo frappé.",
+  "sources": [
+    {
+      "label": "SimulationCraft 7.3.5, profil T21_Monk_Windwalker.simc",
+      "url": "https://github.com/simulationcraft/simc/blob/legion-dev/profiles/Tier21/T21_Monk_Windwalker.simc"
+    },
+    {
+      "label": "Noms français : infobulles Wowhead (fr)",
+      "url": "https://fr.wowhead.com/"
+    }
+  ],
+  "stats": {
+    "raid": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 90
+      },
+      {
+        "stat": "Critique",
+        "weight": 86
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 82
+      },
+      {
+        "stat": "Hâte",
+        "weight": 65
+      }
+    ],
+    "mm": [
+      {
+        "stat": "Agilité",
+        "weight": 100
+      },
+      {
+        "stat": "Critique",
+        "weight": 90
+      },
+      {
+        "stat": "Maîtrise",
+        "weight": 87
+      },
+      {
+        "stat": "Polyvalence",
+        "weight": 85
+      },
+      {
+        "stat": "Hâte",
+        "weight": 64
+      }
+    ],
+    "tips": [
+      "Priorité calculée avec SimulationCraft sur le profil Tier 21 : un seul boss pour le raid, 4 cibles pour le Mythique+.",
+      "La stat principale reste la base : à niveau d'objet égal, prends toujours l'objet le plus haut en niveau.",
+      "Les écarts entre secondaires sont faibles : simule ton propre personnage pour affiner."
+    ]
+  },
+  "talents": {
+    "tiers": [
+      {
+        "level": 15,
+        "options": [
+          {
+            "id": 123986,
+            "name": "Explosion de chi",
+            "icon": "spell_arcane_arcanetorrent"
+          },
+          {
+            "id": 196607,
+            "name": "Œil du tigre",
+            "icon": "ability_druid_primalprecision"
+          },
+          {
+            "id": 115098,
+            "name": "Onde de chi",
+            "icon": "ability_monk_chiwave"
+          }
+        ]
+      },
+      {
+        "level": 30,
+        "options": [
+          {
+            "id": 115008,
+            "name": "Torpille de chi",
+            "icon": "ability_monk_quitornado"
+          },
+          {
+            "id": 116841,
+            "name": "Soif du tigre",
+            "icon": "ability_monk_tigerslust"
+          },
+          {
+            "id": 115173,
+            "name": "Vélocité",
+            "icon": "ability_monk_quipunch"
+          }
+        ]
+      },
+      {
+        "level": 45,
+        "options": [
+          {
+            "id": 115288,
+            "name": "Élixir énergisant",
+            "icon": "ability_monk_energizingwine"
+          },
+          {
+            "id": 115396,
+            "name": "Ascension",
+            "icon": "ability_monk_ascension"
+          },
+          {
+            "id": 121817,
+            "name": "Power Strikes",
+            "unsure": true
+          }
+        ]
+      },
+      {
+        "level": 60,
+        "options": [
+          {
+            "id": 116844,
+            "name": "Anneau de paix",
+            "icon": "spell_monk_ringofpeace"
+          },
+          {
+            "id": 115315,
+            "name": "Invocation d'une statue du Buffle noir",
+            "icon": "monk_ability_summonoxstatue"
+          },
+          {
+            "id": 119381,
+            "name": "Balayement de jambe",
+            "icon": "ability_monk_legsweep"
+          }
+        ]
+      },
+      {
+        "level": 75,
+        "options": [
+          {
+            "id": 122281,
+            "name": "Élixir de soins",
+            "icon": "ability_monk_jasmineforcetea"
+          },
+          {
+            "id": 122783,
+            "name": "Diffusion de la magie",
+            "icon": "spell_monk_diffusemagic"
+          },
+          {
+            "id": 122278,
+            "name": "Atténuation du mal",
+            "icon": "ability_monk_dampenharm"
+          }
+        ]
+      },
+      {
+        "level": 90,
+        "options": [
+          {
+            "id": 116847,
+            "name": "Vent de jade fulgurant",
+            "icon": "ability_monk_rushingjadewind"
+          },
+          {
+            "id": 123904,
+            "name": "Invocation de Xuen, le Tigre blanc",
+            "icon": "ability_monk_summontigerstatue"
+          },
+          {
+            "id": 196740,
+            "name": "Combinaison de coups",
+            "icon": "ability_monk_palmstrike"
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "options": [
+          {
+            "id": 196743,
+            "name": "Orbite de chi",
+            "icon": "ability_monk_forcesphere"
+          },
+          {
+            "id": 152175,
+            "name": "Coup de poing du dragon tourbillonnant",
+            "icon": "ability_monk_hurricanestrike"
+          },
+          {
+            "id": 152173,
+            "name": "Serenity",
+            "unsure": true
+          }
+        ]
+      }
+    ],
+    "builds": {
+      "raid": {
+        "picks": [
+          1,
+          -1,
+          1,
+          -1,
+          -1,
+          2,
+          2
+        ],
+        "note": "Build de la simulation SimulationCraft 7.3.5 en mono-cible. Les rangées sans coche sont au choix (contrôle, mobilité ou survie)."
+      },
+      "mm": {
+        "picks": [
+          1,
+          -1,
+          1,
+          -1,
+          -1,
+          2,
+          2
+        ],
+        "note": "Même base qu'en raid. En donjon, adapte les rangées utilitaires (contrôle, mobilité) aux packs. Les rangées sans coche sont au choix."
+      }
+    }
+  },
+  "gear": {
+    "raid": [
+      {
+        "slot": "Tête",
+        "item": "Le vent souffle",
+        "id": 151811,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_helmet_leather_raidmonk_l_01"
+      },
+      {
+        "slot": "Cou",
+        "item": "Collier d'annulation des flammes",
+        "id": 151973,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_7_0raid_necklace_07b"
+      },
+      {
+        "slot": "Épaules",
+        "item": "Sphères de méditation de Chi Ji",
+        "id": 152147,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_shoulder__inv_leather_raidmonkmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Dos",
+        "item": "Cape de Chi Ji",
+        "id": 152143,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_cape_inv_leather_raidmonkmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Torse",
+        "item": "Condensateur de l'empereur",
+        "id": 144239,
+        "source": "Légendaire",
+        "quality": "legendary",
+        "icon": "inv_chest_leather_raidrogue_l_01"
+      },
+      {
+        "slot": "Poignets",
+        "item": "Bandelettes du logisticien démonique",
+        "id": 151992,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_leather_raiddemonhuntermythic_q_01bracer"
+      },
+      {
+        "slot": "Mains",
+        "item": "Poignes de Chi Ji",
+        "id": 152144,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_glove__inv_leather_raidmonkmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Taille",
+        "item": "Ceinture de raison brisée",
+        "id": 151991,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_belt__inv_leather_raidmonkmythic_s_01"
+      },
+      {
+        "slot": "Jambes",
+        "item": "Jambières de Chi Ji",
+        "id": 152146,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_pant__inv_leather_raidmonkmythic_s_01",
+        "tier": true
+      },
+      {
+        "slot": "Pieds",
+        "item": "Pattes-de-feu vicieuses",
+        "id": 151983,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_boot_leather_raiddruidmythic_s_01"
+      },
+      {
+        "slot": "Bague 1",
+        "item": "Sceau du Panthéon souillé",
+        "id": 151972,
+        "source": "Autre (donjon, artisanat ou monde)",
+        "quality": "epic",
+        "icon": "inv_70_raid_ring3a"
+      },
+      {
+        "slot": "Bague 2",
+        "item": "Bague du forge-sargerite",
+        "id": 152064,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_70_raid_ring4a"
+      },
+      {
+        "slot": "Bijou 1",
+        "item": "Vitalité de Golganneth",
+        "id": 154174,
+        "source": "Argus l'Annihilateur (panthéon)",
+        "quality": "epic",
+        "icon": "inv_antorus_grey"
+      },
+      {
+        "slot": "Bijou 2",
+        "item": "Croc roussi par l'ombre",
+        "id": 151968,
+        "source": "Antorus, le Trône ardent",
+        "quality": "epic",
+        "icon": "inv_misc_blacksaberonfang"
+      }
+    ],
+    "mm": [],
+    "notes": [
+      "Liste du profil SimulationCraft Tier 21, proche du meilleur équipement d'Antorus en mythique.",
+      "Les légendaires dépendent de ta chance : garde ceux que tu as s'ils sont dans la liste."
+    ]
+  },
+  "artifact": {
+    "name": "Poings des cieux",
+    "id": 128940,
+    "icon": "inv_hand_1h_artifactskywall_d_01",
+    "ability": "Frappe du seigneur des Vents",
+    "abilityId": 205320,
+    "relics": [
+      "Tempête",
+      "Fer",
+      "Tempête"
+    ],
+    "relicPicks": [
+      {
+        "type": "Tempête",
+        "item": "Conque du foudroyeur",
+        "id": 155853,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Fer",
+        "item": "Epine de vignefer",
+        "id": 152047,
+        "source": "Antorus, le Trône ardent"
+      },
+      {
+        "type": "Tempête",
+        "item": "Conque du foudroyeur",
+        "id": 155853,
+        "source": "Antorus, le Trône ardent"
+      }
+    ],
+    "priority": [],
+    "crucible": [
+      {
+        "name": "Fortification de Halo-du-Néant",
+        "id": 250879,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Tourment des faibles",
+        "id": 252906,
+        "note": "Rang 3"
+      },
+      {
+        "name": "Levée du vent",
+        "id": 195263,
+        "note": "Rang 2"
+      },
+      {
+        "name": "Poings du vent",
+        "id": 195291
+      }
+    ],
+    "relicTraits": "Creuset de Lumen-Néant : choix du profil SimulationCraft, du premier palier au dernier."
+  }
+}
